@@ -1,0 +1,27 @@
+@import "./reset.css";
+@font-face {
+  font-family: 'Avenir';
+  src: url('~/assets/fonts/Avenir-Roman.eot');
+  src: local('Avenir Roman'), local('Avenir-Roman'),
+  url('~/assets/fonts/Avenir-Roman.eot?#iefix') format('embedded-opentype'),
+  url('~/assets/fonts/Avenir-Roman.woff2') format('woff2'),
+  url('~/assets/fonts/Avenir-Roman.woff') format('woff'),
+  url('~/assets/fonts/Avenir-Roman.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+body{
+  font-family: Avenir, sans-serif;
+  font-size: 18px;
+  color: black;
+}
+.container{
+  max-width: 1230px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.content{
+  height:calc(100vh - 90px - 297px);
+}
