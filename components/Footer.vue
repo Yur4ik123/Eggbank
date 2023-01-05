@@ -105,7 +105,7 @@
           </ul>
 
         </div>
-        <div class="col sections">
+        <div class="col sections info">
           <div class="col__header">
             Info
           </div>
@@ -150,6 +150,17 @@
       </div>
     </div>
     <div class="footer__bar">
+      <div class="container">
+        <div class="title">
+          Keep in touch with our useful articles:
+        </div>
+        <div class="form__wrapper">
+          <input type="email" placeholder="Email" class="input">
+          <button type="button" class="subscribe__btn">
+            Subscribe
+          </button>
+        </div>
+      </div>
 
     </div>
 
@@ -164,7 +175,7 @@ export default {
 
 <style lang="scss" scoped>
 .footer {
-  border-top: 1px solid #CDE4F0;
+  border-top: 1px solid $border;
 
   .footer__menu {
     padding: 35px 0;
@@ -175,14 +186,14 @@ export default {
 
       .col {
         padding: 0 50px;
-        border-right: 1px solid #CDE4F0;
+        border-right: 1px solid $border;
 
         &:first-child {
           padding-left: 0;
         }
 
         &:last-child {
-          border-right:none;
+          border-right: none;
           padding-right: 0;
 
         }
@@ -250,5 +261,220 @@ export default {
       }
     }
   }
+
+  .footer__bar {
+    background-color: black;
+    padding: 15px 0;
+
+    .container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      .title {
+        text-transform: uppercase;
+        font-size: 22px;
+        line-height: 30px;
+        margin-right: 18px;
+        color: white;
+      }
+
+      .form__wrapper {
+        display: flex;
+        align-items: center;
+        position: relative;
+        max-width: 480px;
+        width: 100%;
+        .input {
+          z-index: 1;
+          background-color: white;
+          height: 60px;
+          padding: 0 175px 0 20px;
+          border-radius: 80px;
+
+          width: 100%;
+          color: black;
+          border: none;
+          outline: none !important;
+        }
+
+        .subscribe__btn {
+          position: absolute;
+          right: 0;
+          top: 0;
+          bottom: 0;
+          z-index: 2;
+          width: 170px;
+          height: 60px;
+          background-color: $green;
+          transition: 0.3s;
+          font-size: 18px;
+          line-height: 30px;
+          color: white;
+          border-radius: 80px;
+
+          &:hover {
+            background-color: $green-hover;
+          }
+
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .footer {
+    .footer__menu {
+      .container {
+        grid-template-columns: 1.2fr 1fr 1fr;
+
+        .col {
+          padding: 0 20px;
+        }
+
+        .col.sections {
+          .col__list {
+            grid-template-columns: 1fr;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .footer {
+
+    .footer__bar {
+      padding: 25px 0;
+
+      .container {
+        flex-direction: column;
+
+        .title {
+          margin-bottom: 15px;
+          font-size: 18px;
+          line-height: 30px;
+          text-align: center;
+        }
+        .form__wrapper{
+          .input, .subscribe__btn{
+            height: 44px;
+            font-size: 14px;
+            line-height: 24px;
+          }
+          .input{
+            padding: 0 105px 0 10px ;
+          }
+          .subscribe__btn{
+            width: 92px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 860px) {
+  .footer {
+    .footer__menu {
+      padding: 20px 0;
+
+      .container {
+        grid-template-columns: 1fr;
+
+        .col {
+          padding: 0;
+          border-right: none;
+        }
+
+        .company__info {
+          margin-bottom: 27px;
+          display: grid;
+          grid-template-columns: 1fr 60px;
+
+          .logo {
+            margin-bottom: 27px;
+            display: flex;
+            justify-content: center;
+            grid-column-start: 1;
+            grid-column-end: 3;
+          }
+
+          .contact__link {
+            grid-column-start: 1;
+            grid-column-end: 2;
+            font-size: 14px;
+            line-height: 24px;
+            margin-bottom: 13px;
+          }
+
+          .soc__netw {
+            grid-column-start: 2;
+            grid-column-end: 3;
+            grid-row-start: 2;
+            grid-row-end: 4;
+            flex-direction: column;
+            align-items: flex-end;
+            border-left: 1px solid $border;
+
+            .netw__link {
+              margin-right: 0;
+              margin-bottom: 12px;
+
+              &:last-child {
+                margin-bottom: 0;
+              }
+            }
+          }
+
+        }
+
+        .col.sections {
+          margin-bottom: 30px;
+          padding-bottom: 15px;
+          border-bottom: 1px solid $border;
+
+          .col__header {
+            margin-bottom: 10px;
+            font-size: 18px;
+            line-height: 30px;
+          }
+
+          .col__list {
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-gap: 0 15px;
+
+            .col_link {
+              font-size: 14px;
+              line-height: 30px;
+            }
+          }
+
+          &:last-child {
+            margin-bottom: 0;
+            border-bottom: 0;
+            padding-bottom: 0;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .footer .footer__menu .container {
+    .col.sections {
+      .col__list {
+        grid-gap: 0;
+      }
+    }
+
+    .col.sections.info .col__list {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+
 }
 </style>
