@@ -1,0 +1,9 @@
+[
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/var/www/eggbank.loc/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_b331b32c"
+  }
+]

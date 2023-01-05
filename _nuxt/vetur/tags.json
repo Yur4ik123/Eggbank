@@ -1,0 +1,26 @@
+{
+  "CookiePopup": {
+    "description": "Auto imported from components/CookiePopup.vue"
+  },
+  "FirstScreen": {
+    "description": "Auto imported from components/FirstScreen.vue"
+  },
+  "Footer": {
+    "description": "Auto imported from components/Footer.vue"
+  },
+  "Header": {
+    "description": "Auto imported from components/Header.vue"
+  },
+  "LangSwitcher": {
+    "description": "Auto imported from components/LangSwitcher.vue"
+  },
+  "Menu": {
+    "description": "Auto imported from components/Menu.vue"
+  },
+  "ProfileDropdown": {
+    "description": "Auto imported from components/ProfileDropdown.vue"
+  },
+  "PartialsGreenBtn": {
+    "description": "Auto imported from components/partials/GreenBtn.vue"
+  }
+}
