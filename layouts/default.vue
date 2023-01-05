@@ -5,7 +5,7 @@
       <Nuxt/>
     </div>
     <Footer/>
-    <!--    <CookiePopup></CookiePopup>-->
+    <CookiePopup></CookiePopup>
   </div>
 </template>
 
