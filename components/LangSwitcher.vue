@@ -47,6 +47,7 @@ export default {
     min-width: fit-content;
     background-color: white;
     padding: 15px;
+    border-radius: 12px;
 
     a {
       color: black !important;

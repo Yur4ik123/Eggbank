@@ -7,7 +7,7 @@
           <div class="logo">
             <img src="~/assets/img/logo.svg" width="177" height="46">
           </div>
-          <a href="mailto:contact@adoniseggbank.com" class="contact__link" target="_blank">
+          <a href="mailto:contact@adoniseggbank.com" class="contact__link" >
             <span class="icon"><svg width="20" height="20" viewBox="0 0 20 20" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
 <path
@@ -25,7 +25,7 @@
 </svg></span>
             contact@adoniseggbank.com
           </a>
-          <a href="tel:+17192101661" class="contact__link" target="_blank">
+          <a href="tel:+17192101661" class="contact__link" >
             <span class="icon">
               <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g clip-path="url(#clip0_25_860)">
