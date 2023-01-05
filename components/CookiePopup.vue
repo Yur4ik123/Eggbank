@@ -37,6 +37,7 @@ export default {
   border-radius: 12px;
   background: $green;
   max-width: 275px;
+  z-index: 5;
 
   &-header {
     font-size: 36px;
