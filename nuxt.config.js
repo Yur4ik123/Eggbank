@@ -1,5 +1,6 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
+  buildDir: '_nuxt',
   head: {
     title: 'eggbank.loc',
     htmlAttrs: {
@@ -69,6 +70,7 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
+    publicPath: '/_nuxt/dist/',
     postcss: {
       plugins: {
       },
