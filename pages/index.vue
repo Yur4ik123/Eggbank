@@ -163,6 +163,204 @@
       </div>
 
     </section>
+    <section class="your__desires">
+      <div class="container">
+        <div class="section__cols">
+          <div class="col col__text">
+            <h3 class="col__header">
+              A.EggBank <span> Is
+              Consider All Your Desires</span>
+            </h3>
+            <div class="col__description">
+              <p> Using our smart search you will be able to filter the donors according to your wishes.
+              </p>
+              <p>
+                Donor selection has never been so easy as in A.EggBank.
+
+              </p>
+              <p>
+                If you have any difficulties in the selection or you have special requirements or wishes,
+                <NuxtLink to="/">contact our
+                  support team
+                </NuxtLink>
+                and we will help.
+
+              </p>
+            </div>
+          </div>
+          <div class="col col__img">
+            <picture>
+              <source media="(max-width: 768px)" srcset="/img/desires-mob.png">
+              <img src="/img/desires.png" width="555" height="492" loading="lazy" class="section__img" alt="">
+            </picture>
+          </div>
+        </div>
+        <div class="catalog__filters">
+          <div class="cf__col img__col">
+            <img class="cf__img" src="~/assets/img/catalog.png" width="558" height="380" alt="">
+          </div>
+          <div class="cf__col cf__description">
+            <h3 class="cf__header">
+              Using our catalog you can filter donors by
+            </h3>
+            <div class="cf__categories">
+              <div class="cf__item">
+                <span class="img">
+              <img src="~/assets/img/svg-gobbler(73).svg" width="26" height="26" alt="">
+                </span>
+                <span class="title">
+                  Race
+                </span>
+
+              </div>
+              <div class="cf__item">
+                <span class="img">
+              <img src="~/assets/img/svg-gobbler(74).svg" width="26" height="26" alt="">
+                </span>
+                <span class="title">
+                 Ethnic Origin
+                </span>
+              </div>
+              <div class="cf__item">
+                <span class="img">
+              <img src="~/assets/img/svg-gobbler(75).svg" width="26" height="26" alt="">
+                </span>
+                <span class="title">
+                 Hair colour
+                </span>
+
+              </div>
+              <div class="cf__item">
+                <span class="img">
+              <img src="~/assets/img/svg-gobbler(76).svg" width="26" height="26" alt="">
+                </span>
+                <span class="title">
+                  Eye colour
+                </span>
+
+              </div>
+              <div class="cf__item">
+                <span class="img">
+              <img src="~/assets/img/svg-gobbler(77).svg" width="26" height="26" alt="">
+                </span>
+                <span class="title">
+                 Height
+                </span>
+
+              </div>
+              <div class="cf__item">
+                <span class="img">
+              <img src="~/assets/img/svg-gobbler(78).svg" width="26" height="26" alt="">
+                </span>
+                <span class="title">
+                  Weight
+                </span>
+
+              </div>
+              <div class="cf__item">
+                <span class="img">
+              <img src="~/assets/img/svg-gobbler(79).svg" width="26" height="26" alt="">
+                </span>
+                <span class="title">
+                 Blood Type
+                </span>
+
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+
+    </section>
+    <section class="find__donor">
+      <div class="container">
+        <h3 class="section__header">
+          Find Your Donor As Simple As 1-2-3
+        </h3>
+        <div class="steps__list">
+          <div class="steps__list-item">
+            <div class="step__logo">
+              <img src="~/assets/img/step1.svg" width="80" height="80" alt="">
+            </div>
+            <div class="step__name__number">
+              <div class="step__name">
+                Register
+              </div>
+              <div class="step__number">
+                step 1
+              </div>
+            </div>
+            <div class="step__title">
+              Create an online profile and browse our donour database
+            </div>
+
+          </div>
+          <div class="steps__list-item">
+            <div class="step__logo">
+              <img src="~/assets/img/step2.svg" width="80" height="80" alt="">
+            </div>
+            <div class="step__name__number">
+              <div class="step__name">
+                Select
+              </div>
+              <div class="step__number">
+                step 2
+              </div>
+            </div>
+            <div class="step__title">
+              Complete paperwork and select your perfect donor
+            </div>
+
+          </div>
+          <div class="steps__list-item">
+            <div class="step__logo">
+              <img src="~/assets/img/step3.svg" width="80" height="80" alt="">
+            </div>
+            <div class="step__name__number">
+              <div class="step__name">
+                CONFIRM
+              </div>
+              <div class="step__number">
+                step 3
+              </div>
+            </div>
+            <div class="step__title">
+              We handle all shipping and coordination
+            </div>
+
+          </div>
+        </div>
+        <div class="btn__wrapper">
+          <PartialsGreenBtn title="Find a Donor"/>
+        </div>
+      </div>
+
+    </section>
+    <section class="seo__text">
+      <div class="container">
+        <h3 class="section__header">
+          ADONIS Egg Bank
+        </h3>
+        <div class="description">
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+            industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+            scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into
+            electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of
+            Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like
+            Aldus PageMaker including versions of Lorem Ipsum.
+          </p>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+            industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+            scrambled it to make a type specimen book.
+          </p>
+        </div>
+      </div>
+    </section>
   </div>
 </template>
 
@@ -368,6 +566,258 @@ export default {
   }
 }
 
+.your__desires {
+  position: relative;
+  z-index: 2;
+  border-radius: 60px 60px 0 0;
+
+  background-color: white;
+
+  .section__cols {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 40px;
+
+    .col__img {
+      z-index: 0;
+    }
+
+    .section__img {
+      object-fit: cover;
+      height: 100%;
+      width: auto;
+      overflow: visible;
+
+    }
+
+  }
+
+  .col__text {
+    padding: 55px 0 70px;
+    z-index: 1;
+  }
+
+  .col__header {
+    font-size: 36px;
+    line-height: 64px;
+    font-family: Avenir, sans-serif;
+    margin-bottom: 25px;
+    color: black;
+
+    span {
+      text-transform: uppercase;
+    }
+  }
+
+  .col__description {
+    font-size: 18px;
+    line-height: 30px;
+
+    p {
+      margin-bottom: 30px;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+
+    a {
+      color: $green !important;
+      transition: 0.3s;
+      text-decoration: underline !important;
+
+      &:hover {
+        color: $green-hover !important;
+      }
+
+    }
+  }
+
+  .catalog__filters {
+    overflow: hidden;
+    background: #CDE4F0;
+    border-radius: 60px;
+    display: grid;
+    grid-template-columns: 1fr 1.2fr;
+    grid-gap: 50px;
+
+    .cf__col {
+      &.img__col {
+        align-self: end;
+      }
+
+      .cf__img {
+        object-fit: contain;
+      }
+
+      .cf__header {
+        font-size: 34px;
+        line-height: 64px;
+        color: black;
+        font-family: Avenir, sans-serif;
+        margin-bottom: 20px;
+        max-width: 510px;
+        text-transform: uppercase;
+      }
+
+      &.cf__description {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 30px 20px 30px 0;
+      }
+
+      .cf__categories {
+        display: flex;
+        flex-wrap: wrap;
+
+        .cf__item {
+          margin-right: 7px;
+          display: flex;
+          align-items: center;
+          width: fit-content;
+          height: 50px;
+          padding: 0 12px 0 7px;
+          background: #FAFCFD;
+          border-radius: 10px;
+          margin-bottom: 7px;
+
+          .img {
+            margin-right: 6px;
+          }
+
+          .title {
+            font-size: 18px;
+            line-height: 18px;
+            color: black;
+          }
+        }
+      }
+    }
+  }
+}
+
+.find__donor {
+  padding: 55px 0 70px;
+
+  .section__header {
+    @include section-header;
+    text-transform: uppercase;
+  }
+
+  .steps__list {
+    display: grid;
+    grid-template-columns: 1fr 1fr  1fr;
+    grid-gap: 20px;
+    margin-bottom: 50px;
+
+    .steps__list-item {
+      margin-top: 37px;
+      padding: 25px;
+      background: #FFEBC5;
+      border-radius: 12px;
+      position: relative;
+
+      .step__logo {
+        position: absolute;
+        top: -37px;
+        left: 25px;
+        border-radius: 100%;
+        background-color: $green;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 136px;
+        height: 136px;
+      }
+
+      .step__name__number {
+        padding-left: 156px;
+        margin-bottom: 28px;
+
+        .step__name {
+          font-size: 22px;
+          line-height: 36px;
+          color: black;
+          text-transform: uppercase;
+        }
+
+        .step__number {
+          font-size: 18px;
+          line-height: 20px;
+          color: #B39D73;
+        }
+      }
+
+      .step__title {
+        font-size: 18px;
+        line-height: 30px;
+        color: black;
+      }
+
+    }
+  }
+
+  .btn__wrapper {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.seo__text {
+  padding: 55px 0 70px;
+  background-color: #CDE4F0;
+  border-radius: 60px 60px 0px 0px;
+
+  .section__header {
+    @include section-header;
+    margin-bottom: 25px;
+  }
+
+  .description {
+    @include default-text;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .find__donor {
+    .steps__list {
+      grid-gap: 10px;
+
+      .steps__list-item {
+        padding: 12px 20px;
+        margin-top: 25px;
+
+        .step__logo {
+          top: -25px;
+          width: 100px;
+          height: 100px;
+
+          img {
+            width: 60px;
+            height: 60px;
+          }
+        }
+
+        .step__name__number {
+          padding-left: 120px;
+          margin-bottom: 22px;
+
+          .step__name {
+            font-size: 18px;
+            line-height: 36px;
+          }
+
+          .step__number {
+            font-size: 14px;
+            line-height: 14px;
+          }
+        }
+      }
+    }
+  }
+}
+
 @media screen and (max-width: 992px) {
   .why__eggbank {
     .cols__wrapper {
@@ -437,24 +887,30 @@ export default {
 
         .percentage__list {
           grid-gap: 10px 12px;
-          .percentage__item{
+
+          .percentage__item {
             grid-template-columns: 57px 1fr;
             grid-gap: 8px;
-            .percent{
-              width: 57px ;
+
+            .percent {
+              width: 57px;
               height: 57px;
-              &:before{
-                width: 49px ;
+
+              &:before {
+                width: 49px;
                 height: 49px;
               }
-              &:after{
-                width: 39px ;
+
+              &:after {
+                width: 39px;
                 height: 39px;
               }
-              .num{
+
+              .num {
                 font-size: 14px;
                 line-height: 14px;
-                img{
+
+                img {
                   max-width: 25px;
                   height: auto;
                   object-fit: contain;
@@ -462,7 +918,8 @@ export default {
               }
 
             }
-            .title{
+
+            .title {
               font-size: 14px;
               line-height: 20px;
             }
@@ -470,6 +927,98 @@ export default {
         }
       }
     }
+  }
+  .your__desires {
+    .section__cols {
+      grid-template-columns: 1fr;
+      grid-gap: 0;
+    }
+
+    .col__text {
+      padding: 35px 0 0;
+    }
+
+    .col__img {
+      display: flex;
+      justify-content: center;
+    }
+
+    .col__header {
+      text-align: center;
+      font-size: 30px;
+      line-height: 36px;
+      margin-bottom: 25px;
+    }
+
+    .col__description {
+      font-size: 14px;
+      line-height: 24px;
+
+      p {
+        margin-bottom: 20px;
+      }
+    }
+
+    .catalog__filters {
+      display: flex;
+      flex-direction: column-reverse;
+      grid-gap: initial;
+      border-radius: 20px;
+
+      .cf__col.cf__description {
+        padding-top: 45px;
+        padding-bottom: 0;
+        padding-right: 0;
+
+        .cf__header {
+          padding: 0 15px;
+          text-align: center;
+          max-width: 100%;
+          font-size: 30px;
+          line-height: 36px;
+        }
+
+        .cf__categories {
+          padding: 0 10px;
+          justify-content: center;
+
+          .cf__item {
+            margin: 0 4px 8px;
+
+            .title {
+              font-size: 14px;
+              line-height: 14px;
+            }
+          }
+        }
+      }
+
+      .cf__col.img__col {
+        align-self: initial;
+        display: flex;
+        justify-content: flex-start;
+      }
+    }
+  }
+  .find__donor {
+
+    padding: 35px 0 50px;
+
+    .steps__list {
+      grid-template-columns: 1fr;
+      grid-gap: 20px;
+      margin-bottom: 30px;
+
+      .steps__list-item {
+        .step__title {
+          font-size: 14px;
+          line-height: 24px;
+        }
+      }
+    }
+  }
+  .seo__text {
+    padding: 35px 0 50px;
   }
 
 }

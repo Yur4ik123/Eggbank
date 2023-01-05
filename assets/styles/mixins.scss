@@ -38,3 +38,23 @@
   }
 
 }
+
+@mixin default-text() {
+  font-size: 18px;
+  line-height: 30px;
+  color: black;
+  p {
+    margin-bottom: 25px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+  @media screen and (max-width: 768px){
+    font-size: 14px;
+    line-height: 24px;
+    p{
+      margin-bottom: 20px;
+    }
+  }
+}
