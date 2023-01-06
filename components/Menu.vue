@@ -1,7 +1,7 @@
 <template>
   <ul class="nav__list">
     <li class="nav__list-item">
-      <NuxtLink to="#" class="nav__list-link">
+      <NuxtLink to="/about" class="nav__list-link">
         About Us
       </NuxtLink>
     </li>

@@ -1,5 +1,12 @@
 [
   {
+    "name": "about",
+    "path": "/about",
+    "component": "/var/www/eggbank.loc/pages/about.vue",
+    "chunkName": "pages/about",
+    "_name": "_f2a168b6"
+  },
+  {
     "name": "index",
     "path": "/",
     "component": "/var/www/eggbank.loc/pages/index.vue",

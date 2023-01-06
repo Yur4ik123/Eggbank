@@ -20,6 +20,9 @@
   "ProfileDropdown": {
     "description": "Auto imported from components/ProfileDropdown.vue"
   },
+  "PartialsBreadcrumbs": {
+    "description": "Auto imported from components/partials/Breadcrumbs.vue"
+  },
   "PartialsGreenBtn": {
     "description": "Auto imported from components/partials/GreenBtn.vue"
   }

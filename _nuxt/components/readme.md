@@ -13,4 +13,5 @@ You can directly use them in pages and other components without the need to impo
 - `<LangSwitcher>` | `<lang-switcher>` (components/LangSwitcher.vue)
 - `<Menu>` | `<menu>` (components/Menu.vue)
 - `<ProfileDropdown>` | `<profile-dropdown>` (components/ProfileDropdown.vue)
+- `<PartialsBreadcrumbs>` | `<partials-breadcrumbs>` (components/partials/Breadcrumbs.vue)
 - `<PartialsGreenBtn>` | `<partials-green-btn>` (components/partials/GreenBtn.vue)
