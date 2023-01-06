@@ -63,7 +63,7 @@
         </a>
       </div>
     </div>
-    <div id="mobile-menu" uk-offcanvas="flip: true; overlay: true">
+    <div ref="mob_menu" id="mobile-menu" uk-offcanvas="flip: true; overlay: true">
       <div class="uk-offcanvas-bar">
         <div class="mob__menu-wrapper">
           <Menu></Menu>
@@ -77,7 +77,12 @@
 
 <script>
 export default {
-  name: "Header"
+  name: "Header",
+  watch: {
+    $route(to, from) {
+      this.$UIkit.offcanvas(this.$refs.mob_menu).hide();
+    }
+  }
 }
 </script>
 
@@ -263,11 +268,13 @@ export default {
           }
         }
       }
-      .other__wrapper{
-        .circle__btn{
+
+      .other__wrapper {
+        .circle__btn {
           width: 30px;
           height: 30px;
-          img{
+
+          img {
             width: 16px;
             height: 14px;
           }
@@ -275,15 +282,16 @@ export default {
       }
     }
 
-    #mobile-menu{
+    #mobile-menu {
       top: 61px !important;
 
-      .uk-offcanvas-bar{
-        width: 100% ;
+      .uk-offcanvas-bar {
+        width: 100%;
         right: -100%;
       }
-      &.uk-open{
-        .uk-offcanvas-bar{
+
+      &.uk-open {
+        .uk-offcanvas-bar {
           right: 0;
 
         }
