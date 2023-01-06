@@ -10,6 +10,9 @@
 *:hover {
   text-decoration: none ;
 }
+*:focus-visible{
+  outline: none !important;
+}
 h1,
 h2,
 h3,
@@ -34,7 +37,8 @@ input:matches(
   [type="tel"],
   [type="text"],
   [type="url"]
-), input:focus{
+), input:focus,
+ input:focus-visible{
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;

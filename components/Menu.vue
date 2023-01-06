@@ -6,7 +6,7 @@
       </NuxtLink>
     </li>
     <li class="nav__list-item">
-      <NuxtLink to="#" class="nav__list-link">
+      <NuxtLink to="/donors" class="nav__list-link">
         Find a Donor
       </NuxtLink>
     </li>

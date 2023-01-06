@@ -283,7 +283,7 @@
           <h3 class="section__header">
             Expertise of the ADONIS Group Companies
           </h3>
-          <ul uk-accordion class="exp__accordion">
+          <ul uk-accordion="collapsible: false" class="exp__accordion">
             <li class="uk-open">
               <a class="uk-accordion-title" href="#">
                 Highest Level Of Expertise

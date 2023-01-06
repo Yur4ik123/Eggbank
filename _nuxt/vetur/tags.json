@@ -2,6 +2,9 @@
   "CookiePopup": {
     "description": "Auto imported from components/CookiePopup.vue"
   },
+  "Filters": {
+    "description": "Auto imported from components/Filters.vue"
+  },
   "FirstScreen": {
     "description": "Auto imported from components/FirstScreen.vue"
   },
@@ -25,5 +28,8 @@
   },
   "PartialsGreenBtn": {
     "description": "Auto imported from components/partials/GreenBtn.vue"
+  },
+  "PartialsRanges": {
+    "description": "Auto imported from components/partials/Ranges.vue"
   }
 }

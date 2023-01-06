@@ -3,12 +3,21 @@
     "name": "about",
     "path": "/about",
     "component": "/var/www/eggbank.loc/pages/about.vue",
-    "chunkName": "pages/about"
+    "chunkName": "pages/about",
+    "_name": "_f2a168b6"
+  },
+  {
+    "name": "donors",
+    "path": "/donors",
+    "component": "/var/www/eggbank.loc/pages/donors/index.vue",
+    "chunkName": "pages/donors/index",
+    "_name": "_713485a8"
   },
   {
     "name": "index",
     "path": "/",
     "component": "/var/www/eggbank.loc/pages/index.vue",
-    "chunkName": "pages/index"
+    "chunkName": "pages/index",
+    "_name": "_b331b32c"
   }
 ]

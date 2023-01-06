@@ -13,7 +13,7 @@
 
       </div>
       <div class="img__side">
-        <nuxt-img src="/img/main.png" width="834" height="502"  alt="" loading="lazy" format="webp" />
+        <img :src="img" width="834" height="502"  alt="" loading="lazy">
       </div>
 
     </div>
