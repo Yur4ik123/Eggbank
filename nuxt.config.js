@@ -16,9 +16,10 @@ export default {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
     ]
   },
-
-
-
+  transition: {
+    name: 'routing',
+    mode: 'out-in'
+  },
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
   ],
@@ -32,7 +33,8 @@ export default {
     '@nuxtjs/style-resources',
     '@nuxt/postcss8',
     'nuxt-uikit',
-    "@nuxtjs/svg"
+    "@nuxtjs/svg",
+    '@nuxt/image'
   ],
 
   // Global CSS: https://go.nuxtjs.dev/config-css
@@ -40,12 +42,16 @@ export default {
     '~/assets/styles/variables.scss',
     '~/assets/styles/main.scss'
   ],
+  image: {
+    // Options
+  },
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios',
-    '@nuxtjs/style-resources'
+    '@nuxtjs/style-resources',
+    '@nuxt/image',
   ],
   styleResources: {
     scss: ['~/assets/styles/variables.scss', '~/assets/styles/mixins.scss']

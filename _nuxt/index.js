@@ -14,6 +14,7 @@ import { setContext, getLocation, getRouteData, normalizeError } from './utils'
 
 import nuxt_plugin_plugin_c03e6e66 from 'nuxt_plugin_plugin_c03e6e66' // Source: ./components/plugin.js (mode: 'all')
 import nuxt_plugin_axios_17b7ff63 from 'nuxt_plugin_axios_17b7ff63' // Source: ./axios.js (mode: 'all')
+import nuxt_plugin_image_02befc5e from 'nuxt_plugin_image_02befc5e' // Source: ./image.js (mode: 'all')
 import nuxt_plugin_uikit_1ee7a097 from 'nuxt_plugin_uikit_1ee7a097' // Source: ./uikit.js (mode: 'all')
 
 // Component: <ClientOnly>
@@ -54,7 +55,7 @@ Object.defineProperty(Vue.prototype, '$nuxt', {
 
 Vue.use(Meta, {"keyName":"head","attribute":"data-n-head","ssrAttribute":"data-n-head-ssr","tagIDKeyName":"hid"})
 
-const defaultTransition = {"name":"page","mode":"out-in","appear":false,"appearClass":"appear","appearActiveClass":"appear-active","appearToClass":"appear-to"}
+const defaultTransition = {"name":"routing","mode":"out-in","appear":false,"appearClass":"appear","appearActiveClass":"appear-active","appearToClass":"appear-to"}
 
 async function createApp(ssrContext, config = {}) {
   const router = await createRouter(ssrContext, config)
@@ -184,6 +185,10 @@ async function createApp(ssrContext, config = {}) {
 
   if (typeof nuxt_plugin_axios_17b7ff63 === 'function') {
     await nuxt_plugin_axios_17b7ff63(app.context, inject)
+  }
+
+  if (typeof nuxt_plugin_image_02befc5e === 'function') {
+    await nuxt_plugin_image_02befc5e(app.context, inject)
   }
 
   if (typeof nuxt_plugin_uikit_1ee7a097 === 'function') {

@@ -2,7 +2,9 @@
   <div id="app" class="uk-link-reset">
     <Header/>
     <div class="content">
+      <transition name="routing" mode="out-in">
       <Nuxt/>
+      </transition>
     </div>
     <Footer/>
 <!--    <CookiePopup></CookiePopup>-->
