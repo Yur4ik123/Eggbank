@@ -9,6 +9,8 @@ export { default as ProfileDropdown } from '../../components/ProfileDropdown.vue
 export { default as PartialsBreadcrumbs } from '../../components/partials/Breadcrumbs.vue'
 export { default as PartialsGreenBtn } from '../../components/partials/GreenBtn.vue'
 export { default as PartialsRanges } from '../../components/partials/Ranges.vue'
+export { default as CategoryDonorCard } from '../../components/category/DonorCard.vue'
+export { default as CategoryDonorImages } from '../../components/category/DonorImages.vue'
 
 // nuxt/nuxt.js#8607
 function wrapFunctional(options) {

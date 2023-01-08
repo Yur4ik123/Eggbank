@@ -31,5 +31,11 @@
   },
   "PartialsRanges": {
     "description": "Auto imported from components/partials/Ranges.vue"
+  },
+  "CategoryDonorCard": {
+    "description": "Auto imported from components/category/DonorCard.vue"
+  },
+  "CategoryDonorImages": {
+    "description": "Auto imported from components/category/DonorImages.vue"
   }
 }

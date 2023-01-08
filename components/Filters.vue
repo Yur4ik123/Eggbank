@@ -160,30 +160,13 @@
       <li class="filter__row">
         <a class="uk-accordion-title" href="#">
           <span class="icon">
-            <img src="/img/f2.svg" width="26" height="26">
+            <img src="/img/f6.svg" width="26" height="26">
           </span>
-          <span class="title">Ethnic Origin</span>
+          <span class="title">Weight (kg)</span>
         </a>
         <!--        TODO add checked if is check-->
         <div class="uk-accordion-content">
-          <ul class="params__list">
-            <li class="params__item">
-              <a class="prams__item-checkbox checked" href="#" @click.prevent="checkFilter">
-                Asian
-              </a>
-            </li>
-            <li class="params__item">
-              <a class="prams__item-checkbox" href="#" @click.prevent="checkFilter">
-                European
-              </a>
-            </li>
-            <li class="params__item">
-              <a class="prams__item-checkbox" href="#" @click.prevent="checkFilter">
-                Native American
-              </a>
-            </li>
-
-          </ul>
+          <PartialsRanges/>
         </div>
       </li>
       <li class="filter__row">
@@ -216,6 +199,22 @@
         </div>
       </li>
     </ul>
+    <div class="sidebar__btns">
+      <div class="link__wrapper">
+        <NuxtLink to="" class="sidebar_btn">
+          Help
+          <br>
+          center
+        </NuxtLink>
+      </div>
+      <div class="link__wrapper">
+        <NuxtLink to="" class="sidebar_btn">
+          Contact
+          <br>
+          support
+        </NuxtLink>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -235,6 +234,7 @@ export default {
   background: #CDE4F0;
   border-radius: 12px;
   padding: 15px;
+  height: fit-content;
 
   .filters__accordion {
     & > :nth-child(n+2) {
@@ -330,6 +330,36 @@ export default {
             }
           }
         }
+      }
+    }
+  }
+
+  .sidebar__btns {
+    padding: 6px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 87px;
+    background: #89CBC4;
+    margin: 20px -15px -15px;
+    border-radius: 0px 0px 12px 12px;
+
+    .link__wrapper {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-right: 1px solid #6CA8A2;
+
+      &:last-child {
+        border-right: none;
+      }
+
+      .sidebar_btn {
+        text-align: center;
+        color: white !important;
+        font-size: 18px;
+        line-height: 24px;
+        transition: 0.3s;
+
       }
     }
   }

@@ -17,3 +17,5 @@ You can directly use them in pages and other components without the need to impo
 - `<PartialsBreadcrumbs>` | `<partials-breadcrumbs>` (components/partials/Breadcrumbs.vue)
 - `<PartialsGreenBtn>` | `<partials-green-btn>` (components/partials/GreenBtn.vue)
 - `<PartialsRanges>` | `<partials-ranges>` (components/partials/Ranges.vue)
+- `<CategoryDonorCard>` | `<category-donor-card>` (components/category/DonorCard.vue)
+- `<CategoryDonorImages>` | `<category-donor-images>` (components/category/DonorImages.vue)
