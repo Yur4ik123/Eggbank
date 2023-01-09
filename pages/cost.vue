@@ -45,6 +45,7 @@
       </div>
       <div class="container">
         <div class="packages">
+          <img src="/img/pack.png" width="487" height="400" alt="" class="abs__img">
           <h3 class="section__header">
             OUR PACKAGES
           </h3>
@@ -124,6 +125,29 @@
           </div>
 
         </div>
+        <div class="seo__header">
+          <div class="header__content">
+            Each additional egg From fully screened, FDA-eligible donors $ 1,090.00 * <span> inc TAX.</span>
+          </div>
+        </div>
+        <div class="seo__content">
+          <p>
+            *Please, note that transportation cost is not included in the price. You are able to choose the courier
+            company for shipment across the United States.
+            If you are located outside of the United States, please contact us in order to check the possibility of
+            shipping Frozen Donor Eggs to your country. For shipping oocytes worldwide, we normally use World Courier,
+            Cryoport or ARKCryo services. Please contact us to check the possibility of transportation and its price.
+
+          </p>
+          <h4> IMPORTANT NOTE:</h4>
+          <p>
+            Please, mention, that the prices set above include obligatory and additional medical tests for the Egg Donor
+            that is set by the internal rules of ADONIS Egg Bank.
+            In case you want selected Egg Donor to pass any additional medical test – it isn’t covered by the cost of
+            the
+            package and shall be paid additionally.
+          </p>
+        </div>
       </div>
     </section>
 
@@ -138,6 +162,7 @@ export default {
 
 <style lang="scss" scoped>
 .cost__page {
+
   .first__screen {
     .container {
       position: relative;
@@ -181,7 +206,7 @@ export default {
     padding: 50px 0 300px;
     border-radius: 60px 60px 0 0;
     margin-bottom: -225px;
-
+    overflow-x: hidden;
     .section__header {
       @include section-header;
       margin-bottom: 19px;
@@ -235,12 +260,22 @@ export default {
 
     .packages {
       position: relative;
+      z-index: 1;
+
+      .abs__img {
+        position: absolute;
+        top: -50px;
+        right: -50px;
+        z-index: 0;
+      }
 
       .section__header {
         margin-bottom: 23px;
       }
 
       .packages__cols {
+        z-index: 2;
+        position: relative;
         display: flex;
         justify-content: center;
         margin-bottom: 55px;
@@ -300,18 +335,21 @@ export default {
             line-height: 30px;
             margin-bottom: 24px;
           }
-          .price{
+
+          .price {
             padding-top: 20px;
             border-top: 1px solid #CDE4F0;
             width: 100%;
-            .cost_count{
+
+            .cost_count {
               font-size: 22px;
               line-height: 30px;
               text-align: center;
               color: $green;
               margin-bottom: 5px;
             }
-            .cost_subcount{
+
+            .cost_subcount {
               font-size: 12px;
               line-height: 14px;
               text-align: center;
@@ -321,6 +359,46 @@ export default {
         }
 
       }
+    }
+
+    .seo__header {
+      text-align: center;
+      background: #B6CFDC url("/img/border.png") no-repeat center/cover;
+      padding: 29px 10px;
+      margin-bottom: 30px;
+      position: relative;
+      text-transform: uppercase;
+      border-radius: 12px;
+      .header__content{
+        font-size: 22px;
+        line-height: 30px;
+        z-index: 2;
+        position: relative;
+      }
+      &:after {
+        content: '';
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        left: 10px;
+        bottom: 10px;
+        border-radius: 5px;
+        background-color: #CDE4F0;
+        z-index: 0;
+
+      }
+
+
+      span {
+        font-size: 12px;
+        line-height: 30px;
+
+      }
+    }
+
+    .seo__content {
+      @include default-text;
+      margin-bottom: 70px;
     }
   }
 }
@@ -410,7 +488,60 @@ export default {
 
         }
       }
+
+      .packages {
+        .abs__img {
+          display: none;
+        }
+
+        .packages__cols {
+          margin-bottom: 30px;
+
+          .pack {
+            margin-right: 10px;
+
+            .pack__title {
+              font-size: 18px;
+              line-height: 24px;
+              margin-bottom: 6px;
+            }
+
+            .pack__subtitle {
+              font-size: 14px;
+              line-height: 24px;
+              margin-bottom: 6px;
+            }
+
+            .num__head {
+              font-size: 14px;
+              line-height: 24px;
+            }
+
+            .price {
+              .cost_count {
+                font-size: 18px;
+                line-height: 24px;
+              }
+
+              .cost_subcount {
+                font-size: 12px;
+                line-height: 14px;
+              }
+            }
+
+          }
+        }
+      }
+
+    .seo__header{
+      padding: 26px;
+      .header__content{
+        font-size: 18px;
+        line-height: 30px;
+      }
+    }
     }
   }
 }
+
 </style>

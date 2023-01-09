@@ -43,8 +43,14 @@
   font-size: 18px;
   line-height: 30px;
   color: black;
+  h4{
+    font-size: 22px;
+    line-height: 30px;
+    margin-bottom: 0;
+  }
   p {
     margin-bottom: 25px;
+    margin-top: 0;
 
     &:last-child {
       margin-bottom: 0;
@@ -53,6 +59,10 @@
   @media screen and (max-width: 768px) {
     font-size: 14px;
     line-height: 24px;
+    h4{
+      font-size: 18px;
+      line-height: 24px;
+    }
     p {
       margin-bottom: 20px;
     }
