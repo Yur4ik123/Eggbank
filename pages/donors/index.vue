@@ -5,8 +5,22 @@
       <div class="page__layout">
         <Filters/>
         <div class="page__content">
-          div.
-          <div class="categories__wrapper">
+          <!--          TODO check user login-->
+          <div class="not__login" v-if="true">
+            <div class="page__header">
+              Egg Donor Search
+            </div>
+            <div class="page__subtitle">
+              ADONIS Egg Bank Database showcases each donor's personality, physical attributes, and medical history.
+              Please Sig in or Create an Account to see full donor profile and use all advantages of A.EggBank Database
+            </div>
+            <div class="donors__count">
+              Donors Registered: <span>225</span>
+            </div>
+
+          </div>
+          <!--          TODO check user login-->
+          <div class="categories__wrapper" v-if="false">
             <a href="" class="category__btn all">All Donors (145)</a>
             <a href="" class="category__btn favorite">
               <FavIcon/>
@@ -23,9 +37,19 @@
             <CategoryDonorCard/>
             <CategoryDonorCard/>
             <CategoryDonorCard/>
-            <CategoryDonorCard/>
-            <CategoryDonorCard/>
-            <CategoryDonorCard/>
+<!--            <CategoryDonorCard/>-->
+<!--            <CategoryDonorCard/>-->
+<!--            <CategoryDonorCard/>-->
+          </div>
+          <!--          TODO check auth-->
+          <div class="not__login-footer" v-if="true">
+            <div class="donors__count">
+              Opened <span>3</span> (Total <span>225</span>)
+            </div>
+            <div class="login__btn">
+              <PartialsGreenBtn title="Receive A Full Access"/>
+
+            </div>
           </div>
         </div>
 
@@ -55,6 +79,50 @@ export default {
     grid-template-columns: 285px 1fr;
     grid-gap: 20px;
     margin-bottom: 80px;
+  }
+
+  .not__login {
+    .page__header {
+      font-size: 54px;
+      line-height: 64px;
+      color: black;
+      text-align: center;
+      margin-bottom: 25px;
+    }
+
+    .page__subtitle {
+      font-size: 18px;
+      line-height: 30px;
+      text-align: center;
+      color: black;
+      margin-bottom: 20px;
+    }
+
+  }
+
+  .donors__count {
+    text-align: center;
+    font-size: 18px;
+    line-height: 30px;
+    color: black;
+
+    span {
+      color: $green;
+    }
+  }
+
+  .not__login-footer {
+    margin-top: 25px;
+
+    .donors__count {
+      margin-bottom: 25px;
+    }
+
+    .login__btn {
+      display: flex;
+      justify-content: center;
+    }
+
   }
 
   .categories__wrapper {
@@ -160,8 +228,9 @@ export default {
         line-height: 24px;
       }
     }
-    .donors__wrapper{
-      grid-template-columns: 1fr 1fr ;
+
+    .donors__wrapper {
+      grid-template-columns: 1fr 1fr;
     }
   }
 }
@@ -171,19 +240,39 @@ export default {
     .categories__wrapper {
       flex-wrap: wrap;
       column-gap: 12px;
+
       .category__btn {
         margin-bottom: 20px;
         margin-right: 0;
 
         padding: 10px 15px;
 
-        svg{
+        svg {
           margin-right: 5px;
         }
       }
     }
-    .donors__wrapper{
+
+    .donors__wrapper {
       grid-gap: 10px;
+    }
+    .not__login{
+      .page__header{
+        font-size: 30px;
+        line-height: 36px;
+        margin-bottom: 15px;
+      }
+      .page__subtitle{
+        font-size: 14px;
+        line-height: 24px;
+      }
+      .donors__count{
+        display: none;
+      }
+    }
+    .donors__count{
+      font-size: 14px;
+      line-height: 24px;
     }
   }
 }

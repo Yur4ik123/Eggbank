@@ -181,7 +181,8 @@ export default {
 
   #mobile-menu {
     top: 91px !important;
-
+    background: rgba(184, 221, 241, 0.4);
+    backdrop-filter: blur(5px);
     .uk-offcanvas-bar {
       background: white;
 
