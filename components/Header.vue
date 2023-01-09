@@ -89,6 +89,10 @@ export default {
 <style lang="scss">
 .header {
   border-bottom: 1px solid #CDE4F0;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background-color: white;
 
   .container {
     display: grid;

@@ -82,6 +82,7 @@ export default {
   build: {
     transpile: [
       '@vueform/slider/dist/slider.vue2.js',
+      'hooper'
     ],
     publicPath: '/_nuxt/dist/',
     postcss: {

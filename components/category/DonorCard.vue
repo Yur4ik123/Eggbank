@@ -14,7 +14,7 @@
       </span>
       <img src="/img/fda-label.svg" width="30" height="12" alt="">
       <img src="/img/info.svg" width="16" height="16" class="info__icon" alt="">
-      <div uk-drop="target: .drop__wrapper; pos: bottom-center; offset: 15" class="info__drop">
+      <div uk-drop=" pos: bottom-center; offset: 15; delay-hide: 0" class="info__drop">
         On each donor profile, you may find FDA icon (
         <svg style="margin-right: 5px;" width="12" height="10" viewBox="0 0 12 10" fill="none"
              xmlns="http://www.w3.org/2000/svg">
@@ -128,6 +128,10 @@ export default {
   position: relative;
   z-index: 1;
 
+  &:hover {
+    z-index: 5;
+  }
+
   .add__to-wishlist {
     position: absolute;
     top: 15px;
@@ -159,6 +163,10 @@ export default {
       border: 1px solid #CDE4F0;
       box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
       border-radius: 12px;
+
+      &.uk-open {
+        z-index: 4;
+      }
     }
   }
 
@@ -272,6 +280,97 @@ export default {
     }
 
   }
+}
+
+@media screen and (max-width: 768px) {
+  .donor__card {
+    .add__to-wishlist{
+      top: 3px;
+      left: 10px;
+    }
+    .labels {
+      top: 3px;
+      right: 10px;
+
+      .info__drop {
+        font-size: 14px;
+        line-height: 20px;
+        width: 250px;
+      }
+    }
+
+    .donor__img {
+      width: 120px;
+      height: 120px;
+      margin: 0 auto 5px;
+
+    }
+
+    .donor__gallery {
+      .gallery__btn {
+        font-size: 14px;
+        line-height: 24px;
+      }
+
+      margin-bottom: 1px;
+    }
+
+    .availability {
+      font-size: 14px;
+      line-height: 24px;
+      margin-bottom: 6px;
+    }
+
+    .shipping {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 5px;
+      padding: 9px 15px;
+
+      .info__icon {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        justify-self: flex-end;
+      }
+
+      .flag {
+        grid-column-start: 2;
+        grid-column-end: 3;
+      }
+
+      span {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        justify-self: center;
+        text-align: center;
+        font-size: 14px;
+        line-height: 18px;
+      }
+
+    }
+
+    .donor__params {
+      .param__row {
+        margin-bottom: 10px;
+
+        .param__title, .param__data {
+          font-size: 14px;
+          line-height: 20px;
+        }
+      }
+
+    }
+
+    .btn__wrapper {
+      .profile__btn {
+        height: 44px;
+        font-size: 14px;
+      }
+    }
+  }
+
 }
 
 </style>

@@ -13,7 +13,17 @@
             <a href="" class="category__btn available">Available now</a>
             <a href="" class="category__btn request">Availability on request</a>
           </div>
+          <div class="filter__btn-wrapper" style="display: none;">
+            <a href="#filters_sidebar" uk-toggle class="filter__btn">
+              <FilterIcon/>
+            </a>
+          </div>
           <div class="donors__wrapper">
+            <CategoryDonorCard/>
+            <CategoryDonorCard/>
+            <CategoryDonorCard/>
+            <CategoryDonorCard/>
+            <CategoryDonorCard/>
             <CategoryDonorCard/>
           </div>
         </div>
@@ -26,11 +36,13 @@
 
 <script>
 import FavIcon from '~/assets/img/heart-b.svg?inline'
+import FilterIcon from '~/assets/img/filter.svg?inline'
 
 export default {
   name: "DonorsPage",
   components: {
-    FavIcon
+    FavIcon,
+    FilterIcon
   }
 }
 </script>
@@ -112,6 +124,67 @@ export default {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 20px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .donors__category {
+    .page__layout {
+      grid-template-columns: 1fr;
+    }
+
+    .filter__btn-wrapper {
+      display: flex !important;
+      justify-content: flex-end;
+
+      .filter__btn {
+        width: 30px;
+        height: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: $green;
+        border-radius: 100%;
+      }
+    }
+  }
+
+}
+
+@media screen and (max-width: 992px) {
+  .donors__category {
+    .categories__wrapper {
+      .category__btn {
+        font-size: 14px;
+        line-height: 24px;
+      }
+    }
+    .donors__wrapper{
+      grid-template-columns: 1fr 1fr ;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .donors__category {
+    .categories__wrapper {
+      flex-wrap: wrap;
+
+      .category__btn {
+        margin-bottom: 20px;
+        margin-right: 12px;
+        padding: 10px 15px;
+        &:nth-child(even){
+          margin-right: 0;
+        }
+        svg{
+          margin-right: 5px;
+        }
+      }
+    }
+    .donors__wrapper{
+      grid-gap: 10px;
+    }
   }
 }
 </style>
