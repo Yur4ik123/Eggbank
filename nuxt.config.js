@@ -26,7 +26,7 @@ export default {
       src: '~/assets/plugins/plugins.js', mode: 'client'
     },
     {
-      src: '~/assets/plugins/vuelidate.js', mode: 'client'
+      src: '~/assets/plugins/vuelidate.js', ssr: 'false'
     },
   ],
 
