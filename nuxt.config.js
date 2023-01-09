@@ -25,6 +25,9 @@ export default {
     {
       src: '~/assets/plugins/plugins.js', mode: 'client'
     },
+    {
+      src: '~/assets/plugins/vuelidate.js', mode: 'client'
+    },
   ],
 
 
@@ -82,7 +85,12 @@ export default {
   build: {
     transpile: [
       '@vueform/slider/dist/slider.vue2.js',
-      'hooper'
+      'hooper',
+      'vuelidate',
+      'vuelidate/lib/validators'
+    ],
+    vendor:[
+      'vuelidate'
     ],
     publicPath: '/_nuxt/dist/',
     postcss: {

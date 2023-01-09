@@ -17,6 +17,9 @@
   "LangSwitcher": {
     "description": "Auto imported from components/LangSwitcher.vue"
   },
+  "LoginModal": {
+    "description": "Auto imported from components/LoginModal.vue"
+  },
   "Menu": {
     "description": "Auto imported from components/Menu.vue"
   },

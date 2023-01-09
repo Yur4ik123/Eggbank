@@ -5,6 +5,7 @@
       <Nuxt/>
     </div>
     <Footer/>
+    <LoginModal/>
 <!--    <CookiePopup></CookiePopup>-->
   </div>
 </template>

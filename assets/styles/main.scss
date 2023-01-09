@@ -25,3 +25,14 @@ body{
 .content{
   min-height:calc(100vh - 90px - 297px);
 }
+.uk-modal{
+  top: 90px!important;
+  background: rgba(184, 221, 241, 0.4) !important;
+  backdrop-filter: blur(5px) !important;
+
+}
+@media screen and (max-width: 576px){
+  .uk-modal{
+    top: 60px!important;
+  }
+}

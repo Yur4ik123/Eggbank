@@ -12,6 +12,7 @@ You can directly use them in pages and other components without the need to impo
 - `<Footer>` | `<footer>` (components/Footer.vue)
 - `<Header>` | `<header>` (components/Header.vue)
 - `<LangSwitcher>` | `<lang-switcher>` (components/LangSwitcher.vue)
+- `<LoginModal>` | `<login-modal>` (components/LoginModal.vue)
 - `<Menu>` | `<menu>` (components/Menu.vue)
 - `<ProfileDropdown>` | `<profile-dropdown>` (components/ProfileDropdown.vue)
 - `<CategoryDonorCard>` | `<category-donor-card>` (components/category/DonorCard.vue)

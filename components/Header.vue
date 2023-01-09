@@ -28,13 +28,14 @@
 
         </div>
         <div class="profile ">
-          <NuxtLink href="" class="circle__btn" v-if="false">
-            <img src="~/assets/img/profile.svg" width="18" height="18" alt="">
-          </NuxtLink>
-          <a href="" class="circle__btn" v-if="true">
+          <!--        TODO check login  -->
+          <a href="#login" class="circle__btn" v-if="true" uk-toggle>
             <img src="~/assets/img/profile.svg" width="18" height="18" alt="">
           </a>
-          <ProfileDropdown v-if="true"/>
+          <a href="" class="circle__btn" v-if="false">
+            <img src="~/assets/img/profile.svg" width="18" height="18" alt="">
+          </a>
+          <ProfileDropdown v-if="false"/>
         </div>
         <a href="#mobile-menu" class="menu__btn" style="display: none;" uk-toggle>
           <svg width="22" height="12" viewBox="0 0 22 12" fill="none" xmlns="http://www.w3.org/2000/svg" class="show">
@@ -183,6 +184,7 @@ export default {
     top: 91px !important;
     background: rgba(184, 221, 241, 0.4);
     backdrop-filter: blur(5px);
+
     .uk-offcanvas-bar {
       background: white;
 
