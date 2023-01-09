@@ -17,35 +17,37 @@
       <div class="modal__subheader">
         Please login and use all benefits of registered users
       </div>
-      <form action="" class="login__form" novalidate @submit.prevent="submit">
-        <div class="input__wrapper" :class="{'invalid': $v.form.login.$error}">
-          <div class="label">
-            Email Address*:
+      <client-only>
+        <form action="" class="login__form" novalidate @submit.prevent="submit">
+          <div class="input__wrapper" :class="{'invalid': $v.form.login.$error}">
+            <div class="label">
+              Email Address*:
+            </div>
+            <input class="input" type="email" v-model.trim="$v.form.login.$model">
           </div>
-          <input class="input" type="email" v-model.trim="$v.form.login.$model">
-        </div>
-        <div class="input__wrapper" :class="{'invalid': $v.form.password.$error}">
-          <div class="label">
-            Password*:
+          <div class="input__wrapper" :class="{'invalid': $v.form.password.$error}">
+            <div class="label">
+              Password*:
+            </div>
+            <input class="input" type="password" v-model.trim="$v.form.password.$model">
           </div>
-          <input class="input" type="password" v-model.trim="$v.form.password.$model">
-        </div>
-        <div class="forgot__pass">
-          <a href="" class="forgot__pass-link">
-            Forgot password?
-          </a>
-        </div>
-        <div class="checkbox__wrapper">
-          <label>
-            <input class="uk-checkbox" type="checkbox" v-model="form.remember">
-            Remember me
-          </label>
-        </div>
-        <button type="submit" class="submit__btn" @click="$v.$reset">
-          Login
-        </button>
+          <div class="forgot__pass">
+            <a href="" class="forgot__pass-link">
+              Forgot password?
+            </a>
+          </div>
+          <div class="checkbox__wrapper">
+            <label>
+              <input class="uk-checkbox" type="checkbox" v-model="form.remember">
+              Remember me
+            </label>
+          </div>
+          <button type="submit" class="submit__btn" @click="$v.$reset">
+            Login
+          </button>
 
-      </form>
+        </form>
+      </client-only>
       <div class="modal__text">
         <div class="text__header">
           Haven't Account Yet?
