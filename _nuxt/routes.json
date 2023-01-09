@@ -7,6 +7,13 @@
     "_name": "_f2a168b6"
   },
   {
+    "name": "cost",
+    "path": "/cost",
+    "component": "/var/www/eggbank.loc/pages/cost.vue",
+    "chunkName": "pages/cost",
+    "_name": "_da97a036"
+  },
+  {
     "name": "donors",
     "path": "/donors",
     "component": "/var/www/eggbank.loc/pages/donors/index.vue",

@@ -59,32 +59,28 @@
           </div>
           <ul class="col__list">
             <li>
-              <NuxtLink to="" class="col_link">
+              <NuxtLink to="/about" class="col_link">
                 About Us
-
               </NuxtLink>
             </li>
             <li>
               <NuxtLink to="" class="col_link">
                 Our Guarantee
-
               </NuxtLink>
             </li>
             <li>
-              <NuxtLink to="" class="col_link">
+              <NuxtLink to="/donors" class="col_link">
                 Find a Donor
-
               </NuxtLink>
             </li>
             <li>
-              <NuxtLink to="" class="col_link">
+              <NuxtLink to="/cost" class="col_link">
                 Cost
               </NuxtLink>
             </li>
             <li>
               <NuxtLink to="" class="col_link">
                 Become a Donor
-
               </NuxtLink>
             </li>
             <li>
