@@ -407,7 +407,7 @@ export default {
     .side__bar {
       width: 285px;
       overflow-y: auto;
-      max-height: calc(100vh - 90px);
+      max-height: 100%;
 
     }
   }
@@ -418,7 +418,7 @@ export default {
   .filters__sidebar{
     top: 60px;
     .side__bar{
-      max-height: calc(100vh - 60px);
+      max-height:100%;
     }
   }
 }

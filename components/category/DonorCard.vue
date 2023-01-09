@@ -27,7 +27,7 @@
       </div>
     </div>
     <div class="donor__img">
-      <img src="/img/donor.png" width="180" height="180" loading="lazy" alt="">
+      <img src="/img/donor.png" width="180" height="180" alt="">
     </div>
     <div class="donor__gallery">
       <a href="" class="gallery__btn" @click.prevent="showImages">13 Photos</a>

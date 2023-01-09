@@ -5,6 +5,7 @@
       <div class="page__layout">
         <Filters/>
         <div class="page__content">
+          div.
           <div class="categories__wrapper">
             <a href="" class="category__btn all">All Donors (145)</a>
             <a href="" class="category__btn favorite">
@@ -169,14 +170,13 @@ export default {
   .donors__category {
     .categories__wrapper {
       flex-wrap: wrap;
-
+      column-gap: 12px;
       .category__btn {
         margin-bottom: 20px;
-        margin-right: 12px;
+        margin-right: 0;
+
         padding: 10px 15px;
-        &:nth-child(even){
-          margin-right: 0;
-        }
+
         svg{
           margin-right: 5px;
         }
