@@ -21,6 +21,13 @@
     "_name": "_713485a8"
   },
   {
+    "name": "donors-id",
+    "path": "/donors/:id",
+    "component": "/var/www/eggbank.loc/pages/donors/_id.vue",
+    "chunkName": "pages/donors/_id",
+    "_name": "_5ff7d210"
+  },
+  {
     "name": "index",
     "path": "/",
     "component": "/var/www/eggbank.loc/pages/index.vue",

@@ -1,9 +1,6 @@
 <template>
   <div class="donor__card">
-    <a href="" class="add__to-wishlist">
-      <InWishlist v-if="false"/>
-      <AddWishlistIcon v-else/>
-    </a>
+   <PartialsAddToWishlist/>
     <div class="labels drop__wrapper">
       <span class="pass__icon">
 <svg width="12" height="10" viewBox="0 0 12 10" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -84,7 +81,7 @@
       </div>
     </div>
     <div class="btn__wrapper">
-      <NuxtLink to="" class="profile__btn">
+      <NuxtLink to="/donors/1" class="profile__btn">
         View profile
       </NuxtLink>
     </div>
@@ -93,8 +90,7 @@
 </template>
 
 <script>
-import AddWishlistIcon from '~/assets/img/addwl.svg?inline'
-import InWishlist from '~/assets/img/in_wishlist.svg?inline'
+
 
 export default {
   name: "DonorCard",
@@ -112,10 +108,7 @@ export default {
       )
     }
   },
-  components: {
-    AddWishlistIcon,
-    InWishlist
-  }
+
 }
 </script>
 

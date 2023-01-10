@@ -103,6 +103,10 @@
     display: flex;
     align-items: center;
     user-select: none;
+    .uk-radio:checked, .uk-checkbox:checked, .uk-checkbox:indeterminate{
+      background: transparent;
+      background-image: none;
+    }
    label{
      cursor: pointer;
    }

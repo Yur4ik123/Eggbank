@@ -29,8 +29,14 @@
   "CategoryDonorCard": {
     "description": "Auto imported from components/category/DonorCard.vue"
   },
+  "CategoryDonorGallery": {
+    "description": "Auto imported from components/category/DonorGallery.vue"
+  },
   "CategoryDonorImages": {
     "description": "Auto imported from components/category/DonorImages.vue"
+  },
+  "PartialsAddToWishlist": {
+    "description": "Auto imported from components/partials/AddToWishlist.vue"
   },
   "PartialsBreadcrumbs": {
     "description": "Auto imported from components/partials/Breadcrumbs.vue"
