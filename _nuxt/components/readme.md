@@ -19,6 +19,7 @@ You can directly use them in pages and other components without the need to impo
 - `<CategoryDonorGallery>` | `<category-donor-gallery>` (components/category/DonorGallery.vue)
 - `<CategoryDonorImages>` | `<category-donor-images>` (components/category/DonorImages.vue)
 - `<PartialsAddToWishlist>` | `<partials-add-to-wishlist>` (components/partials/AddToWishlist.vue)
+- `<PartialsAvailability>` | `<partials-availability>` (components/partials/Availability.vue)
 - `<PartialsBreadcrumbs>` | `<partials-breadcrumbs>` (components/partials/Breadcrumbs.vue)
 - `<PartialsGreenBtn>` | `<partials-green-btn>` (components/partials/GreenBtn.vue)
 - `<PartialsRanges>` | `<partials-ranges>` (components/partials/Ranges.vue)

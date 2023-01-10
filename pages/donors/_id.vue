@@ -184,16 +184,7 @@
                   Available
                 </div>
               </div>
-              <div class="availability">
-                <div class="status">
-                  Available Now
-                </div>
-                <div class="ship">
-                  <img src="/img/info.svg" width="16" height="16" class="info__icon" alt="">
-                  <span>Immediate shipping available</span>
-                  <img src="/img/flag.png" width="16" height="16" alt="" class="flag">
-                </div>
-              </div>
+              <PartialsAvailability statys="now"/>
               <a href="" class="reservation__btn">
                 Reservation
               </a>
@@ -233,6 +224,368 @@
             <div class="block__head">
               Reservation List
             </div>
+            <div class="qty__wrapper">
+              <div class="qty__header">
+                Donor's Cryo Oocyte, qty
+              </div>
+              <div class="qty__input-wrapper">
+                <a class="qty__btn minus" @click.prevent="minusQty">
+                  <MinusIcon/>
+                </a>
+                <input type="number" class="qty" v-model="qty">
+                <a class="qty__btn plus" @click.prevent="plusQty">
+                  <PlusIcon/>
+                </a>
+              </div>
+              <div class="av__req">
+                Availability Request
+              </div>
+              <div class="fresh__wrapper">
+                <label>
+                  Fresh sycle oocite
+                  <input
+                    :class="{'active':fresh}"
+                    v-model="fresh"
+                    class="uk-checkbox"
+                    type="checkbox">
+                </label>
+
+              </div>
+              <PartialsAvailability status="request"/>
+              <a href="" class="reservation__btn">
+                Reservation
+              </a>
+              <div class="question__block">
+                <div class="num__row">
+                  <span>Questions?</span>
+                  <a href="tel:+10000000000">+1 NXX-NXX-XXXX</a>
+                </div>
+                <div class="schedule">
+                  <span class="icon">
+                      <img src="/img/clock.svg" width="20" height="20" alt="">
+                  </span>
+                  Mon - Fri: 9am - 9pm (EST)
+                </div>
+                <div class="write__us-wrapper">
+                  <a href="" class="write__us-btn">Write us now</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="third__part">
+          <div class="personal__info">
+            <div class="personal__info-head">
+              Personal Information / Profile Information
+            </div>
+            <div class="information__accordion-wrapper">
+              <ul uk-accordion class="information__accordion">
+                <li class="accordion__item">
+                  <a class="uk-accordion-title" href="#">
+                    Physical characteristics
+                  </a>
+                  <div class="uk-accordion-content">
+                    <div class="physical__table">
+                      <div class="table__row">
+                        <div class="col title">
+                          Race
+                        </div>
+                        <div class="col description">
+                          <p>
+                            Register to gain full access into our comprehensive donor profiles, including adulthood photos (upon submitting a photo consent form), family medical history
+
+                          </p>
+                        </div>
+                      </div>
+                      <div class="table__row">
+                        <div class="col title">
+                          Ethnic Origin
+                        </div>
+                        <div class="col description">
+                          <p>
+                            Register to gain full access into our comprehensive donor profiles, including adulthood photos (upon submitting a photo consent form), family medical history
+                          </p>
+                        </div>
+                      </div>
+                      <div class="table__row">
+                        <div class="col title">
+                          Age
+                        </div>
+                        <div class="col description">
+                          <p>
+                            Register to gain full access into our comprehensive donor profiles, including adulthood photos (upon submitting a photo consent form), family medical history
+                          </p>
+                        </div>
+                      </div>
+                      <div class="table__row">
+                        <div class="col title">
+                          Skin colour
+                        </div>
+                        <div class="col description">
+                          <p>
+                            Register to gain full access into our comprehensive donor profiles, including adulthood photos (upon submitting a photo consent form), family medical history
+                          </p>
+                        </div>
+                      </div>
+                      <div class="table__row">
+                        <div class="col title">
+                          Face shape
+                        </div>
+                        <div class="col description">
+                          <p>
+                            Register to gain full access into our comprehensive donor profiles, including adulthood photos (upon submitting a photo consent form), family medical history
+                          </p>
+                        </div>
+                      </div>
+                      <div class="table__row">
+                        <div class="col title">
+                          Hair type
+                        </div>
+                        <div class="col description">
+                          <p>
+                            Register to gain full access into our comprehensive donor profiles, including adulthood photos (upon submitting a photo consent form), family medical history
+                          </p>
+                        </div>
+                      </div>
+                      <div class="table__row">
+                        <div class="col title">
+                          Hair colour
+                        </div>
+                        <div class="col description">
+                          <p>
+                            Register to gain full access into our comprehensive donor profiles, including adulthood photos (upon submitting a photo consent form), family medical history
+                          </p>
+                        </div>
+                      </div>
+                      <div class="table__row">
+                        <div class="col title">
+                          Forehead
+                        </div>
+                        <div class="col description">
+                          <p>
+                            Register to gain full access into our comprehensive donor profiles, including adulthood photos (upon submitting a photo consent form), family medical history
+                          </p>
+                        </div>
+                      </div>
+                      <div class="table__row">
+                        <div class="col title">
+                          Eyes shape
+                        </div>
+                        <div class="col description">
+                          <p>
+                            Register to gain full access into our comprehensive donor profiles, including adulthood photos (upon submitting a photo consent form), family medical history
+                          </p>
+                        </div>
+                      </div>
+
+                    </div>
+                  </div>
+                </li>
+                <li class="accordion__item">
+                  <a class="uk-accordion-title" href="#">
+                    Other details
+                  </a>
+                  <div class="uk-accordion-content">
+                    <div class="physical__table">
+                      <div class="table__row">
+                        <div class="col title">
+                          Race
+                        </div>
+                        <div class="col description">
+                          <p>
+                            Register to gain full access into our comprehensive donor profiles, including adulthood photos (upon submitting a photo consent form), family medical history
+
+                          </p>
+                        </div>
+                      </div>
+                      <div class="table__row">
+                        <div class="col title">
+                          Ethnic Origin
+                        </div>
+                        <div class="col description">
+                          <p>
+                            Register to gain full access into our comprehensive donor profiles, including adulthood photos (upon submitting a photo consent form), family medical history
+                          </p>
+                        </div>
+                      </div>
+                      <div class="table__row">
+                        <div class="col title">
+                          Age
+                        </div>
+                        <div class="col description">
+                          <p>
+                            Register to gain full access into our comprehensive donor profiles, including adulthood photos (upon submitting a photo consent form), family medical history
+                          </p>
+                        </div>
+                      </div>
+                      <div class="table__row">
+                        <div class="col title">
+                          Skin colour
+                        </div>
+                        <div class="col description">
+                          <p>
+                            Register to gain full access into our comprehensive donor profiles, including adulthood photos (upon submitting a photo consent form), family medical history
+                          </p>
+                        </div>
+                      </div>
+                      <div class="table__row">
+                        <div class="col title">
+                          Face shape
+                        </div>
+                        <div class="col description">
+                          <p>
+                            Register to gain full access into our comprehensive donor profiles, including adulthood photos (upon submitting a photo consent form), family medical history
+                          </p>
+                        </div>
+                      </div>
+                      <div class="table__row">
+                        <div class="col title">
+                          Hair type
+                        </div>
+                        <div class="col description">
+                          <p>
+                            Register to gain full access into our comprehensive donor profiles, including adulthood photos (upon submitting a photo consent form), family medical history
+                          </p>
+                        </div>
+                      </div>
+                      <div class="table__row">
+                        <div class="col title">
+                          Hair colour
+                        </div>
+                        <div class="col description">
+                          <p>
+                            Register to gain full access into our comprehensive donor profiles, including adulthood photos (upon submitting a photo consent form), family medical history
+                          </p>
+                        </div>
+                      </div>
+                      <div class="table__row">
+                        <div class="col title">
+                          Forehead
+                        </div>
+                        <div class="col description">
+                          <p>
+                            Register to gain full access into our comprehensive donor profiles, including adulthood photos (upon submitting a photo consent form), family medical history
+                          </p>
+                        </div>
+                      </div>
+                      <div class="table__row">
+                        <div class="col title">
+                          Eyes shape
+                        </div>
+                        <div class="col description">
+                          <p>
+                            Register to gain full access into our comprehensive donor profiles, including adulthood photos (upon submitting a photo consent form), family medical history
+                          </p>
+                        </div>
+                      </div>
+
+                    </div>
+                  </div>
+                </li>
+                <li class="accordion__item">
+                  <a class="uk-accordion-title" href="#">
+                    Medical information
+                  </a>
+                  <div class="uk-accordion-content">
+                    <div class="physical__table">
+                      <div class="table__row">
+                        <div class="col title">
+                          Race
+                        </div>
+                        <div class="col description">
+                          <p>
+                            Register to gain full access into our comprehensive donor profiles, including adulthood photos (upon submitting a photo consent form), family medical history
+
+                          </p>
+                        </div>
+                      </div>
+                      <div class="table__row">
+                        <div class="col title">
+                          Ethnic Origin
+                        </div>
+                        <div class="col description">
+                          <p>
+                            Register to gain full access into our comprehensive donor profiles, including adulthood photos (upon submitting a photo consent form), family medical history
+                          </p>
+                        </div>
+                      </div>
+                      <div class="table__row">
+                        <div class="col title">
+                          Age
+                        </div>
+                        <div class="col description">
+                          <p>
+                            Register to gain full access into our comprehensive donor profiles, including adulthood photos (upon submitting a photo consent form), family medical history
+                          </p>
+                        </div>
+                      </div>
+                      <div class="table__row">
+                        <div class="col title">
+                          Skin colour
+                        </div>
+                        <div class="col description">
+                          <p>
+                            Register to gain full access into our comprehensive donor profiles, including adulthood photos (upon submitting a photo consent form), family medical history
+                          </p>
+                        </div>
+                      </div>
+                      <div class="table__row">
+                        <div class="col title">
+                          Face shape
+                        </div>
+                        <div class="col description">
+                          <p>
+                            Register to gain full access into our comprehensive donor profiles, including adulthood photos (upon submitting a photo consent form), family medical history
+                          </p>
+                        </div>
+                      </div>
+                      <div class="table__row">
+                        <div class="col title">
+                          Hair type
+                        </div>
+                        <div class="col description">
+                          <p>
+                            Register to gain full access into our comprehensive donor profiles, including adulthood photos (upon submitting a photo consent form), family medical history
+                          </p>
+                        </div>
+                      </div>
+                      <div class="table__row">
+                        <div class="col title">
+                          Hair colour
+                        </div>
+                        <div class="col description">
+                          <p>
+                            Register to gain full access into our comprehensive donor profiles, including adulthood photos (upon submitting a photo consent form), family medical history
+                          </p>
+                        </div>
+                      </div>
+                      <div class="table__row">
+                        <div class="col title">
+                          Forehead
+                        </div>
+                        <div class="col description">
+                          <p>
+                            Register to gain full access into our comprehensive donor profiles, including adulthood photos (upon submitting a photo consent form), family medical history
+                          </p>
+                        </div>
+                      </div>
+                      <div class="table__row">
+                        <div class="col title">
+                          Eyes shape
+                        </div>
+                        <div class="col description">
+                          <p>
+                            Register to gain full access into our comprehensive donor profiles, including adulthood photos (upon submitting a photo consent form), family medical history
+                          </p>
+                        </div>
+                      </div>
+
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+
           </div>
         </div>
 
@@ -242,12 +595,31 @@
 </template>
 
 <script>
+import MinusIcon from '~/assets/img/minus.svg?inline'
+import PlusIcon from '~/assets/img/plus.svg?inline'
+
 export default {
   name: "Donor",
   data() {
     return {
-      pack: 0
+      pack: 0,
+      qty: 0,
+      fresh: true,
+      availability: 'now' //'request'
     }
+  },
+  methods: {
+    minusQty() {
+      this.qty > 0 ? this.qty-- : false
+
+    },
+    plusQty() {
+      this.qty++;
+    }
+  },
+  components: {
+    MinusIcon,
+    PlusIcon
   }
 }
 </script>
@@ -281,11 +653,16 @@ export default {
   display: grid;
   grid-template-columns: 1fr 285px;
   grid-gap: 20px;
+  grid-auto-rows: auto;
+  grid-template-rows: (5, 1fr);
 
   .main__info {
     display: grid;
     grid-template-columns: 1fr 270px;
     grid-gap: 20px;
+    height: fit-content;
+    grid-row-start: 1;
+    grid-row-end: 2;
 
     .donor__images {
 
@@ -334,11 +711,18 @@ export default {
   }
 
   .buy__block {
+    grid-row-start: 1;
+    grid-row-end: 5;
+    grid-column-start: 2;
+    grid-column-end: 3;
+
     .block__wrapper {
       margin-bottom: 20px;
-      &:last-child{
+
+      &:last-child {
         margin-bottom: 0;
       }
+
       padding: 15px;
       background: #FFFFFF;
       border: 1px solid #CDE4F0;
@@ -493,47 +877,10 @@ export default {
 
         }
 
-        .availability {
-          padding: 10px 15px;
-          margin: 0 -15px 15px;
-          background: #CDE4F0;
-
-          .status {
-            font-size: 16px;
-            line-height: 30px;
-            text-align: center;
-          }
-
-          .ship {
-            display: flex;
-            align-items: center;
-            font-size: 16px;
-            line-height: 30px;
-            color: #687C87;
-            justify-content: space-between;
-          }
-        }
-
-        .reservation__btn {
-          background: $green;
-          border-radius: 80px;
-          height: 60px;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          padding: 10px;
-          color: white !important;
-          transition: 0.3s;
-
-          &:hover {
-            background: $green-hover !important;
-          }
-
-        }
 
         .read__it-first {
           margin-top: 50px;
-          margin-bottom: 25px;
+
           display: flex;
           flex-direction: column;
           align-items: center;
@@ -563,9 +910,11 @@ export default {
 
 
       }
+
       .question__block {
         padding-top: 10px;
         border-top: 1px solid #CDE4F0;
+        margin-top: 25px;
 
         .num__row {
           margin-bottom: 7px;
@@ -631,6 +980,215 @@ export default {
         }
       }
     }
+
+    .reservation__btn {
+      background: $green;
+      border-radius: 80px;
+      height: 60px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 10px;
+      color: white !important;
+      transition: 0.3s;
+
+      &:hover {
+        background: $green-hover !important;
+      }
+
+    }
+
+    .block__head {
+      padding: 15px;
+      background: #CDE4F0;
+      border-radius: 12px;
+      margin: -15px -15px 20px;
+      text-align: center;
+      font-size: 22px;
+      line-height: 30px;
+    }
+
+    .qty__wrapper {
+      .qty__header {
+        font-size: 18px;
+        line-height: 30px;
+        text-align: center;
+        margin-bottom: 14px;
+      }
+
+      .qty__input-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 24px;
+
+        .qty__btn {
+          padding: 10px;
+          cursor: pointer;
+
+          svg {
+            path {
+              transition: 0.3s;
+            }
+          }
+
+          &:hover {
+            svg {
+              path {
+                fill: $green-hover;
+              }
+            }
+          }
+
+        }
+
+        input {
+          background-color: white;
+          width: 75px;
+          height: 60px;
+          text-align: center;
+          font-family: Avenir, sans-serif;
+          font-size: 18px;
+          line-height: 30px;
+          border: 1px solid #CDE4F0;
+          border-radius: 12px;
+        }
+      }
+
+      .av__req {
+        font-size: 18px;
+        line-height: 30px;
+        margin-bottom: 17px;
+        color: $green;
+        text-align: center;
+
+      }
+
+      .fresh__wrapper {
+        margin-bottom: 20px;
+
+        label {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          font-size: 18px;
+          line-height: 30px;
+          color: black;
+
+          .uk-checkbox {
+            margin-left: 12px;
+            width: 64px;
+            height: 32px;
+            background: #8C9097;
+            border-radius: 100px;
+            position: relative;
+
+            &:focus {
+              border-color: transparent;
+            }
+
+            &:after {
+              transition: 0.5s;
+              position: absolute;
+              content: ' ';
+              top: 50%;
+              transform: translate(0, -50%);
+              left: 1px;
+              width: 29px;
+              height: 29px;
+              background-color: white;
+              border-radius: 100%;
+            }
+          }
+
+          .uk-checkbox.active {
+            background: $green;
+
+            &:after {
+              transform: translate(31px, -50%);
+            }
+          }
+
+        }
+
+
+      }
+    }
   }
+
+  .third__part {
+    grid-row-start: 2;
+    grid-row-end: auto;
+
+    .personal__info {
+      .personal__info-head {
+        font-size: 22px;
+        line-height: 30px;
+        margin-bottom: 15px;
+      }
+
+      .information__accordion-wrapper {
+        .information__accordion {
+          margin-bottom: 40px;
+          .accordion__item {
+            border: 1px solid #CDE4F0;
+            border-top: none;
+
+            border-radius: 12px;
+            .uk-accordion-title {
+              padding: 15px 25px;
+              background: #CDE4F0;
+              border: 1px solid #C3DAE7;
+              border-radius: 12px;
+
+              &:before {
+                background-image: url("/img/acc__arr.svg");
+                transition: 0.3s;
+              }
+
+            }
+
+            &.uk-open {
+              .uk-accordion-title {
+                &:before {
+                  transform: rotateX(180deg);
+                }
+              }
+            }
+          }
+
+          .uk-accordion-content {
+            margin-top: 0;
+            .physical__table{
+
+              .table__row{
+                display: grid;
+                grid-template-columns: 180px 1fr;
+                border-bottom: 1px solid #CDE4F0;
+                &:last-child{
+                  border: none;
+                }
+                .col{
+                  padding: 5px 25px;
+                }
+                .title{
+                  display: flex;
+                  align-items: center;
+                  font-size: 18px;
+                  line-height: 30px;
+                  color: $green;
+                  border-right: 1px solid #CDE4F0;
+                }
+                .description{
+                  @include default-text;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
 }
 </style>

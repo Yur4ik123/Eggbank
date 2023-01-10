@@ -38,6 +38,9 @@
   "PartialsAddToWishlist": {
     "description": "Auto imported from components/partials/AddToWishlist.vue"
   },
+  "PartialsAvailability": {
+    "description": "Auto imported from components/partials/Availability.vue"
+  },
   "PartialsBreadcrumbs": {
     "description": "Auto imported from components/partials/Breadcrumbs.vue"
   },

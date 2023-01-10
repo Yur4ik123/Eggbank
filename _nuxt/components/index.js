@@ -11,6 +11,7 @@ export { default as CategoryDonorCard } from '../../components/category/DonorCar
 export { default as CategoryDonorGallery } from '../../components/category/DonorGallery.vue'
 export { default as CategoryDonorImages } from '../../components/category/DonorImages.vue'
 export { default as PartialsAddToWishlist } from '../../components/partials/AddToWishlist.vue'
+export { default as PartialsAvailability } from '../../components/partials/Availability.vue'
 export { default as PartialsBreadcrumbs } from '../../components/partials/Breadcrumbs.vue'
 export { default as PartialsGreenBtn } from '../../components/partials/GreenBtn.vue'
 export { default as PartialsRanges } from '../../components/partials/Ranges.vue'
