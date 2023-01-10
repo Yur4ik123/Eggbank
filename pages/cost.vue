@@ -148,9 +148,114 @@
             package and shall be paid additionally.
           </p>
         </div>
-      </div>
-    </section>
 
+      </div>
+      <div class="container guarantee__container">
+        <img src="/img/gar_abs.png" width="394" height="418" alt="" class="abs__img">
+
+        <div class="guarantee">
+          <div class="guarantee__title">
+            <h3 class="guarantee__header">GUARANTEE</h3>
+            <div class="guarantee__description">
+              <p>
+                As Egg survival is not the best indicator of egg quality and therefore we take the additional step of
+                guaranteeing a usable quality blastocyst. We guarantee at least one or more blastocyst will be available
+                for transfer, freezing, or biopsy. If the guarantee is not satisfied then we will provide a new egg lot
+                for free.
+              </p>
+            </div>
+          </div>
+          <div class="guarantee__image">
+            <picture>
+              <source media="(max-width: 768px)" srcset="/img/gar_mib.svg">
+              <img src="/img/gar.svg" width="1131" height="343" alt="">
+            </picture>
+          </div>
+
+        </div>
+      </div>
+      <div class="container">
+        <div class="shipping__conditions">
+          <h3 class="section__header">
+            USA SHIPPING CONDITIONS
+          </h3>
+          <div class="subheader">
+            The payment procedure highly depends on the egg donor package that you choose, and which is better in your
+            case
+          </div>
+          <div class="cond__cols">
+            <div class="col">
+              <div class="col__head">
+                <span class="icon"><img src="/img/cond_1.svg" width="40" height="40" alt=""></span> FROZEN DONOR EGGS
+              </div>
+              <div class="col__title">
+                <p>
+                  For Frozen Donor Eggs stored in the United States, the package price is always fixed and should be
+                  paid under the invoice provided by our coordinator before the shipment of the Donor’s Eggs to your
+                  Clinic.
+                </p>
+                <p>
+                  f there are no Frozen Eggs from your perfect Egg Donor available in the United States, please contact
+                  us and we’ll provide you with your personal offer.
+                </p>
+
+              </div>
+            </div>
+            <div class="col">
+              <div class="col__head">
+                <span class="icon"><img src="/img/cond_2.svg" width="40" height="40" alt=""></span> FRESH SYCLE OOCYTE
+              </div>
+              <div class="col__title">
+                <p>
+                  In case you want a fresh donor oocyte from your perfect Egg Donor, please contact us and we’ll provide
+                  you with your personal offer.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+    <section class="last__section">
+      <div class="container">
+        <div class="section__cols">
+          <div class="title__col">
+            <h2 class="section__header">
+              IN CASE YOU WANT TO SELECT AN EGG DONOR FOR USE
+              AT ANY FURTHER INFERTILITY TREATMENT PROGRAM
+
+            </h2>
+            <div class="section__title">
+              <p>
+                You can select via the ADONIS Egg Bank website the perfect Egg Donor for your infertility treatment
+                program at ADONIS Medical Group of Companies with the indication of the number of eggs.
+
+              </p>
+              <p>
+                The concrete price depends on the infertility treatment program that is chosen by you and is placed on
+                the website of ADONIS Medical Group of Companies. All information will be sent to you with the help of
+                our coordinator as well.
+
+              </p>
+              <p>
+                All payments will be performed according to the payment schedule set in your contract for the
+                infertility treatment program.
+
+              </p>
+            </div>
+            <div class="btn__wrapper">
+              <PartialsGreenBtn title="Find a Donor"></PartialsGreenBtn>
+
+            </div>
+          </div>
+          <div class="img__col">
+            <img src="/img/cost__last.svg" width="603" height="724" alt="">
+          </div>
+        </div>
+      </div>
+
+    </section>
   </div>
 </template>
 
@@ -207,6 +312,7 @@ export default {
     border-radius: 60px 60px 0 0;
     margin-bottom: -225px;
     overflow-x: hidden;
+
     .section__header {
       @include section-header;
       margin-bottom: 19px;
@@ -369,12 +475,14 @@ export default {
       position: relative;
       text-transform: uppercase;
       border-radius: 12px;
-      .header__content{
+
+      .header__content {
         font-size: 22px;
         line-height: 30px;
         z-index: 2;
         position: relative;
       }
+
       &:after {
         content: '';
         position: absolute;
@@ -399,6 +507,157 @@ export default {
     .seo__content {
       @include default-text;
       margin-bottom: 70px;
+    }
+
+    .guarantee__container {
+      position: relative;
+
+      .abs__img {
+        right: calc(100% - 100px);
+        position: absolute;
+        top: 0;
+        z-index: 0;
+      }
+    }
+
+    .guarantee {
+      padding: 53px 47px 95px;
+      background: #FAFCFD;
+      border-radius: 60px;
+      display: flex;
+      justify-content: flex-end;
+      position: relative;
+      z-index: 1;
+      overflow: hidden;
+      margin-bottom: 50px;
+
+
+      .guarantee__image {
+        position: absolute;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 1;
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+
+        img {
+
+          object-fit: fill;
+        }
+
+      }
+
+      .guarantee__title {
+        max-width: 650px;
+        width: 75%;
+        position: relative;
+        z-index: 2;
+
+
+        .guarantee__header {
+          @include section-header;
+          text-align: start;
+          margin-bottom: 15px;
+        }
+
+        .guarantee__description {
+          @include default-text;
+        }
+      }
+    }
+
+    .shipping__conditions {
+      .section__header {
+        @include section-header;
+        margin-bottom: 15px;
+      }
+
+      .subheader {
+        font-size: 18px;
+        line-height: 30px;
+        text-align: center;
+        color: black;
+        margin-bottom: 25px;
+      }
+
+      .cond__cols {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 20px;
+
+        .col {
+          border: 1px solid #A0BAC8;
+          border-radius: 12px;
+
+          .col__head {
+            padding: 10px 10px;
+            background: #89CBC4;
+            border-radius: 11px;
+            color: white;
+            font-size: 22px;
+            line-height: 36px;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-bottom: 1px solid #A0BAC8;
+            text-transform: uppercase;
+
+            .icon {
+              width: 60px;
+              height: 60px;
+              border-radius: 100%;
+              background-color: white;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              margin-right: 10px;
+            }
+          }
+
+          .col__title {
+            padding: 25px;
+            @include default-text;
+          }
+        }
+      }
+    }
+  }
+
+  .last__section {
+    padding-top: 50px;
+    background-color: white;
+    border-radius: 60px 60px 0 0;
+
+    .section__cols {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 10px;
+    }
+
+    .title__col {
+      padding-bottom: 70px;
+
+      .section__header {
+        @include section-header;
+        text-align: start;
+        margin-bottom: 25px;
+        text-transform: uppercase;
+        line-height: 54px;
+      }
+
+      .section__title {
+        margin-bottom: 40px;
+        @include default-text;
+      }
+    }
+
+    .img__col {
+      display: flex;
+      align-items: flex-end;
     }
   }
 }
@@ -437,7 +696,23 @@ export default {
         }
       }
     }
+
+    .last__section {
+      .section__cols {
+        grid-template-columns: 1fr;
+        grid-gap: 17px;
+
+        .title__col {
+          padding-bottom: 0;
+        }
+
+        .img__col {
+          justify-content: center;
+        }
+      }
+    }
   }
+
 }
 
 @media screen and (max-width: 768px) {
@@ -533,13 +808,110 @@ export default {
         }
       }
 
-    .seo__header{
-      padding: 26px;
-      .header__content{
-        font-size: 18px;
-        line-height: 30px;
+      .seo__header {
+        padding: 26px;
+
+        .header__content {
+          font-size: 18px;
+          line-height: 30px;
+        }
+      }
+
+      .guarantee__container {
+        .abs__img {
+          display: none;
+        }
+
+        .guarantee {
+          padding: 35px 20px 10px;
+          flex-direction: column;
+
+          .guarantee__title {
+            width: 100%;
+            max-width: 100%;
+            margin-bottom: 19px;
+
+            .guarantee__header {
+              text-align: center;
+            }
+          }
+
+          .guarantee__image {
+            position: relative;
+            left: initial;
+            right: initial;
+            top: initial;
+            bottom: initial;
+            margin: 0 -20px;
+
+            picture {
+              width: 100%;
+            }
+
+            img {
+              width: 100%;
+              height: auto;
+            }
+          }
+        }
+      }
+
+      .shipping__conditions {
+        .subheader {
+          font-size: 14px;
+          line-height: 24px;
+        }
+
+        .cond__cols {
+          grid-template-columns: 1fr;
+
+          .col {
+            .col__head {
+              padding: 10px 20px;
+              justify-content: flex-start;
+              font-size: 18px;
+              line-height: 24px;
+
+              .icon {
+                width: 40px;
+                height: 40px;
+
+                img {
+                  width: 26px;
+                  height: 26px;
+                }
+              }
+            }
+
+            .col__title {
+              padding: 15px;
+            }
+          }
+        }
       }
     }
+
+    .last__section {
+      padding-top: 35px;
+      border-radius: 20px;
+
+      .section__cols {
+        .title__col {
+          .section__header {
+            text-align: center;
+            margin-bottom: 25px;
+          }
+
+          .section__title {
+            margin-bottom: 30px;
+          }
+
+          .btn__wrapper {
+            display: flex;
+            justify-content: center;
+          }
+        }
+      }
     }
   }
 }

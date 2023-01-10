@@ -26,6 +26,12 @@
   "ProfileDropdown": {
     "description": "Auto imported from components/ProfileDropdown.vue"
   },
+  "CategoryDonorCard": {
+    "description": "Auto imported from components/category/DonorCard.vue"
+  },
+  "CategoryDonorImages": {
+    "description": "Auto imported from components/category/DonorImages.vue"
+  },
   "PartialsBreadcrumbs": {
     "description": "Auto imported from components/partials/Breadcrumbs.vue"
   },
@@ -34,11 +40,5 @@
   },
   "PartialsRanges": {
     "description": "Auto imported from components/partials/Ranges.vue"
-  },
-  "CategoryDonorCard": {
-    "description": "Auto imported from components/category/DonorCard.vue"
-  },
-  "CategoryDonorImages": {
-    "description": "Auto imported from components/category/DonorImages.vue"
   }
 }
