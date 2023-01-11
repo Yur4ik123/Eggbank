@@ -112,7 +112,7 @@
               </NuxtLink>
             </li>
             <li>
-              <NuxtLink to="" class="col_link">
+              <NuxtLink to="/terms" class="col_link">
                 Terms and Conditions
               </NuxtLink>
             </li>
