@@ -11,7 +11,7 @@
               <slide v-for="(item, index) in items" :key="index" :index="index"
                      :class="{'active': activeSlide == index}">
                 <div class="img__wrapper" @click="checkImg(index)">
-                  <img :src="item" alt="">
+                  <img :src="item" alt="" loading="lazy">
                 </div>
               </slide>
               <hooper-pagination slot="hooper-addons"></hooper-pagination>
@@ -28,7 +28,7 @@
                 <ul class="uk-slider-items">
                   <li v-for="(item, index) in items">
                     <div class="img__wrapper" @click="checkImg(index)" :class="{'active': activeSlide == index}">
-                      <img :src="item" alt="">
+                      <img :src="item" alt="" loading="lazy">
                     </div>
                   </li>
                 </ul>
@@ -75,7 +75,7 @@
         <div uk-slider="animation: slide;draggable: false" ref="slideshow">
           <ul class="uk-slider-items uk-child-width-1-1@s">
             <li v-for="(img, idx) in items" :key="idx" class="slider__item">
-              <img :src="img" alt="">
+              <img :src="img" alt="" loading="lazy">
             </li>
           </ul>
         </div>
