@@ -7,14 +7,15 @@ export { default as LangSwitcher } from '../../components/LangSwitcher.vue'
 export { default as LoginModal } from '../../components/LoginModal.vue'
 export { default as Menu } from '../../components/Menu.vue'
 export { default as ProfileDropdown } from '../../components/ProfileDropdown.vue'
-export { default as CategoryDonorCard } from '../../components/category/DonorCard.vue'
-export { default as CategoryDonorGallery } from '../../components/category/DonorGallery.vue'
-export { default as CategoryDonorImages } from '../../components/category/DonorImages.vue'
 export { default as PartialsAddToWishlist } from '../../components/partials/AddToWishlist.vue'
 export { default as PartialsAvailability } from '../../components/partials/Availability.vue'
 export { default as PartialsBreadcrumbs } from '../../components/partials/Breadcrumbs.vue'
 export { default as PartialsGreenBtn } from '../../components/partials/GreenBtn.vue'
 export { default as PartialsRanges } from '../../components/partials/Ranges.vue'
+export { default as CategoryDonorCard } from '../../components/category/DonorCard.vue'
+export { default as CategoryDonorGallery } from '../../components/category/DonorGallery.vue'
+export { default as CategoryDonorImages } from '../../components/category/DonorImages.vue'
+export { default as CategoryOrderModal } from '../../components/category/OrderModal.vue'
 
 // nuxt/nuxt.js#8607
 function wrapFunctional(options) {

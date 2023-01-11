@@ -187,7 +187,7 @@
                 </div>
               </div>
               <PartialsAvailability statys="now"/>
-              <a href="" class="reservation__btn">
+              <a href="" class="reservation__btn" @click.prevent="reservation">
                 Reservation
               </a>
               <div class="read__it-first">
@@ -254,7 +254,7 @@
 
               </div>
               <PartialsAvailability status="request"/>
-              <a href="" class="reservation__btn">
+              <a href="" class="reservation__btn" @click.prevent="reservation">
                 Reservation
               </a>
               <div class="question__block">
@@ -1103,6 +1103,7 @@
 
       </div>
     </div>
+    <CategoryOrderModal></CategoryOrderModal>
   </div>
 </template>
 
@@ -1129,6 +1130,10 @@ export default {
     },
     plusQty() {
       this.qty++;
+    },
+    reservation(){
+      this.$UIkit.modal(document.getElementById('order__modal')).show();
+
     }
   },
   components: {

@@ -3,35 +3,30 @@
     "name": "about",
     "path": "/about",
     "component": "/var/www/eggbank.loc/pages/about.vue",
-    "chunkName": "pages/about",
-    "_name": "_f2a168b6"
+    "chunkName": "pages/about"
   },
   {
     "name": "cost",
     "path": "/cost",
     "component": "/var/www/eggbank.loc/pages/cost.vue",
-    "chunkName": "pages/cost",
-    "_name": "_da97a036"
+    "chunkName": "pages/cost"
   },
   {
     "name": "donors",
     "path": "/donors",
     "component": "/var/www/eggbank.loc/pages/donors/index.vue",
-    "chunkName": "pages/donors/index",
-    "_name": "_713485a8"
+    "chunkName": "pages/donors/index"
   },
   {
     "name": "donors-id",
     "path": "/donors/:id",
     "component": "/var/www/eggbank.loc/pages/donors/_id.vue",
-    "chunkName": "pages/donors/_id",
-    "_name": "_5ff7d210"
+    "chunkName": "pages/donors/_id"
   },
   {
     "name": "index",
     "path": "/",
     "component": "/var/www/eggbank.loc/pages/index.vue",
-    "chunkName": "pages/index",
-    "_name": "_b331b32c"
+    "chunkName": "pages/index"
   }
 ]
