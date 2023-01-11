@@ -40,9 +40,11 @@ export default {
   padding: 10px 15px;
   margin: 0 -15px 15px;
   background: #CDE4F0;
-&.request{
-  background-color: #FFEBC5;
-}
+
+  &.request {
+    background-color: #FFEBC5;
+  }
+
   .status {
     font-size: 16px;
     line-height: 30px;
@@ -55,7 +57,27 @@ export default {
     font-size: 16px;
     line-height: 30px;
     color: #687C87;
-    justify-content: space-between;
+    justify-content: center;
+
+  }
+}
+
+@media screen and (max-width: 880px) {
+  .availability {
+    .ship {
+      .info__icon, .flag {
+        margin: 0 5px;
+      }
+    }
+  }
+}
+@media screen and (max-width: 768px){
+  .availability{
+    padding: 10px;
+    .status, .ship{
+      font-size: 14px;
+      line-height: 24px;
+    }
   }
 }
 </style>

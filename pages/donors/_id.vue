@@ -24,68 +24,70 @@
             <div class="donor__id">
               Donor id326338
             </div>
-            <div class="params__row">
-              <div class="param__title">
-                Donor Identity
+            <div class="params__wrapper">
+              <div class="params__row">
+                <div class="param__title">
+                  Donor Identity
+                </div>
+                <div class="param__data">
+                  ID Release/Non-ID Release
+                </div>
               </div>
-              <div class="param__data">
-                ID Release/Non-ID Release
+              <div class="params__row">
+                <div class="param__title">
+                  Race
+                </div>
+                <div class="param__data">
+                  ID Release/Non-ID Release
+                </div>
               </div>
-            </div>
-            <div class="params__row">
-              <div class="param__title">
-                Race
+              <div class="params__row">
+                <div class="param__title">
+                  Ethnic Origin
+                </div>
+                <div class="param__data">
+                  Middle Eastern
+                </div>
               </div>
-              <div class="param__data">
-                ID Release/Non-ID Release
+              <div class="params__row">
+                <div class="param__title">
+                  Natural Eye colour
+                </div>
+                <div class="param__data">
+                  Blue
+                </div>
               </div>
-            </div>
-            <div class="params__row">
-              <div class="param__title">
-                Ethnic Origin
+              <div class="params__row">
+                <div class="param__title">
+                  Natural Hair colour
+                </div>
+                <div class="param__data">
+                  Medium brown hair
+                </div>
               </div>
-              <div class="param__data">
-                Middle Eastern
+              <div class="params__row">
+                <div class="param__title">
+                  Height
+                </div>
+                <div class="param__data">
+                  167cm
+                </div>
               </div>
-            </div>
-            <div class="params__row">
-              <div class="param__title">
-                Natural Eye colour
+              <div class="params__row">
+                <div class="param__title">
+                  Weight
+                </div>
+                <div class="param__data">
+                  56 kg
+                </div>
               </div>
-              <div class="param__data">
-                Blue
-              </div>
-            </div>
-            <div class="params__row">
-              <div class="param__title">
-                Natural Hair colour
-              </div>
-              <div class="param__data">
-                Medium brown hair
-              </div>
-            </div>
-            <div class="params__row">
-              <div class="param__title">
-                Height
-              </div>
-              <div class="param__data">
-                167cm
-              </div>
-            </div>
-            <div class="params__row">
-              <div class="param__title">
-                Weight
-              </div>
-              <div class="param__data">
-                56 kg
-              </div>
-            </div>
-            <div class="params__row">
-              <div class="param__title">
-                Education
-              </div>
-              <div class="param__data">
-                specialized secondary
+              <div class="params__row">
+                <div class="param__title">
+                  Education
+                </div>
+                <div class="param__data">
+                  specialized secondary
+                </div>
               </div>
             </div>
             <div class="viewed__count">
@@ -292,7 +294,8 @@
                         </div>
                         <div class="col description">
                           <p>
-                            Register to gain full access into our comprehensive donor profiles, including adulthood photos (upon submitting a photo consent form), family medical history
+                            Register to gain full access into our comprehensive donor profiles, including adulthood
+                            photos (upon submitting a photo consent form), family medical history
 
                           </p>
                         </div>
@@ -303,7 +306,8 @@
                         </div>
                         <div class="col description">
                           <p>
-                            Register to gain full access into our comprehensive donor profiles, including adulthood photos (upon submitting a photo consent form), family medical history
+                            Register to gain full access into our comprehensive donor profiles, including adulthood
+                            photos (upon submitting a photo consent form), family medical history
                           </p>
                         </div>
                       </div>
@@ -313,7 +317,8 @@
                         </div>
                         <div class="col description">
                           <p>
-                            Register to gain full access into our comprehensive donor profiles, including adulthood photos (upon submitting a photo consent form), family medical history
+                            Register to gain full access into our comprehensive donor profiles, including adulthood
+                            photos (upon submitting a photo consent form), family medical history
                           </p>
                         </div>
                       </div>
@@ -323,7 +328,8 @@
                         </div>
                         <div class="col description">
                           <p>
-                            Register to gain full access into our comprehensive donor profiles, including adulthood photos (upon submitting a photo consent form), family medical history
+                            Register to gain full access into our comprehensive donor profiles, including adulthood
+                            photos (upon submitting a photo consent form), family medical history
                           </p>
                         </div>
                       </div>
@@ -333,7 +339,8 @@
                         </div>
                         <div class="col description">
                           <p>
-                            Register to gain full access into our comprehensive donor profiles, including adulthood photos (upon submitting a photo consent form), family medical history
+                            Register to gain full access into our comprehensive donor profiles, including adulthood
+                            photos (upon submitting a photo consent form), family medical history
                           </p>
                         </div>
                       </div>
@@ -343,7 +350,8 @@
                         </div>
                         <div class="col description">
                           <p>
-                            Register to gain full access into our comprehensive donor profiles, including adulthood photos (upon submitting a photo consent form), family medical history
+                            Register to gain full access into our comprehensive donor profiles, including adulthood
+                            photos (upon submitting a photo consent form), family medical history
                           </p>
                         </div>
                       </div>
@@ -353,7 +361,8 @@
                         </div>
                         <div class="col description">
                           <p>
-                            Register to gain full access into our comprehensive donor profiles, including adulthood photos (upon submitting a photo consent form), family medical history
+                            Register to gain full access into our comprehensive donor profiles, including adulthood
+                            photos (upon submitting a photo consent form), family medical history
                           </p>
                         </div>
                       </div>
@@ -363,7 +372,8 @@
                         </div>
                         <div class="col description">
                           <p>
-                            Register to gain full access into our comprehensive donor profiles, including adulthood photos (upon submitting a photo consent form), family medical history
+                            Register to gain full access into our comprehensive donor profiles, including adulthood
+                            photos (upon submitting a photo consent form), family medical history
                           </p>
                         </div>
                       </div>
@@ -373,7 +383,8 @@
                         </div>
                         <div class="col description">
                           <p>
-                            Register to gain full access into our comprehensive donor profiles, including adulthood photos (upon submitting a photo consent form), family medical history
+                            Register to gain full access into our comprehensive donor profiles, including adulthood
+                            photos (upon submitting a photo consent form), family medical history
                           </p>
                         </div>
                       </div>
@@ -393,7 +404,8 @@
                         </div>
                         <div class="col description">
                           <p>
-                            Register to gain full access into our comprehensive donor profiles, including adulthood photos (upon submitting a photo consent form), family medical history
+                            Register to gain full access into our comprehensive donor profiles, including adulthood
+                            photos (upon submitting a photo consent form), family medical history
 
                           </p>
                         </div>
@@ -404,7 +416,8 @@
                         </div>
                         <div class="col description">
                           <p>
-                            Register to gain full access into our comprehensive donor profiles, including adulthood photos (upon submitting a photo consent form), family medical history
+                            Register to gain full access into our comprehensive donor profiles, including adulthood
+                            photos (upon submitting a photo consent form), family medical history
                           </p>
                         </div>
                       </div>
@@ -414,7 +427,8 @@
                         </div>
                         <div class="col description">
                           <p>
-                            Register to gain full access into our comprehensive donor profiles, including adulthood photos (upon submitting a photo consent form), family medical history
+                            Register to gain full access into our comprehensive donor profiles, including adulthood
+                            photos (upon submitting a photo consent form), family medical history
                           </p>
                         </div>
                       </div>
@@ -424,7 +438,8 @@
                         </div>
                         <div class="col description">
                           <p>
-                            Register to gain full access into our comprehensive donor profiles, including adulthood photos (upon submitting a photo consent form), family medical history
+                            Register to gain full access into our comprehensive donor profiles, including adulthood
+                            photos (upon submitting a photo consent form), family medical history
                           </p>
                         </div>
                       </div>
@@ -434,7 +449,8 @@
                         </div>
                         <div class="col description">
                           <p>
-                            Register to gain full access into our comprehensive donor profiles, including adulthood photos (upon submitting a photo consent form), family medical history
+                            Register to gain full access into our comprehensive donor profiles, including adulthood
+                            photos (upon submitting a photo consent form), family medical history
                           </p>
                         </div>
                       </div>
@@ -444,7 +460,8 @@
                         </div>
                         <div class="col description">
                           <p>
-                            Register to gain full access into our comprehensive donor profiles, including adulthood photos (upon submitting a photo consent form), family medical history
+                            Register to gain full access into our comprehensive donor profiles, including adulthood
+                            photos (upon submitting a photo consent form), family medical history
                           </p>
                         </div>
                       </div>
@@ -454,7 +471,8 @@
                         </div>
                         <div class="col description">
                           <p>
-                            Register to gain full access into our comprehensive donor profiles, including adulthood photos (upon submitting a photo consent form), family medical history
+                            Register to gain full access into our comprehensive donor profiles, including adulthood
+                            photos (upon submitting a photo consent form), family medical history
                           </p>
                         </div>
                       </div>
@@ -464,7 +482,8 @@
                         </div>
                         <div class="col description">
                           <p>
-                            Register to gain full access into our comprehensive donor profiles, including adulthood photos (upon submitting a photo consent form), family medical history
+                            Register to gain full access into our comprehensive donor profiles, including adulthood
+                            photos (upon submitting a photo consent form), family medical history
                           </p>
                         </div>
                       </div>
@@ -474,7 +493,8 @@
                         </div>
                         <div class="col description">
                           <p>
-                            Register to gain full access into our comprehensive donor profiles, including adulthood photos (upon submitting a photo consent form), family medical history
+                            Register to gain full access into our comprehensive donor profiles, including adulthood
+                            photos (upon submitting a photo consent form), family medical history
                           </p>
                         </div>
                       </div>
@@ -494,7 +514,8 @@
                         </div>
                         <div class="col description">
                           <p>
-                            Register to gain full access into our comprehensive donor profiles, including adulthood photos (upon submitting a photo consent form), family medical history
+                            Register to gain full access into our comprehensive donor profiles, including adulthood
+                            photos (upon submitting a photo consent form), family medical history
 
                           </p>
                         </div>
@@ -505,7 +526,8 @@
                         </div>
                         <div class="col description">
                           <p>
-                            Register to gain full access into our comprehensive donor profiles, including adulthood photos (upon submitting a photo consent form), family medical history
+                            Register to gain full access into our comprehensive donor profiles, including adulthood
+                            photos (upon submitting a photo consent form), family medical history
                           </p>
                         </div>
                       </div>
@@ -515,7 +537,8 @@
                         </div>
                         <div class="col description">
                           <p>
-                            Register to gain full access into our comprehensive donor profiles, including adulthood photos (upon submitting a photo consent form), family medical history
+                            Register to gain full access into our comprehensive donor profiles, including adulthood
+                            photos (upon submitting a photo consent form), family medical history
                           </p>
                         </div>
                       </div>
@@ -525,7 +548,8 @@
                         </div>
                         <div class="col description">
                           <p>
-                            Register to gain full access into our comprehensive donor profiles, including adulthood photos (upon submitting a photo consent form), family medical history
+                            Register to gain full access into our comprehensive donor profiles, including adulthood
+                            photos (upon submitting a photo consent form), family medical history
                           </p>
                         </div>
                       </div>
@@ -535,7 +559,8 @@
                         </div>
                         <div class="col description">
                           <p>
-                            Register to gain full access into our comprehensive donor profiles, including adulthood photos (upon submitting a photo consent form), family medical history
+                            Register to gain full access into our comprehensive donor profiles, including adulthood
+                            photos (upon submitting a photo consent form), family medical history
                           </p>
                         </div>
                       </div>
@@ -545,7 +570,8 @@
                         </div>
                         <div class="col description">
                           <p>
-                            Register to gain full access into our comprehensive donor profiles, including adulthood photos (upon submitting a photo consent form), family medical history
+                            Register to gain full access into our comprehensive donor profiles, including adulthood
+                            photos (upon submitting a photo consent form), family medical history
                           </p>
                         </div>
                       </div>
@@ -555,7 +581,8 @@
                         </div>
                         <div class="col description">
                           <p>
-                            Register to gain full access into our comprehensive donor profiles, including adulthood photos (upon submitting a photo consent form), family medical history
+                            Register to gain full access into our comprehensive donor profiles, including adulthood
+                            photos (upon submitting a photo consent form), family medical history
                           </p>
                         </div>
                       </div>
@@ -565,7 +592,8 @@
                         </div>
                         <div class="col description">
                           <p>
-                            Register to gain full access into our comprehensive donor profiles, including adulthood photos (upon submitting a photo consent form), family medical history
+                            Register to gain full access into our comprehensive donor profiles, including adulthood
+                            photos (upon submitting a photo consent form), family medical history
                           </p>
                         </div>
                       </div>
@@ -575,7 +603,8 @@
                         </div>
                         <div class="col description">
                           <p>
-                            Register to gain full access into our comprehensive donor profiles, including adulthood photos (upon submitting a photo consent form), family medical history
+                            Register to gain full access into our comprehensive donor profiles, including adulthood
+                            photos (upon submitting a photo consent form), family medical history
                           </p>
                         </div>
                       </div>
@@ -587,6 +616,489 @@
             </div>
 
           </div>
+          <div class="photos">
+            <div class="personal__info-head">
+              <span> Photos</span>
+              <span class="label">
+                *All photos are natural, not processed
+              </span>
+            </div>
+            <div uk-slider="finite:true" class="photo__slider">
+
+              <div class="uk-slider-container">
+                <ul class="uk-slider-items">
+                  <li>
+                    <div class="slide__wrapper">
+                      <div class="img__wrapper">
+                        <img src="/img/photo.png" width="" height="" alt="">
+                      </div>
+                      <div class="label">
+                        Chilhood
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="slide__wrapper">
+                      <div class="img__wrapper">
+                        <img src="/img/photo.png" width="" height="" alt="">
+                      </div>
+                      <div class="label">
+                        Adolescence
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="slide__wrapper">
+                      <div class="img__wrapper">
+                        <img src="/img/photo.png" width="" height="" alt="">
+                      </div>
+                      <div class="label">
+                        Now
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="slide__wrapper">
+                      <div class="img__wrapper">
+                        <img src="/img/photo.png" width="" height="" alt="">
+                      </div>
+                      <div class="label">
+                        Some text
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="slide__wrapper">
+                      <div class="img__wrapper">
+                        <img src="/img/photo.png" width="" height="" alt="">
+                      </div>
+                      <div class="label">
+                        Chilhood
+                      </div>
+                    </div>
+                  </li>
+
+                </ul>
+              </div>
+
+              <a class="slider__nav prev" href="#" uk-slider-item="previous">
+                <SliderPrev/>
+              </a>
+              <a class="slider__nav next" href="#" uk-slider-item="next">
+                <SliderNext/>
+              </a>
+
+
+            </div>
+          </div>
+          <div class="documents">
+            <div class="personal__info-head">
+              Download documents
+            </div>
+            <div class="docs__wrapper">
+              <a href="" class="doc__item">
+                <img src="/img/pdf.svg" width="40" height="40" alt="">
+                Pen sketch
+              </a>
+              <a href="" class="doc__item">
+                <img src="/img/pdf.svg" width="40" height="40" alt="">
+                Emotional Intelligence profile
+              </a>
+              <a href="" class="doc__item">
+                <img src="/img/mp3.svg" width="40" height="40" alt="">
+                Audio with donor voice
+              </a>
+            </div>
+          </div>
+          <div class="family__tree">
+            <div class="personal__info-head">
+              Family Tree
+            </div>
+            <div uk-slider="finite:true" class="family__slider">
+
+              <div class="uk-slider-container">
+                <ul class="uk-slider-items">
+                  <li>
+                    <div class="slide__wrapper">
+                      <div class="fam__img">
+                        <img src="/img/family.png" width="180" height="180" loading="lazy" alt="">
+
+                      </div>
+                      <div class="fam__age">
+                        55 Years
+                      </div>
+                      <div class="fam__info">
+                        <div class="fam__info-row">
+                          <div class="row__title">
+                            Kinship
+                          </div>
+                          <div class="row__data">
+                            Mother
+                          </div>
+                        </div>
+                        <div class="fam__info-row">
+                          <div class="row__title">
+                            Race
+                          </div>
+                          <div class="row__data">
+                            Middle Eastern
+                          </div>
+                        </div>
+                        <div class="fam__info-row">
+                          <div class="row__title">
+                            Eye colour
+                          </div>
+                          <div class="row__data">
+                            Blue
+                          </div>
+                        </div>
+                        <div class="fam__info-row">
+                          <div class="row__title">
+                            Natural Hair colour
+
+                          </div>
+                          <div class="row__data">
+                            Medium brown hair
+                          </div>
+                        </div>
+                        <div class="fam__info-row">
+                          <div class="row__title">
+                            Education
+                          </div>
+                          <div class="row__data">
+                            specialized secondary
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="slide__wrapper">
+                      <div class="fam__img">
+                        <img src="/img/family.png" width="180" height="180" loading="lazy" alt="">
+
+                      </div>
+                      <div class="fam__age">
+                        55 Years
+                      </div>
+                      <div class="fam__info">
+                        <div class="fam__info-row">
+                          <div class="row__title">
+                            Kinship
+                          </div>
+                          <div class="row__data">
+                            Mother
+                          </div>
+                        </div>
+                        <div class="fam__info-row">
+                          <div class="row__title">
+                            Race
+                          </div>
+                          <div class="row__data">
+                            Middle Eastern
+                          </div>
+                        </div>
+                        <div class="fam__info-row">
+                          <div class="row__title">
+                            Eye colour
+                          </div>
+                          <div class="row__data">
+                            Blue
+                          </div>
+                        </div>
+                        <div class="fam__info-row">
+                          <div class="row__title">
+                            Natural Hair colour
+
+                          </div>
+                          <div class="row__data">
+                            Medium brown hair
+                          </div>
+                        </div>
+                        <div class="fam__info-row">
+                          <div class="row__title">
+                            Education
+                          </div>
+                          <div class="row__data">
+                            specialized secondary
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="slide__wrapper">
+                      <div class="fam__img">
+                        <img src="/img/family.png" width="180" height="180" loading="lazy" alt="">
+
+                      </div>
+                      <div class="fam__age">
+                        55 Years
+                      </div>
+                      <div class="fam__info">
+                        <div class="fam__info-row">
+                          <div class="row__title">
+                            Kinship
+                          </div>
+                          <div class="row__data">
+                            Mother
+                          </div>
+                        </div>
+                        <div class="fam__info-row">
+                          <div class="row__title">
+                            Race
+                          </div>
+                          <div class="row__data">
+                            Middle Eastern
+                          </div>
+                        </div>
+                        <div class="fam__info-row">
+                          <div class="row__title">
+                            Eye colour
+                          </div>
+                          <div class="row__data">
+                            Blue
+                          </div>
+                        </div>
+                        <div class="fam__info-row">
+                          <div class="row__title">
+                            Natural Hair colour
+
+                          </div>
+                          <div class="row__data">
+                            Medium brown hair
+                          </div>
+                        </div>
+                        <div class="fam__info-row">
+                          <div class="row__title">
+                            Education
+                          </div>
+                          <div class="row__data">
+                            specialized secondary
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="slide__wrapper">
+                      <div class="fam__img">
+                        <img src="/img/family.png" width="180" height="180" loading="lazy" alt="">
+
+                      </div>
+                      <div class="fam__age">
+                        55 Years
+                      </div>
+                      <div class="fam__info">
+                        <div class="fam__info-row">
+                          <div class="row__title">
+                            Kinship
+                          </div>
+                          <div class="row__data">
+                            Mother
+                          </div>
+                        </div>
+                        <div class="fam__info-row">
+                          <div class="row__title">
+                            Race
+                          </div>
+                          <div class="row__data">
+                            Middle Eastern
+                          </div>
+                        </div>
+                        <div class="fam__info-row">
+                          <div class="row__title">
+                            Eye colour
+                          </div>
+                          <div class="row__data">
+                            Blue
+                          </div>
+                        </div>
+                        <div class="fam__info-row">
+                          <div class="row__title">
+                            Natural Hair colour
+
+                          </div>
+                          <div class="row__data">
+                            Medium brown hair
+                          </div>
+                        </div>
+                        <div class="fam__info-row">
+                          <div class="row__title">
+                            Education
+                          </div>
+                          <div class="row__data">
+                            specialized secondary
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="slide__wrapper">
+                      <div class="fam__img">
+                        <img src="/img/family.png" width="180" height="180" loading="lazy" alt="">
+
+                      </div>
+                      <div class="fam__age">
+                        55 Years
+                      </div>
+                      <div class="fam__info">
+                        <div class="fam__info-row">
+                          <div class="row__title">
+                            Kinship
+                          </div>
+                          <div class="row__data">
+                            Mother
+                          </div>
+                        </div>
+                        <div class="fam__info-row">
+                          <div class="row__title">
+                            Race
+                          </div>
+                          <div class="row__data">
+                            Middle Eastern
+                          </div>
+                        </div>
+                        <div class="fam__info-row">
+                          <div class="row__title">
+                            Eye colour
+                          </div>
+                          <div class="row__data">
+                            Blue
+                          </div>
+                        </div>
+                        <div class="fam__info-row">
+                          <div class="row__title">
+                            Natural Hair colour
+
+                          </div>
+                          <div class="row__data">
+                            Medium brown hair
+                          </div>
+                        </div>
+                        <div class="fam__info-row">
+                          <div class="row__title">
+                            Education
+                          </div>
+                          <div class="row__data">
+                            specialized secondary
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div class="nav__wrapper">
+                <a class="slider__nav prev" href="#" uk-slider-item="previous">
+                  <SliderPrev/>
+                </a>
+                <a class="slider__nav next" href="#" uk-slider-item="next">
+                  <SliderNext/>
+                </a>
+              </div>
+
+
+            </div>
+          </div>
+          <div class="handwriting">
+            <div class="personal__info-head">
+              Handwriting
+            </div>
+            <div class="img__wrapper">
+              <img src="/img/wrating.png" width="656" height="320" loading="lazy" alt="">
+            </div>
+          </div>
+          <div class="eggbank__impressions">
+            <div class="personal__info-head">
+              Egg Bank staff impression
+            </div>
+            <div class="impressions__text">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec,
+                mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed
+                eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui. Quisque nec mauris sit
+                amet elit iaculis pretium sit amet quis magna. Aenean velit odio, elementum in tempus ut, vehicula eu
+                diam. Pellentesque rhoncus aliquam mattis. Ut vulputate eros sed felis sodales nec vulputate justo
+                hendrerit. Vivamus varius pretium ligula, a aliquam odio euismod sit amet. Quisque laoreet sem sit amet
+                orci ullamcorper at ultricies metus viverra. Pellentesque arcu mauris, malesuada quis ornare accumsan,
+                blandit sed diam.
+              </p>
+            </div>
+          </div>
+          <div class="qa__block">
+            <div class="personal__info-head">
+              Q&A with Anna Bolgar
+            </div>
+            <div class="qa__subtitle">
+              Donor [nickname of donour] answers questions about life, experiences and preferences
+            </div>
+            <div class="information__accordion-wrapper">
+              <ul uk-accordion class="information__accordion">
+                <li class="accordion__item">
+                  <a class="uk-accordion-title" href="#">
+                    How much alcohol do you drink per week?
+                  </a>
+                  <div class="uk-accordion-content">
+                    <div class="qa__text">
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra
+                        nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus,
+                        tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui.
+                      </p>
+                    </div>
+
+                  </div>
+                </li>
+                <li class="accordion__item">
+                  <a class="uk-accordion-title" href="#">
+                    Question question
+                  </a>
+                  <div class="uk-accordion-content">
+                    <div class="qa__text">
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra
+                        nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus,
+                        tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui.
+                      </p>
+                    </div>
+
+                  </div>
+                </li>
+                <li class="accordion__item">
+                  <a class="uk-accordion-title" href="#">
+                    How much alcohol do you drink per week?
+                  </a>
+                  <div class="uk-accordion-content">
+                    <div class="qa__text">
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra
+                        nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus,
+                        tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui.
+                      </p>
+                    </div>
+
+                  </div>
+                </li>
+                <li class="accordion__item">
+                  <a class="uk-accordion-title" href="#">
+                    How much alcohol do you drink per week?
+                  </a>
+                  <div class="uk-accordion-content">
+                    <div class="qa__text">
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra
+                        nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus,
+                        tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui.
+                      </p>
+                    </div>
+
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
 
       </div>
@@ -597,6 +1109,8 @@
 <script>
 import MinusIcon from '~/assets/img/minus.svg?inline'
 import PlusIcon from '~/assets/img/plus.svg?inline'
+import SliderPrev from '~/assets/img/slider_nav-prev.svg?inline'
+import SliderNext from '~/assets/img/slider_nav-next.svg?inline'
 
 export default {
   name: "Donor",
@@ -619,7 +1133,9 @@ export default {
   },
   components: {
     MinusIcon,
-    PlusIcon
+    PlusIcon,
+    SliderPrev,
+    SliderNext
   }
 }
 </script>
@@ -633,8 +1149,6 @@ export default {
   display: flex;
   justify-content: space-between;
   margin-bottom: 19px;
-  position: sticky;
-  top: 90px;
   z-index: 5;
 
   .nav__links {
@@ -654,7 +1168,8 @@ export default {
   grid-template-columns: 1fr 285px;
   grid-gap: 20px;
   grid-auto-rows: auto;
-  grid-template-rows: (5, 1fr);
+  grid-template-rows: (4, 1fr);
+  margin-bottom: 70px;
 
   .main__info {
     display: grid;
@@ -712,7 +1227,7 @@ export default {
 
   .buy__block {
     grid-row-start: 1;
-    grid-row-end: 5;
+    grid-row-end: 3;
     grid-column-start: 2;
     grid-column-end: 3;
 
@@ -1119,76 +1634,809 @@ export default {
   .third__part {
     grid-row-start: 2;
     grid-row-end: auto;
+    overflow-x: hidden;
+
+    .personal__info-head {
+      font-size: 22px;
+      line-height: 30px;
+      margin-bottom: 15px;
+    }
 
     .personal__info {
-      .personal__info-head {
-        font-size: 22px;
-        line-height: 30px;
-        margin-bottom: 15px;
+      margin-bottom: 40px;
+
+
+      .physical__table {
+
+        .table__row {
+          display: grid;
+          grid-template-columns: 180px 1fr;
+          border-bottom: 1px solid #CDE4F0;
+
+          &:last-child {
+            border: none;
+          }
+
+          .col {
+            padding: 5px 25px;
+          }
+
+          .title {
+            display: flex;
+            align-items: center;
+            font-size: 18px;
+            line-height: 30px;
+            color: $green;
+            border-right: 1px solid #CDE4F0;
+          }
+
+          .description {
+            @include default-text;
+          }
+        }
       }
+    }
 
-      .information__accordion-wrapper {
-        .information__accordion {
-          margin-bottom: 40px;
-          .accordion__item {
-            border: 1px solid #CDE4F0;
-            border-top: none;
+    .information__accordion-wrapper {
+      .information__accordion {
+        margin-bottom: 40px;
 
+        .accordion__item {
+          border: 1px solid #CDE4F0;
+          border-top: none;
+
+          border-radius: 12px;
+
+          .uk-accordion-title {
+            padding: 15px 25px;
+            background: #CDE4F0;
+            border: 1px solid #C3DAE7;
             border-radius: 12px;
-            .uk-accordion-title {
-              padding: 15px 25px;
-              background: #CDE4F0;
-              border: 1px solid #C3DAE7;
-              border-radius: 12px;
 
-              &:before {
-                background-image: url("/img/acc__arr.svg");
-                transition: 0.3s;
-              }
-
+            &:before {
+              background-image: url("/img/acc__arr.svg");
+              transition: 0.3s;
             }
 
-            &.uk-open {
-              .uk-accordion-title {
-                &:before {
-                  transform: rotateX(180deg);
+          }
+
+          &.uk-open {
+            .uk-accordion-title {
+              &:before {
+                transform: rotateX(180deg);
+              }
+            }
+          }
+        }
+
+        .uk-accordion-content {
+          margin-top: 0;
+
+
+        }
+      }
+    }
+
+    .photos {
+      margin-bottom: 40px;
+
+      .personal__info-head {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .label {
+          font-size: 16px;
+          line-height: 30px;
+          color: #979797;
+        }
+      }
+
+      .photo__slider {
+        position: relative;
+        z-index: 1;
+
+        .uk-slider-container {
+          margin: 0 55px;
+
+          .uk-slider-items {
+            li {
+              padding: 0 10px;
+              width: 25%;
+
+              .slide__wrapper {
+                padding-bottom: 15px;
+                position: relative;
+
+                .img__wrapper {
+                  border: 1px solid #89CBC4;
+                  border-radius: 12px;
+                  overflow: hidden;
+
+                  img {
+                    width: 100%;
+                    object-fit: contain;
+                  }
+                }
+
+                .label {
+                  position: absolute;
+                  bottom: 0;
+                  left: 10px;
+                  font-size: 18px;
+                  line-height: 30px;
+                  color: white;
+                  padding: 2px 10px;
+                  background: $green;
+                  border-radius: 12px;
                 }
               }
             }
           }
+        }
 
-          .uk-accordion-content {
-            margin-top: 0;
-            .physical__table{
+        .slider__nav {
+          position: absolute;
+          top: 50%;
+          transform: translateY(-50%);
+          width: 36px;
+          height: 36px;
+          border-radius: 100%;
+          border: 1px solid $green;
+          transition: 0.3s;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          z-index: 2;
 
-              .table__row{
-                display: grid;
-                grid-template-columns: 180px 1fr;
-                border-bottom: 1px solid #CDE4F0;
-                &:last-child{
-                  border: none;
+          &.uk-invisible {
+            visibility: visible !important;
+            border-color: lightgray;
+
+            svg {
+              path {
+                fill: lightgray;
+              }
+            }
+          }
+
+          &.prev {
+            left: 0;
+          }
+
+          &.next {
+            right: 0;
+
+          }
+
+          svg {
+            path {
+              transition: 0.3s;
+            }
+          }
+
+          &:hover {
+            border-color: $green-hover;
+
+            svg {
+              path {
+                fill: $green-hover;
+              }
+            }
+          }
+        }
+
+      }
+    }
+
+    .documents {
+      margin-bottom: 40px;
+
+      .docs__wrapper {
+        display: flex;
+
+        .doc__item {
+          display: flex;
+          align-items: center;
+          font-size: 18px;
+          line-height: 30px;
+          color: $green !important;
+          text-decoration: underline !important;
+          transition: 0.3s;
+          margin-right: 35px;
+
+          &:last-child {
+            margin-right: 0;
+          }
+
+          &:hover {
+            text-decoration: none !important;
+            color: $green-hover !important;
+          }
+
+          img {
+            margin-right: 9px;
+          }
+        }
+      }
+    }
+
+    .family__tree {
+      margin-bottom: 40px;
+
+      .personal__info-head {
+        margin-bottom: 25px;
+      }
+
+      .family__slider {
+        position: relative;
+
+        .uk-slider-items {
+          margin-left: -10px !important;
+
+          li {
+            padding-left: 10px;
+            width: 33.333%;
+
+          }
+
+          .slide__wrapper {
+            background: #FFFFFF;
+            border: 1px solid #CDE4F0;
+            border-radius: 12px;
+            padding: 25px 15px;
+
+            .fam__img {
+              border-radius: 100%;
+              width: 180px;
+              height: 180px;
+              overflow: hidden;
+              border: 1px solid #89CBC4;
+              margin: 0 auto 10px;
+            }
+
+            .fam__age {
+              font-size: 18px;
+              line-height: 30px;
+              text-align: center;
+              margin-bottom: 10px;
+            }
+
+            .fam__info {
+              padding-top: 15px;
+              border-top: 1px solid $green;
+
+              .fam__info-row {
+                margin-bottom: 10px;
+
+                &:last-child {
+                  margin-bottom: 0;
                 }
-                .col{
-                  padding: 5px 25px;
-                }
-                .title{
-                  display: flex;
-                  align-items: center;
-                  font-size: 18px;
-                  line-height: 30px;
+
+                .row__title {
+                  font-size: 16px;
+                  line-height: 20px;
                   color: $green;
-                  border-right: 1px solid #CDE4F0;
                 }
-                .description{
-                  @include default-text;
+
+                .row__data {
+                  font-size: 18px;
+                  line-height: 20px;
+                  color: black;
                 }
+              }
+            }
+
+          }
+        }
+
+        .nav__wrapper {
+          position: absolute;
+          top: -58px;
+          right: 0;
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          grid-gap: 10px;
+        }
+
+        .slider__nav {
+
+          width: 36px;
+          height: 36px;
+          border-radius: 100%;
+          border: 1px solid $green;
+          transition: 0.3s;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          z-index: 2;
+
+          &.uk-invisible {
+            visibility: visible !important;
+            border-color: lightgray;
+
+            svg {
+              path {
+                fill: lightgray;
+              }
+            }
+          }
+
+          &.prev {
+            left: 0;
+          }
+
+          &.next {
+            right: 0;
+
+          }
+
+          svg {
+            path {
+              transition: 0.3s;
+            }
+          }
+
+          &:hover {
+            border-color: $green-hover;
+
+            svg {
+              path {
+                fill: $green-hover;
               }
             }
           }
         }
       }
     }
+
+    .handwriting {
+      margin-bottom: 40px;
+
+      .personal__info-head {
+        margin-bottom: 25px;
+      }
+
+      .img__wrapper {
+        padding: 10px;
+        background: #FFFFFF;
+        border: 1px solid #CDE4F0;
+        border-radius: 12px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        img {
+          object-fit: contain;
+          max-width: 100%;
+          height: auto;
+        }
+      }
+    }
+
+    .eggbank__impressions {
+      padding-bottom: 40px;
+      border-bottom: 1px solid $green;
+      margin-bottom: 40px;
+
+      .personal__info-head {
+        margin-bottom: 25px;
+      }
+
+      .impressions__text {
+        @include default-text;
+      }
+    }
+
+    .qa__block {
+      .personal__info-head {
+        margin-bottom: 25px;
+      }
+
+      .qa__subtitle {
+        font-size: 18px;
+        line-height: 30px;
+        margin-bottom: 15px;
+      }
+
+      .qa__text {
+        padding: 25px;
+        @include default-text
+      }
+
+    }
   }
 
+}
+
+@media screen and (max-width: 1200px) {
+  .page__grid .third__part .photos .photo__slider .uk-slider-container .uk-slider-items li {
+    width: 33.3%;
+  }
+  .page__grid .third__part .documents .docs__wrapper {
+    flex-wrap: wrap;
+
+    .doc__item {
+      margin-bottom: 15px;
+    }
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .page__grid .third__part .photos .photo__slider .uk-slider-container .uk-slider-items li {
+    width: 50%;
+  }
+  .page__grid .third__part .family__tree .family__slider .uk-slider-items li {
+    width: 50%;
+
+  }
+  .page__grid .main__info {
+    grid-template-columns: 1fr 200px;
+  }
+}
+
+@media screen and (max-width: 880px) {
+  .page__grid {
+    grid-template-columns: 1fr;
+    grid-gap: 25px;
+
+    .main__info {
+      grid-row-start: initial;
+      grid-row-end: initial;
+      grid-template-columns: 2fr 1fr;
+    }
+
+    .buy__block {
+      grid-row-start: initial;
+      grid-row-end: initial;
+      grid-column-start: initial;
+      grid-column-end: initial;
+    }
+
+    .third__part {
+      grid-row-start: initial;
+      grid-row-end: initial;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .page__nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    padding: 13px;
+    margin-bottom: 15px;
+
+    .nav__links {
+      text-align: center;
+      font-size: 14px;
+      line-height: 20px;
+    }
+  }
+  .page__grid {
+    margin-bottom: 50px;
+    .main__info {
+      .donor__title {
+        .donor__id {
+          font-size: 18px;
+          line-height: 30px;
+          margin-bottom: 20px;
+        }
+
+        .params__row {
+          .param__title, .param__data {
+            font-size: 14px;
+            line-height: 20px;
+          }
+        }
+
+        .viewed__count {
+          margin-top: 25px;
+          padding-top: 25px;
+          font-size: 14px;
+          line-height: 20px;
+        }
+
+      }
+    }
+
+    .buy__block {
+      .block__wrapper {
+        .block__part {
+          .part__header {
+            font-size: 18px;
+            line-height: 30px;
+          }
+
+          .part__subheader {
+            font-size: 14px;
+            line-height: 24px;
+            margin-bottom: 15px;
+          }
+
+          .packages {
+            .pack {
+              padding-left: 30%;
+
+              .checkbox__wrapper {
+                label {
+                  font-size: 14px;
+                  line-height: 24px;
+                }
+              }
+
+              .short__desc, .gar {
+                font-size: 14px;
+                line-height: 24px;
+              }
+
+              .price {
+                margin-top: 18px;
+
+                .price__wrap {
+                  font-size: 14px;
+                  line-height: 24px;
+                }
+              }
+            }
+          }
+
+          .opt__cols {
+            .col {
+              font-size: 14px;
+              line-height: 30px;
+            }
+
+            .col.cost__coll {
+              .cost {
+                font-size: 14px;
+                line-height: 24px;
+              }
+            }
+          }
+
+          .read__it-first {
+            margin-top: 15px;
+
+            .head {
+              font-size: 18px;
+              line-height: 30px;
+              margin-bottom: 5px;
+            }
+
+            .nav__to {
+              font-size: 14px;
+              line-height: 18px;
+            }
+          }
+        }
+
+        .question__block {
+          margin-top: 20px;
+
+          .num__row {
+            justify-content: space-between;
+            font-size: 14px;
+            line-height: 20px;
+          }
+
+          .schedule {
+            margin: 0 auto 5px;
+            justify-content: center;
+            font-size: 14px;
+            line-height: 20px;
+          }
+
+          .write__us-wrapper {
+            .write__us-btn {
+              font-size: 14px;
+              line-height: 20px;
+            }
+
+          }
+        }
+
+        .block__head {
+          padding: 8px;
+          font-size: 18px;
+          line-height: 30px;
+          margin-bottom: 15px;
+        }
+
+      }
+
+      .qty__wrapper {
+        .qty__header {
+          font-size: 14px;
+          line-height: 24px;
+          margin-bottom: 15px;
+        }
+
+        .av__req {
+          font-size: 14px;
+          line-height: 24px;
+          margin-bottom: 21px;
+        }
+
+        .fresh__wrapper {
+          label {
+            font-size: 14px;
+            line-height: 24px;
+          }
+        }
+      }
+
+      .reservation__btn {
+        max-width: 255px;
+        font-size: 14px;
+        line-height: 24px;
+        height: 44px;
+        margin: 0 auto;
+      }
+    }
+
+    .third__part {
+      .personal__info-head {
+        font-size: 18px;
+        line-height: 30px;
+      }
+
+      .personal__info {
+        margin-bottom: 30px;
+
+        .personal__info-head {
+          margin-bottom: 15px;
+        }
+
+        .physical__table {
+          .table__row {
+            grid-template-columns: 1fr;
+            grid-gap: 5px;
+            padding: 15px;
+
+            .title {
+              border-right: none;
+              font-size: 14px;
+              line-height: 24px;
+              padding: 0;
+            }
+
+            .description {
+              padding: 0;
+            }
+          }
+        }
+      }
+
+      .information__accordion-wrapper {
+        .information__accordion {
+          .accordion__item {
+            .uk-accordion-title {
+              padding: 10px 15px;
+              font-size: 14px;
+              line-height: 24px;
+
+              &:before {
+                width: 14px;
+                height: 14px;
+                background-size: contain;
+                margin-top: 5px;
+              }
+            }
+          }
+        }
+      }
+      .photos{
+        margin-bottom: 30px;
+        .personal__info-head{
+          .label{
+            font-size: 14px;
+            line-height: 24px;
+          }
+        }
+        .photo__slider{
+          .uk-slider-container{
+            margin: 0 40px;
+            .uk-slider-items{
+              li{
+                .slide__wrapper{
+                  padding-bottom: 13px;
+                  .label{
+                    left: 50%;
+                    transform: translateX(-50%);
+                    font-size: 14px;
+                    line-height: 24px;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+      .documents{
+        margin-bottom: 30px;
+        .docs__wrapper{
+          column-gap: 20px;
+          .doc__item{
+            font-size: 14px;
+            line-height: 24px;
+            margin-right: 0;
+          }
+        }
+      }
+      .family__tree{
+        .family__slider{
+          .uk-slider-items{
+            .slide__wrapper{
+              padding: 15px 10px;
+              .fam__img{
+                width: 120px;
+                height: 120px;
+              }
+              .fam__age{
+                font-size: 14px;
+                line-height: 24px;
+                margin-bottom: 15px;
+              }
+              .fam__info{
+                .fam__info-row{
+                  .row__title, .row__data{
+                    font-size: 14px;
+                    line-height: 20px;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+      .eggbank__impressions{
+        margin-bottom: 30px;
+        padding-bottom: 30px;
+        .personal__info-head{
+          margin-bottom: 20px;
+        }
+      }
+      .qa__block{
+        .personal__info-head{
+          margin-bottom: 20px;
+        }
+        .qa__subtitle{
+          font-size: 14px;
+          line-height: 24px;
+        }
+        .qa__text{
+          padding: 10px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .page__grid {
+    .main__info {
+
+      grid-template-columns: 1fr;
+
+      .donor__title {
+        .params__wrapper {
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          grid-gap: 15px;
+        }
+      }
+    }
+  }
+  .page__grid .third__part .photos .photo__slider .uk-slider-container .uk-slider-items li{
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .page__grid .buy__block .block__wrapper .block__part .packages .pack {
+    padding-left: 20%;
+  }
 }
 </style>
