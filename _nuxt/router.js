@@ -7,6 +7,11 @@ import scrollBehavior from './router.scrollBehavior.js'
 const _f2a168b6 = () => interopDefault(import('../pages/about.vue' /* webpackChunkName: "pages/about" */))
 const _da97a036 = () => interopDefault(import('../pages/cost.vue' /* webpackChunkName: "pages/cost" */))
 const _713485a8 = () => interopDefault(import('../pages/donors/index.vue' /* webpackChunkName: "pages/donors/index" */))
+const _27bf9e3f = () => interopDefault(import('../pages/steps.vue' /* webpackChunkName: "pages/steps" */))
+const _4d863982 = () => interopDefault(import('../pages/steps/index.vue' /* webpackChunkName: "pages/steps/index" */))
+const _d023ba94 = () => interopDefault(import('../pages/steps/payment.vue' /* webpackChunkName: "pages/steps/payment" */))
+const _795d1ac7 = () => interopDefault(import('../pages/steps/preparation.vue' /* webpackChunkName: "pages/steps/preparation" */))
+const _63d0391a = () => interopDefault(import('../pages/steps/shipment.vue' /* webpackChunkName: "pages/steps/shipment" */))
 const _5064e49f = () => interopDefault(import('../pages/terms.vue' /* webpackChunkName: "pages/terms" */))
 const _5ff7d210 = () => interopDefault(import('../pages/donors/_id.vue' /* webpackChunkName: "pages/donors/_id" */))
 const _b331b32c = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
@@ -34,6 +39,26 @@ export const routerOptions = {
     path: "/donors",
     component: _713485a8,
     name: "donors"
+  }, {
+    path: "/steps",
+    component: _27bf9e3f,
+    children: [{
+      path: "",
+      component: _4d863982,
+      name: "steps"
+    }, {
+      path: "payment",
+      component: _d023ba94,
+      name: "steps-payment"
+    }, {
+      path: "preparation",
+      component: _795d1ac7,
+      name: "steps-preparation"
+    }, {
+      path: "shipment",
+      component: _63d0391a,
+      name: "steps-shipment"
+    }]
   }, {
     path: "/terms",
     component: _5064e49f,

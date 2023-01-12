@@ -28,6 +28,9 @@ export default {
     {
       src: '~/assets/plugins/vuelidate.js', ssr: 'false'
     },
+    {
+      src: '~/assets/plugins/simplebar.js', mode: 'client'
+    },
   ],
 
 
@@ -87,7 +90,8 @@ export default {
       '@vueform/slider/dist/slider.vue2.js',
       'hooper',
       'vuelidate',
-      'vuelidate/lib/validators'
+      'vuelidate/lib/validators',
+      'simplebar-vue'
     ],
     vendor:[
       'vuelidate'

@@ -21,6 +21,42 @@
     "_name": "_713485a8"
   },
   {
+    "path": "/steps",
+    "component": "/var/www/eggbank.loc/pages/steps.vue",
+    "chunkName": "pages/steps",
+    "children": [
+      {
+        "name": "steps",
+        "path": "",
+        "component": "/var/www/eggbank.loc/pages/steps/index.vue",
+        "chunkName": "pages/steps/index",
+        "_name": "_4d863982"
+      },
+      {
+        "name": "steps-payment",
+        "path": "payment",
+        "component": "/var/www/eggbank.loc/pages/steps/payment.vue",
+        "chunkName": "pages/steps/payment",
+        "_name": "_d023ba94"
+      },
+      {
+        "name": "steps-preparation",
+        "path": "preparation",
+        "component": "/var/www/eggbank.loc/pages/steps/preparation.vue",
+        "chunkName": "pages/steps/preparation",
+        "_name": "_795d1ac7"
+      },
+      {
+        "name": "steps-shipment",
+        "path": "shipment",
+        "component": "/var/www/eggbank.loc/pages/steps/shipment.vue",
+        "chunkName": "pages/steps/shipment",
+        "_name": "_63d0391a"
+      }
+    ],
+    "_name": "_27bf9e3f"
+  },
+  {
     "name": "terms",
     "path": "/terms",
     "component": "/var/www/eggbank.loc/pages/terms.vue",
