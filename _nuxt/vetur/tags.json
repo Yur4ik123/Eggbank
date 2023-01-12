@@ -26,18 +26,6 @@
   "ProfileDropdown": {
     "description": "Auto imported from components/ProfileDropdown.vue"
   },
-  "CategoryDonorCard": {
-    "description": "Auto imported from components/category/DonorCard.vue"
-  },
-  "CategoryDonorGallery": {
-    "description": "Auto imported from components/category/DonorGallery.vue"
-  },
-  "CategoryDonorImages": {
-    "description": "Auto imported from components/category/DonorImages.vue"
-  },
-  "CategoryOrderModal": {
-    "description": "Auto imported from components/category/OrderModal.vue"
-  },
   "PartialsAddToWishlist": {
     "description": "Auto imported from components/partials/AddToWishlist.vue"
   },
@@ -52,5 +40,17 @@
   },
   "PartialsRanges": {
     "description": "Auto imported from components/partials/Ranges.vue"
+  },
+  "CategoryDonorCard": {
+    "description": "Auto imported from components/category/DonorCard.vue"
+  },
+  "CategoryDonorGallery": {
+    "description": "Auto imported from components/category/DonorGallery.vue"
+  },
+  "CategoryDonorImages": {
+    "description": "Auto imported from components/category/DonorImages.vue"
+  },
+  "CategoryOrderModal": {
+    "description": "Auto imported from components/category/OrderModal.vue"
   }
 }

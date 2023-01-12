@@ -21,6 +21,13 @@
     "_name": "_713485a8"
   },
   {
+    "name": "licenses",
+    "path": "/licenses",
+    "component": "/var/www/eggbank.loc/pages/licenses.vue",
+    "chunkName": "pages/licenses",
+    "_name": "_63e08c2c"
+  },
+  {
     "path": "/steps",
     "component": "/var/www/eggbank.loc/pages/steps.vue",
     "chunkName": "pages/steps",
