@@ -11,7 +11,7 @@
       </NuxtLink>
     </li>
     <li class="nav__list-item">
-      <NuxtLink to="#" class="nav__list-link">
+      <NuxtLink to="/become-donor" class="nav__list-link">
         Become a Donor
       </NuxtLink>
     </li>

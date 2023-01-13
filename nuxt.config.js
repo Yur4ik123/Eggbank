@@ -31,6 +31,9 @@ export default {
     {
       src: '~/assets/plugins/simplebar.js', mode: 'client'
     },
+    {
+      src: '~/assets/plugins/multiselect.js', mode: 'client'
+    },
   ],
 
 
@@ -91,7 +94,8 @@ export default {
       'hooper',
       'vuelidate',
       'vuelidate/lib/validators',
-      'simplebar-vue'
+      'simplebar-vue',
+      'vue-multiselect'
     ],
     vendor:[
       'vuelidate'

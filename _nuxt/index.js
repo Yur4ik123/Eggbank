@@ -19,6 +19,7 @@ import nuxt_plugin_uikit_1ee7a097 from 'nuxt_plugin_uikit_1ee7a097' // Source: .
 import nuxt_plugin_plugins_19db1baa from 'nuxt_plugin_plugins_19db1baa' // Source: ../assets/plugins/plugins.js (mode: 'client')
 import nuxt_plugin_vuelidate_57537b7a from 'nuxt_plugin_vuelidate_57537b7a' // Source: ../assets/plugins/vuelidate.js (mode: 'all')
 import nuxt_plugin_simplebar_b3c797ec from 'nuxt_plugin_simplebar_b3c797ec' // Source: ../assets/plugins/simplebar.js (mode: 'client')
+import nuxt_plugin_multiselect_67db5836 from 'nuxt_plugin_multiselect_67db5836' // Source: ../assets/plugins/multiselect.js (mode: 'client')
 
 // Component: <ClientOnly>
 Vue.component(ClientOnly.name, ClientOnly)
@@ -208,6 +209,10 @@ async function createApp(ssrContext, config = {}) {
 
   if (process.client && typeof nuxt_plugin_simplebar_b3c797ec === 'function') {
     await nuxt_plugin_simplebar_b3c797ec(app.context, inject)
+  }
+
+  if (process.client && typeof nuxt_plugin_multiselect_67db5836 === 'function') {
+    await nuxt_plugin_multiselect_67db5836(app.context, inject)
   }
 
   // Lock enablePreview in context

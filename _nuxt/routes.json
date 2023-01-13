@@ -7,6 +7,13 @@
     "_name": "_f2a168b6"
   },
   {
+    "name": "become-donor",
+    "path": "/become-donor",
+    "component": "/var/www/eggbank.loc/pages/become-donor.vue",
+    "chunkName": "pages/become-donor",
+    "_name": "_30a15d10"
+  },
+  {
     "name": "cost",
     "path": "/cost",
     "component": "/var/www/eggbank.loc/pages/cost.vue",

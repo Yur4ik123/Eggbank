@@ -6,6 +6,7 @@ You can directly use them in pages and other components without the need to impo
 
 **Tip:** If a component is conditionally rendered with `v-if` and is big, it is better to use `Lazy` or `lazy-` prefix to lazy load.
 
+- `<BecomeForm>` | `<become-form>` (components/BecomeForm.vue)
 - `<CookiePopup>` | `<cookie-popup>` (components/CookiePopup.vue)
 - `<Filters>` | `<filters>` (components/Filters.vue)
 - `<FirstScreen>` | `<first-screen>` (components/FirstScreen.vue)
@@ -15,12 +16,16 @@ You can directly use them in pages and other components without the need to impo
 - `<LoginModal>` | `<login-modal>` (components/LoginModal.vue)
 - `<Menu>` | `<menu>` (components/Menu.vue)
 - `<ProfileDropdown>` | `<profile-dropdown>` (components/ProfileDropdown.vue)
+- `<CategoryDonorCard>` | `<category-donor-card>` (components/category/DonorCard.vue)
+- `<CategoryDonorGallery>` | `<category-donor-gallery>` (components/category/DonorGallery.vue)
+- `<CategoryDonorImages>` | `<category-donor-images>` (components/category/DonorImages.vue)
+- `<CategoryOrderModal>` | `<category-order-modal>` (components/category/OrderModal.vue)
 - `<PartialsAddToWishlist>` | `<partials-add-to-wishlist>` (components/partials/AddToWishlist.vue)
 - `<PartialsAvailability>` | `<partials-availability>` (components/partials/Availability.vue)
 - `<PartialsBreadcrumbs>` | `<partials-breadcrumbs>` (components/partials/Breadcrumbs.vue)
 - `<PartialsGreenBtn>` | `<partials-green-btn>` (components/partials/GreenBtn.vue)
 - `<PartialsRanges>` | `<partials-ranges>` (components/partials/Ranges.vue)
-- `<CategoryDonorCard>` | `<category-donor-card>` (components/category/DonorCard.vue)
-- `<CategoryDonorGallery>` | `<category-donor-gallery>` (components/category/DonorGallery.vue)
-- `<CategoryDonorImages>` | `<category-donor-images>` (components/category/DonorImages.vue)
-- `<CategoryOrderModal>` | `<category-order-modal>` (components/category/OrderModal.vue)
+- `<FormBirth>` | `<form-birth>` (components/form/Birth.vue)
+- `<FormInput>` | `<form-input>` (components/form/Input.vue)
+- `<FormSelect>` | `<form-select>` (components/form/Select.vue)
+- `<FormTextarea>` | `<form-textarea>` (components/form/Textarea.vue)

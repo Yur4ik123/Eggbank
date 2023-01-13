@@ -5,6 +5,7 @@ import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
 const _f2a168b6 = () => interopDefault(import('../pages/about.vue' /* webpackChunkName: "pages/about" */))
+const _30a15d10 = () => interopDefault(import('../pages/become-donor.vue' /* webpackChunkName: "pages/become-donor" */))
 const _da97a036 = () => interopDefault(import('../pages/cost.vue' /* webpackChunkName: "pages/cost" */))
 const _713485a8 = () => interopDefault(import('../pages/donors/index.vue' /* webpackChunkName: "pages/donors/index" */))
 const _63e08c2c = () => interopDefault(import('../pages/licenses.vue' /* webpackChunkName: "pages/licenses" */))
@@ -32,6 +33,10 @@ export const routerOptions = {
     path: "/about",
     component: _f2a168b6,
     name: "about"
+  }, {
+    path: "/become-donor",
+    component: _30a15d10,
+    name: "become-donor"
   }, {
     path: "/cost",
     component: _da97a036,
