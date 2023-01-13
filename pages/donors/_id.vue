@@ -10,7 +10,7 @@
           Personal Information
         </a>
         <a href="" class="nav__links">
-          Other detheils
+          Other details
         </a>
         <a href="" class="nav__links">
           Medical information

@@ -89,7 +89,7 @@
               </NuxtLink>
             </li>
             <li>
-              <NuxtLink to="" class="col_link">
+              <NuxtLink to="/partners" class="col_link">
                 For Partners
               </NuxtLink>
             </li>

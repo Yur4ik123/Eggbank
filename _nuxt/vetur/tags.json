@@ -41,6 +41,18 @@
   "CategoryOrderModal": {
     "description": "Auto imported from components/category/OrderModal.vue"
   },
+  "FormBirth": {
+    "description": "Auto imported from components/form/Birth.vue"
+  },
+  "FormInput": {
+    "description": "Auto imported from components/form/Input.vue"
+  },
+  "FormSelect": {
+    "description": "Auto imported from components/form/Select.vue"
+  },
+  "FormTextarea": {
+    "description": "Auto imported from components/form/Textarea.vue"
+  },
   "PartialsAddToWishlist": {
     "description": "Auto imported from components/partials/AddToWishlist.vue"
   },
@@ -55,17 +67,5 @@
   },
   "PartialsRanges": {
     "description": "Auto imported from components/partials/Ranges.vue"
-  },
-  "FormBirth": {
-    "description": "Auto imported from components/form/Birth.vue"
-  },
-  "FormInput": {
-    "description": "Auto imported from components/form/Input.vue"
-  },
-  "FormSelect": {
-    "description": "Auto imported from components/form/Select.vue"
-  },
-  "FormTextarea": {
-    "description": "Auto imported from components/form/Textarea.vue"
   }
 }

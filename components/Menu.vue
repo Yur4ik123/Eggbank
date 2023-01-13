@@ -16,7 +16,7 @@
       </NuxtLink>
     </li>
     <li class="nav__list-item">
-      <NuxtLink to="#" class="nav__list-link">
+      <NuxtLink to="/partners" class="nav__list-link">
         For Partners
       </NuxtLink>
     </li>

@@ -9,6 +9,7 @@ const _30a15d10 = () => interopDefault(import('../pages/become-donor.vue' /* web
 const _da97a036 = () => interopDefault(import('../pages/cost.vue' /* webpackChunkName: "pages/cost" */))
 const _713485a8 = () => interopDefault(import('../pages/donors/index.vue' /* webpackChunkName: "pages/donors/index" */))
 const _63e08c2c = () => interopDefault(import('../pages/licenses.vue' /* webpackChunkName: "pages/licenses" */))
+const _77989dc3 = () => interopDefault(import('../pages/partners.vue' /* webpackChunkName: "pages/partners" */))
 const _27bf9e3f = () => interopDefault(import('../pages/steps.vue' /* webpackChunkName: "pages/steps" */))
 const _4d863982 = () => interopDefault(import('../pages/steps/index.vue' /* webpackChunkName: "pages/steps/index" */))
 const _d023ba94 = () => interopDefault(import('../pages/steps/payment.vue' /* webpackChunkName: "pages/steps/payment" */))
@@ -49,6 +50,10 @@ export const routerOptions = {
     path: "/licenses",
     component: _63e08c2c,
     name: "licenses"
+  }, {
+    path: "/partners",
+    component: _77989dc3,
+    name: "partners"
   }, {
     path: "/steps",
     component: _27bf9e3f,

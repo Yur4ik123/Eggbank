@@ -35,6 +35,13 @@
     "_name": "_63e08c2c"
   },
   {
+    "name": "partners",
+    "path": "/partners",
+    "component": "/var/www/eggbank.loc/pages/partners.vue",
+    "chunkName": "pages/partners",
+    "_name": "_77989dc3"
+  },
+  {
     "path": "/steps",
     "component": "/var/www/eggbank.loc/pages/steps.vue",
     "chunkName": "pages/steps",
