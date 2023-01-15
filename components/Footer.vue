@@ -64,7 +64,7 @@
               </NuxtLink>
             </li>
             <li>
-              <NuxtLink to="" class="col_link">
+              <NuxtLink to="/guarantee" class="col_link">
                 Our Guarantee
               </NuxtLink>
             </li>
@@ -79,7 +79,7 @@
               </NuxtLink>
             </li>
             <li>
-              <NuxtLink to="" class="col_link">
+              <NuxtLink to="/become-donor" class="col_link">
                 Become a Donor
               </NuxtLink>
             </li>
@@ -94,7 +94,7 @@
               </NuxtLink>
             </li>
             <li>
-              <NuxtLink to="" class="col_link">
+              <NuxtLink to="/contact" class="col_link">
                 Contact Us
               </NuxtLink>
             </li>

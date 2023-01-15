@@ -21,7 +21,7 @@
       </NuxtLink>
     </li>
     <li class="nav__list-item">
-      <NuxtLink to="#" class="nav__list-link">
+      <NuxtLink to="/guarantee" class="nav__list-link">
         Our Guarantee
       </NuxtLink>
     </li>
@@ -31,7 +31,7 @@
       </NuxtLink>
     </li>
     <li class="nav__list-item">
-      <NuxtLink to="#" class="nav__list-link">
+      <NuxtLink to="/contact" class="nav__list-link">
         Contact Us
       </NuxtLink>
     </li>

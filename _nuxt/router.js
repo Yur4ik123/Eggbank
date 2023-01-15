@@ -6,8 +6,10 @@ import scrollBehavior from './router.scrollBehavior.js'
 
 const _f2a168b6 = () => interopDefault(import('../pages/about.vue' /* webpackChunkName: "pages/about" */))
 const _30a15d10 = () => interopDefault(import('../pages/become-donor.vue' /* webpackChunkName: "pages/become-donor" */))
+const _caf06a90 = () => interopDefault(import('../pages/contact.vue' /* webpackChunkName: "pages/contact" */))
 const _da97a036 = () => interopDefault(import('../pages/cost.vue' /* webpackChunkName: "pages/cost" */))
 const _713485a8 = () => interopDefault(import('../pages/donors/index.vue' /* webpackChunkName: "pages/donors/index" */))
+const _5b3df120 = () => interopDefault(import('../pages/guarantee.vue' /* webpackChunkName: "pages/guarantee" */))
 const _63e08c2c = () => interopDefault(import('../pages/licenses.vue' /* webpackChunkName: "pages/licenses" */))
 const _77989dc3 = () => interopDefault(import('../pages/partners.vue' /* webpackChunkName: "pages/partners" */))
 const _27bf9e3f = () => interopDefault(import('../pages/steps.vue' /* webpackChunkName: "pages/steps" */))
@@ -39,6 +41,10 @@ export const routerOptions = {
     component: _30a15d10,
     name: "become-donor"
   }, {
+    path: "/contact",
+    component: _caf06a90,
+    name: "contact"
+  }, {
     path: "/cost",
     component: _da97a036,
     name: "cost"
@@ -46,6 +52,10 @@ export const routerOptions = {
     path: "/donors",
     component: _713485a8,
     name: "donors"
+  }, {
+    path: "/guarantee",
+    component: _5b3df120,
+    name: "guarantee"
   }, {
     path: "/licenses",
     component: _63e08c2c,

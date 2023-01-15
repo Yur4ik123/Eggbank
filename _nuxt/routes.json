@@ -14,6 +14,13 @@
     "_name": "_30a15d10"
   },
   {
+    "name": "contact",
+    "path": "/contact",
+    "component": "/var/www/eggbank.loc/pages/contact.vue",
+    "chunkName": "pages/contact",
+    "_name": "_caf06a90"
+  },
+  {
     "name": "cost",
     "path": "/cost",
     "component": "/var/www/eggbank.loc/pages/cost.vue",
@@ -26,6 +33,13 @@
     "component": "/var/www/eggbank.loc/pages/donors/index.vue",
     "chunkName": "pages/donors/index",
     "_name": "_713485a8"
+  },
+  {
+    "name": "guarantee",
+    "path": "/guarantee",
+    "component": "/var/www/eggbank.loc/pages/guarantee.vue",
+    "chunkName": "pages/guarantee",
+    "_name": "_5b3df120"
   },
   {
     "name": "licenses",

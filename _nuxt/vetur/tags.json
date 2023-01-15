@@ -2,6 +2,9 @@
   "BecomeForm": {
     "description": "Auto imported from components/BecomeForm.vue"
   },
+  "ContactForm": {
+    "description": "Auto imported from components/ContactForm.vue"
+  },
   "CookiePopup": {
     "description": "Auto imported from components/CookiePopup.vue"
   },
@@ -32,18 +35,6 @@
   "ProfileDropdown": {
     "description": "Auto imported from components/ProfileDropdown.vue"
   },
-  "CategoryDonorCard": {
-    "description": "Auto imported from components/category/DonorCard.vue"
-  },
-  "CategoryDonorGallery": {
-    "description": "Auto imported from components/category/DonorGallery.vue"
-  },
-  "CategoryDonorImages": {
-    "description": "Auto imported from components/category/DonorImages.vue"
-  },
-  "CategoryOrderModal": {
-    "description": "Auto imported from components/category/OrderModal.vue"
-  },
   "FormBirth": {
     "description": "Auto imported from components/form/Birth.vue"
   },
@@ -56,6 +47,18 @@
   "FormTextarea": {
     "description": "Auto imported from components/form/Textarea.vue"
   },
+  "CategoryDonorCard": {
+    "description": "Auto imported from components/category/DonorCard.vue"
+  },
+  "CategoryDonorGallery": {
+    "description": "Auto imported from components/category/DonorGallery.vue"
+  },
+  "CategoryDonorImages": {
+    "description": "Auto imported from components/category/DonorImages.vue"
+  },
+  "CategoryOrderModal": {
+    "description": "Auto imported from components/category/OrderModal.vue"
+  },
   "PartialsAddToWishlist": {
     "description": "Auto imported from components/partials/AddToWishlist.vue"
   },
@@ -64,6 +67,9 @@
   },
   "PartialsBreadcrumbs": {
     "description": "Auto imported from components/partials/Breadcrumbs.vue"
+  },
+  "PartialsDiagram": {
+    "description": "Auto imported from components/partials/Diagram.vue"
   },
   "PartialsGreenBtn": {
     "description": "Auto imported from components/partials/GreenBtn.vue"

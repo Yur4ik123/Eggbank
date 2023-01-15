@@ -207,6 +207,8 @@
   .default__form {
     .col {
       margin-bottom: 25px;
+      position: relative;
+      z-index: 6;
     }
 
     .form__subheader {
@@ -229,6 +231,7 @@
       display: grid;
       grid-template-columns: 1fr 1fr;
       grid-gap: 20px;
+      position: relative;
     }
 
     .cols-3 {

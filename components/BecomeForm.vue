@@ -1,5 +1,5 @@
 <template>
-  <no-ssr>
+  <client-only>
     <form action="" class="become__form default__form" novalidate @submit.prevent="submit">
       <div class="cols-2">
         <FormInput :class="{'invalid': $v.first_name.$error}" v-model.trim="$v.first_name.$model" label="First Name:"
@@ -46,7 +46,7 @@
         </button>
       </div>
     </form>
-  </no-ssr>
+  </client-only>
 </template>
 
 <script>

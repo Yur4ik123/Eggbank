@@ -1,5 +1,5 @@
 <template>
-  <no-ssr>
+  <client-only>
     <form action="" class="partner_form default__form" novalidate>
       <div class="col">
         <FormInput label="Name of the organization*:" placeholder="Placeholder"></FormInput>
@@ -37,7 +37,7 @@
       <div class="checkbox__col">
         <div class="checkbox__wrapper">
           <label>
-            <input class="uk-checkbox" type="checkbox" >
+            <input class="uk-checkbox" type="checkbox">
             I Agree with privacy policy
           </label>
         </div>
@@ -48,7 +48,7 @@
         </button>
       </div>
     </form>
-  </no-ssr>
+  </client-only>
 </template>
 
 <script>
@@ -65,6 +65,7 @@ export default {
 
 <style lang="scss" scoped>
 @include default-form;
+
 
 .checkbox__wrapper {
   font-size: 18px;
@@ -104,5 +105,6 @@ export default {
     font-size: 14px;
     line-height: 24px;
   }
+
 }
 </style>

@@ -67,8 +67,11 @@ export default {
 .multiselect {
   margin-bottom: 25px;
   height: 60px;
-  z-index: 5;
+
   position: relative;
+  &-active{
+    z-index: 20;
+  }
 
   .select__icon {
     position: absolute;
