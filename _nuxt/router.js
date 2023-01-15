@@ -10,6 +10,7 @@ const _caf06a90 = () => interopDefault(import('../pages/contact.vue' /* webpackC
 const _da97a036 = () => interopDefault(import('../pages/cost.vue' /* webpackChunkName: "pages/cost" */))
 const _713485a8 = () => interopDefault(import('../pages/donors/index.vue' /* webpackChunkName: "pages/donors/index" */))
 const _5b3df120 = () => interopDefault(import('../pages/guarantee.vue' /* webpackChunkName: "pages/guarantee" */))
+const _4ec3a550 = () => interopDefault(import('../pages/knowledge-base.vue' /* webpackChunkName: "pages/knowledge-base" */))
 const _63e08c2c = () => interopDefault(import('../pages/licenses.vue' /* webpackChunkName: "pages/licenses" */))
 const _77989dc3 = () => interopDefault(import('../pages/partners.vue' /* webpackChunkName: "pages/partners" */))
 const _1b21da5e = () => interopDefault(import('../pages/registration.vue' /* webpackChunkName: "pages/registration" */))
@@ -57,6 +58,10 @@ export const routerOptions = {
     path: "/guarantee",
     component: _5b3df120,
     name: "guarantee"
+  }, {
+    path: "/knowledge-base",
+    component: _4ec3a550,
+    name: "knowledge-base"
   }, {
     path: "/licenses",
     component: _63e08c2c,

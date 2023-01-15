@@ -42,6 +42,13 @@
     "_name": "_5b3df120"
   },
   {
+    "name": "knowledge-base",
+    "path": "/knowledge-base",
+    "component": "/var/www/eggbank.loc/pages/knowledge-base.vue",
+    "chunkName": "pages/knowledge-base",
+    "_name": "_4ec3a550"
+  },
+  {
     "name": "licenses",
     "path": "/licenses",
     "component": "/var/www/eggbank.loc/pages/licenses.vue",

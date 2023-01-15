@@ -107,8 +107,8 @@
           </div>
           <ul class="col__list">
             <li>
-              <NuxtLink to="" class="col_link">
-                Knowlege base
+              <NuxtLink to="/knowledge-base" class="col_link">
+                Knowledge base
               </NuxtLink>
             </li>
             <li>
