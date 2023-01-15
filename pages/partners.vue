@@ -116,6 +116,20 @@ Please, fill in the contact form and we will get in touch with to start our part
         </div>
       </div>
     </div>
+    <div class="contact">
+      <div class="container">
+        <h2 class="section__header">
+          Contact Form
+        </h2>
+        <div class="subheader">
+          Please fill the form below
+        </div>
+        <div class="form__wrapper">
+          <PartnerForm/>
+        </div>
+      </div>
+
+    </div>
   </div>
 </template>
 
@@ -127,13 +141,13 @@ export default {
 
 <style lang="scss" scoped>
 .partners__page {
-  overflow: hidden;
+
 }
 
 .first__screen {
   padding: 100px 0 135px;
   position: relative;
-
+  overflow: hidden;
   .page__title {
     max-width: 500px;
     z-index: 1;
@@ -323,6 +337,34 @@ export default {
     }
   }
 
+
+}
+
+.contact {
+  padding: 55px 0 50px;
+
+  border-radius: 60px 60px 0 0;
+  position: relative;
+  z-index: 6;
+  background-color: white;
+
+  .section__header {
+    @include section-header;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+
+  .subheader {
+    margin-bottom: 30px;
+    font-size: 22px;
+    line-height: 36px;
+    text-align: center;
+  }
+
+  .form__wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+  }
 }
 
 @media screen and (max-width: 1100px) {
@@ -421,6 +463,7 @@ export default {
 
     .rows__wrapper {
       margin-bottom: 30px;
+
       .step__item {
         grid-template-columns: 80px 1fr;
 
@@ -442,7 +485,8 @@ export default {
             line-height: 30px;
             color: #389188;
           }
-          .row__title{
+
+          .row__title {
             font-size: 14px;
             line-height: 24px;
           }
@@ -459,15 +503,30 @@ export default {
 
       .header__content {
 
-        .head{
+        .head {
           font-size: 30px;
           line-height: 36px;
         }
-        .title{
+
+        .title {
           font-size: 18px;
           line-height: 30px;
         }
       }
+    }
+  }
+  .contact {
+    padding: 35px 0 50px;
+    border-radius: 12px 12px 0 0;
+
+    .section__header {
+      margin-bottom: 15px;
+    }
+
+    .subheader {
+      font-size: 18px;
+      line-height: 24px;
+      margin-bottom: 36px;
     }
   }
 }

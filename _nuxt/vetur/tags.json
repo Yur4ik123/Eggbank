@@ -26,6 +26,9 @@
   "Menu": {
     "description": "Auto imported from components/Menu.vue"
   },
+  "PartnerForm": {
+    "description": "Auto imported from components/PartnerForm.vue"
+  },
   "ProfileDropdown": {
     "description": "Auto imported from components/ProfileDropdown.vue"
   },

@@ -1,6 +1,6 @@
 <template>
   <no-ssr>
-    <form action="" class="become__form" novalidate @submit.prevent="submit">
+    <form action="" class="become__form default__form" novalidate @submit.prevent="submit">
       <div class="cols-2">
         <FormInput :class="{'invalid': $v.first_name.$error}" v-model.trim="$v.first_name.$model" label="First Name:"
                    placeholder="Placeholder"/>
@@ -91,88 +91,6 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.become__form {
-  .cols-2 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 20px;
-  }
+@include default-form;
 
-  .cols-3 {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 10px;
-  }
-
-  .col__qty {
-    max-width: 120px;
-    margin-bottom: 25px;
-
-    .label {
-      display: block;
-      font-size: 18px;
-      line-height: 30px;
-      margin-bottom: 5px;
-    }
-  }
-
-
-  .submit__wrapper {
-    display: flex;
-    justify-content: center;
-
-    .submit__btn {
-      height: 60px;
-      max-width: 330px;
-      background-color: $green;
-      transition: 0.3s;
-      font-size: 18px;
-      line-height: 30px;
-      color: white;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      width: 100%;
-      border-radius: 80px;
-
-      &:hover {
-        background-color: $green-hover;
-      }
-    }
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .become__form {
-    .cols-2 {
-      grid-template-columns: 1fr;
-      grid-gap: 0;
-    }
-
-    .cols-3 {
-    }
-
-    .col__qty {
-      max-width: 120px;
-
-      .label {
-
-        font-size: 18px;
-        line-height: 24px;
-
-      }
-    }
-
-
-    .submit__wrapper {
-
-
-      .submit__btn {
-        height: 44px;
-        font-size: 14px;
-        line-height: 24px;
-      }
-    }
-  }
-}
 </style>

@@ -15,6 +15,7 @@ You can directly use them in pages and other components without the need to impo
 - `<LangSwitcher>` | `<lang-switcher>` (components/LangSwitcher.vue)
 - `<LoginModal>` | `<login-modal>` (components/LoginModal.vue)
 - `<Menu>` | `<menu>` (components/Menu.vue)
+- `<PartnerForm>` | `<partner-form>` (components/PartnerForm.vue)
 - `<ProfileDropdown>` | `<profile-dropdown>` (components/ProfileDropdown.vue)
 - `<CategoryDonorCard>` | `<category-donor-card>` (components/category/DonorCard.vue)
 - `<CategoryDonorGallery>` | `<category-donor-gallery>` (components/category/DonorGallery.vue)
