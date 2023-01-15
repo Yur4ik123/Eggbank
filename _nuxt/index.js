@@ -13,6 +13,7 @@ import { setContext, getLocation, getRouteData, normalizeError } from './utils'
 /* Plugins */
 
 import nuxt_plugin_plugin_c03e6e66 from 'nuxt_plugin_plugin_c03e6e66' // Source: ./components/plugin.js (mode: 'all')
+import nuxt_plugin_recaptcha_46602452 from 'nuxt_plugin_recaptcha_46602452' // Source: ./recaptcha.js (mode: 'all')
 import nuxt_plugin_axios_17b7ff63 from 'nuxt_plugin_axios_17b7ff63' // Source: ./axios.js (mode: 'all')
 import nuxt_plugin_image_02befc5e from 'nuxt_plugin_image_02befc5e' // Source: ./image.js (mode: 'all')
 import nuxt_plugin_uikit_1ee7a097 from 'nuxt_plugin_uikit_1ee7a097' // Source: ./uikit.js (mode: 'all')
@@ -185,6 +186,10 @@ async function createApp(ssrContext, config = {}) {
 
   if (typeof nuxt_plugin_plugin_c03e6e66 === 'function') {
     await nuxt_plugin_plugin_c03e6e66(app.context, inject)
+  }
+
+  if (typeof nuxt_plugin_recaptcha_46602452 === 'function') {
+    await nuxt_plugin_recaptcha_46602452(app.context, inject)
   }
 
   if (typeof nuxt_plugin_axios_17b7ff63 === 'function') {

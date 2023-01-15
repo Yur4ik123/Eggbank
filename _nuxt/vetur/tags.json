@@ -35,17 +35,8 @@
   "ProfileDropdown": {
     "description": "Auto imported from components/ProfileDropdown.vue"
   },
-  "FormBirth": {
-    "description": "Auto imported from components/form/Birth.vue"
-  },
-  "FormInput": {
-    "description": "Auto imported from components/form/Input.vue"
-  },
-  "FormSelect": {
-    "description": "Auto imported from components/form/Select.vue"
-  },
-  "FormTextarea": {
-    "description": "Auto imported from components/form/Textarea.vue"
+  "RegistrationForm": {
+    "description": "Auto imported from components/RegistrationForm.vue"
   },
   "CategoryDonorCard": {
     "description": "Auto imported from components/category/DonorCard.vue"
@@ -76,5 +67,17 @@
   },
   "PartialsRanges": {
     "description": "Auto imported from components/partials/Ranges.vue"
+  },
+  "FormBirth": {
+    "description": "Auto imported from components/form/Birth.vue"
+  },
+  "FormInput": {
+    "description": "Auto imported from components/form/Input.vue"
+  },
+  "FormSelect": {
+    "description": "Auto imported from components/form/Select.vue"
+  },
+  "FormTextarea": {
+    "description": "Auto imported from components/form/Textarea.vue"
   }
 }

@@ -1,5 +1,5 @@
 <template>
-  <div class="login__modal uk-flex-top" id="login" uk-modal>
+  <div class="login__modal uk-flex-top" ref="login__modal" id="login" uk-modal>
     <div class="uk-modal-dialog uk-margin-auto-vertical">
       <button class="uk-modal-close">
         <img src="/img/close-modal.png" width="29" height="29" alt="">
@@ -59,9 +59,9 @@
         </div>
       </div>
       <div class="reg__link-wrapper">
-        <a href="" class="reg__link">
+        <NuxtLink to="/registration" class="reg__link">
           For Registration Click Here
-        </a>
+        </NuxtLink>
       </div>
       <div class="modal__footer">
         <a href="" class="question__link blue__link">
@@ -95,6 +95,11 @@ export default {
       login: {required, email},
       password: {required}
     }
+  },
+  watch: {
+    $route() {
+      this.$UIkit.modal(this.$refs.login__modal).hide();
+    },
   },
   methods: {
     submit() {

@@ -13,7 +13,8 @@
 <script>
 export default {
   name: "default",
-  components: {}
+  components: {},
+
 }
 </script>
 

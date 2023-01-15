@@ -42,7 +42,6 @@ export default {
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
-
     '@nuxtjs/style-resources',
     '@nuxt/postcss8',
     'nuxt-uikit',
@@ -58,13 +57,21 @@ export default {
   image: {
     // Options
   },
-
+  recaptcha: {
+    /* reCAPTCHA options */
+    hideBadge: false, // Hide badge element (v3 & v2 via size=invisible)
+    language: 'en',   // Recaptcha language (v2)
+    mode: 'base',       // Mode: 'base', 'enterprise'
+    //siteKey: String,    // Site key for requests
+    version: 2,    // Version
+    size: 'normal'        // Size: 'compact', 'normal', 'invisible' (v2)
+  },
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios',
-    '@nuxtjs/style-resources',
     '@nuxt/image',
+    '@nuxtjs/recaptcha',
   ],
   styleResources: {
     scss: ['~/assets/styles/variables.scss', '~/assets/styles/mixins.scss']
@@ -86,7 +93,12 @@ export default {
       // file-loader options
     }
   },
-
+  publicRuntimeConfig: {
+    recaptcha: {
+      /* reCAPTCHA options */
+      siteKey:'6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI' // for example
+    }
+  },
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
     transpile: [

@@ -56,6 +56,13 @@
     "_name": "_77989dc3"
   },
   {
+    "name": "registration",
+    "path": "/registration",
+    "component": "/var/www/eggbank.loc/pages/registration.vue",
+    "chunkName": "pages/registration",
+    "_name": "_1b21da5e"
+  },
+  {
     "path": "/steps",
     "component": "/var/www/eggbank.loc/pages/steps.vue",
     "chunkName": "pages/steps",
