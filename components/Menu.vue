@@ -26,7 +26,7 @@
       </NuxtLink>
     </li>
     <li class="nav__list-item">
-      <NuxtLink to="#" class="nav__list-link">
+      <NuxtLink to="/faq" class="nav__list-link">
         FAQ
       </NuxtLink>
     </li>

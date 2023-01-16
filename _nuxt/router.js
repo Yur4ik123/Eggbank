@@ -9,6 +9,7 @@ const _30a15d10 = () => interopDefault(import('../pages/become-donor.vue' /* web
 const _caf06a90 = () => interopDefault(import('../pages/contact.vue' /* webpackChunkName: "pages/contact" */))
 const _da97a036 = () => interopDefault(import('../pages/cost.vue' /* webpackChunkName: "pages/cost" */))
 const _713485a8 = () => interopDefault(import('../pages/donors/index.vue' /* webpackChunkName: "pages/donors/index" */))
+const _864872a4 = () => interopDefault(import('../pages/faq.vue' /* webpackChunkName: "pages/faq" */))
 const _5b3df120 = () => interopDefault(import('../pages/guarantee.vue' /* webpackChunkName: "pages/guarantee" */))
 const _4ec3a550 = () => interopDefault(import('../pages/knowledge-base.vue' /* webpackChunkName: "pages/knowledge-base" */))
 const _63e08c2c = () => interopDefault(import('../pages/licenses.vue' /* webpackChunkName: "pages/licenses" */))
@@ -54,6 +55,10 @@ export const routerOptions = {
     path: "/donors",
     component: _713485a8,
     name: "donors"
+  }, {
+    path: "/faq",
+    component: _864872a4,
+    name: "faq"
   }, {
     path: "/guarantee",
     component: _5b3df120,

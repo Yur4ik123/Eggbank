@@ -35,6 +35,13 @@
     "_name": "_713485a8"
   },
   {
+    "name": "faq",
+    "path": "/faq",
+    "component": "/var/www/eggbank.loc/pages/faq.vue",
+    "chunkName": "pages/faq",
+    "_name": "_864872a4"
+  },
+  {
     "name": "guarantee",
     "path": "/guarantee",
     "component": "/var/www/eggbank.loc/pages/guarantee.vue",

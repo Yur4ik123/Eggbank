@@ -127,7 +127,7 @@
               </NuxtLink>
             </li>
             <li>
-              <NuxtLink to="" class="col_link">
+              <NuxtLink to="/faq" class="col_link">
                 FAQ
               </NuxtLink>
             </li>
