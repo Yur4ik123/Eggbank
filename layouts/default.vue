@@ -6,7 +6,8 @@
     </div>
     <Footer/>
     <LoginModal/>
-<!--    <CookiePopup></CookiePopup>-->
+    <SearchModal/>
+    <!--    <CookiePopup></CookiePopup>-->
   </div>
 </template>
 
