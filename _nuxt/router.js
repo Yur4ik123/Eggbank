@@ -6,6 +6,9 @@ import scrollBehavior from './router.scrollBehavior.js'
 
 const _f2a168b6 = () => interopDefault(import('../pages/about.vue' /* webpackChunkName: "pages/about" */))
 const _30a15d10 = () => interopDefault(import('../pages/become-donor.vue' /* webpackChunkName: "pages/become-donor" */))
+const _f6d4858c = () => interopDefault(import('../pages/blog.vue' /* webpackChunkName: "pages/blog" */))
+const _0a89f03d = () => interopDefault(import('../pages/blog/index.vue' /* webpackChunkName: "pages/blog/index" */))
+const _2f60dde5 = () => interopDefault(import('../pages/blog/_id.vue' /* webpackChunkName: "pages/blog/_id" */))
 const _caf06a90 = () => interopDefault(import('../pages/contact.vue' /* webpackChunkName: "pages/contact" */))
 const _da97a036 = () => interopDefault(import('../pages/cost.vue' /* webpackChunkName: "pages/cost" */))
 const _713485a8 = () => interopDefault(import('../pages/donors/index.vue' /* webpackChunkName: "pages/donors/index" */))
@@ -22,6 +25,7 @@ const _795d1ac7 = () => interopDefault(import('../pages/steps/preparation.vue' /
 const _63d0391a = () => interopDefault(import('../pages/steps/shipment.vue' /* webpackChunkName: "pages/steps/shipment" */))
 const _5064e49f = () => interopDefault(import('../pages/terms.vue' /* webpackChunkName: "pages/terms" */))
 const _5ff7d210 = () => interopDefault(import('../pages/donors/_id.vue' /* webpackChunkName: "pages/donors/_id" */))
+const _9b352e3a = () => interopDefault(import('../pages/post/_id.vue' /* webpackChunkName: "pages/post/_id" */))
 const _b331b32c = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
 
 const emptyFn = () => {}
@@ -43,6 +47,18 @@ export const routerOptions = {
     path: "/become-donor",
     component: _30a15d10,
     name: "become-donor"
+  }, {
+    path: "/blog",
+    component: _f6d4858c,
+    children: [{
+      path: "",
+      component: _0a89f03d,
+      name: "blog"
+    }, {
+      path: ":id",
+      component: _2f60dde5,
+      name: "blog-id"
+    }]
   }, {
     path: "/contact",
     component: _caf06a90,
@@ -107,6 +123,10 @@ export const routerOptions = {
     path: "/donors/:id",
     component: _5ff7d210,
     name: "donors-id"
+  }, {
+    path: "/post/:id?",
+    component: _9b352e3a,
+    name: "post-id"
   }, {
     path: "/",
     component: _b331b32c,

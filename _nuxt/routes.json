@@ -14,6 +14,28 @@
     "_name": "_30a15d10"
   },
   {
+    "path": "/blog",
+    "component": "/var/www/eggbank.loc/pages/blog.vue",
+    "chunkName": "pages/blog",
+    "children": [
+      {
+        "name": "blog",
+        "path": "",
+        "component": "/var/www/eggbank.loc/pages/blog/index.vue",
+        "chunkName": "pages/blog/index",
+        "_name": "_0a89f03d"
+      },
+      {
+        "name": "blog-id",
+        "path": ":id",
+        "component": "/var/www/eggbank.loc/pages/blog/_id.vue",
+        "chunkName": "pages/blog/_id",
+        "_name": "_2f60dde5"
+      }
+    ],
+    "_name": "_f6d4858c"
+  },
+  {
     "name": "contact",
     "path": "/contact",
     "component": "/var/www/eggbank.loc/pages/contact.vue",
@@ -125,6 +147,13 @@
     "component": "/var/www/eggbank.loc/pages/donors/_id.vue",
     "chunkName": "pages/donors/_id",
     "_name": "_5ff7d210"
+  },
+  {
+    "name": "post-id",
+    "path": "/post/:id?",
+    "component": "/var/www/eggbank.loc/pages/post/_id.vue",
+    "chunkName": "pages/post/_id",
+    "_name": "_9b352e3a"
   },
   {
     "name": "index",

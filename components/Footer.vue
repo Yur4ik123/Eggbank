@@ -117,7 +117,7 @@
               </NuxtLink>
             </li>
             <li>
-              <NuxtLink to="" class="col_link">
+              <NuxtLink to="/blog" class="col_link">
                 Blog
               </NuxtLink>
             </li>

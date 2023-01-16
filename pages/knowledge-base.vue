@@ -13,7 +13,7 @@
         <PartialsBlogSearch/>
         </div>
         <div class="nav__block">
-          <NuxtLink to="" class="nav__item">
+          <NuxtLink to="/faq" class="nav__item">
             <div class="img__wrapper">
               <img src="/img/faq_icon.svg" width="385" height="140" alt="">
             </div>
@@ -25,7 +25,7 @@
               asked questions
             </div>
           </NuxtLink>
-          <NuxtLink to="" class="nav__item">
+          <NuxtLink to="/blog" class="nav__item">
             <div class="img__wrapper">
               <img src="/img/news_icon.svg" width="386" height="140" alt="">
             </div>

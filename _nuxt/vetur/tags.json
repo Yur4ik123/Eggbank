@@ -38,17 +38,8 @@
   "RegistrationForm": {
     "description": "Auto imported from components/RegistrationForm.vue"
   },
-  "FormBirth": {
-    "description": "Auto imported from components/form/Birth.vue"
-  },
-  "FormInput": {
-    "description": "Auto imported from components/form/Input.vue"
-  },
-  "FormSelect": {
-    "description": "Auto imported from components/form/Select.vue"
-  },
-  "FormTextarea": {
-    "description": "Auto imported from components/form/Textarea.vue"
+  "BlogPost": {
+    "description": "Auto imported from components/blog/Post.vue"
   },
   "CategoryDonorCard": {
     "description": "Auto imported from components/category/DonorCard.vue"
@@ -61,6 +52,18 @@
   },
   "CategoryOrderModal": {
     "description": "Auto imported from components/category/OrderModal.vue"
+  },
+  "FormBirth": {
+    "description": "Auto imported from components/form/Birth.vue"
+  },
+  "FormInput": {
+    "description": "Auto imported from components/form/Input.vue"
+  },
+  "FormSelect": {
+    "description": "Auto imported from components/form/Select.vue"
+  },
+  "FormTextarea": {
+    "description": "Auto imported from components/form/Textarea.vue"
   },
   "PartialsAddToWishlist": {
     "description": "Auto imported from components/partials/AddToWishlist.vue"
