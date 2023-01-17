@@ -41,6 +41,9 @@
   "SearchModal": {
     "description": "Auto imported from components/SearchModal.vue"
   },
+  "BlogPost": {
+    "description": "Auto imported from components/blog/Post.vue"
+  },
   "FormBirth": {
     "description": "Auto imported from components/form/Birth.vue"
   },
@@ -85,8 +88,5 @@
   },
   "CategoryOrderModal": {
     "description": "Auto imported from components/category/OrderModal.vue"
-  },
-  "BlogPost": {
-    "description": "Auto imported from components/blog/Post.vue"
   }
 }

@@ -20,6 +20,7 @@ You can directly use them in pages and other components without the need to impo
 - `<ProfileDropdown>` | `<profile-dropdown>` (components/ProfileDropdown.vue)
 - `<RegistrationForm>` | `<registration-form>` (components/RegistrationForm.vue)
 - `<SearchModal>` | `<search-modal>` (components/SearchModal.vue)
+- `<BlogPost>` | `<blog-post>` (components/blog/Post.vue)
 - `<FormBirth>` | `<form-birth>` (components/form/Birth.vue)
 - `<FormInput>` | `<form-input>` (components/form/Input.vue)
 - `<FormSelect>` | `<form-select>` (components/form/Select.vue)
@@ -35,4 +36,3 @@ You can directly use them in pages and other components without the need to impo
 - `<CategoryDonorGallery>` | `<category-donor-gallery>` (components/category/DonorGallery.vue)
 - `<CategoryDonorImages>` | `<category-donor-images>` (components/category/DonorImages.vue)
 - `<CategoryOrderModal>` | `<category-order-modal>` (components/category/OrderModal.vue)
-- `<BlogPost>` | `<blog-post>` (components/blog/Post.vue)

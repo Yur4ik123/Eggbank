@@ -21,7 +21,9 @@ const _baa1787e = () => interopDefault(import('../pages/profile.vue' /* webpackC
 const _accbda42 = () => interopDefault(import('../pages/profile/account.vue' /* webpackChunkName: "pages/profile/account" */))
 const _73ef6b23 = () => interopDefault(import('../pages/profile/orders.vue' /* webpackChunkName: "pages/profile/orders" */))
 const _0eb9cb66 = () => interopDefault(import('../pages/profile/orders/index.vue' /* webpackChunkName: "pages/profile/orders/index" */))
+const _5f35d802 = () => interopDefault(import('../pages/profile/orders/invoices.vue' /* webpackChunkName: "pages/profile/orders/invoices" */))
 const _0f99fe7a = () => interopDefault(import('../pages/profile/orders/reservations.vue' /* webpackChunkName: "pages/profile/orders/reservations" */))
+const _6b1483e1 = () => interopDefault(import('../pages/profile/settings.vue' /* webpackChunkName: "pages/profile/settings" */))
 const _1b21da5e = () => interopDefault(import('../pages/registration.vue' /* webpackChunkName: "pages/registration" */))
 const _27bf9e3f = () => interopDefault(import('../pages/steps.vue' /* webpackChunkName: "pages/steps" */))
 const _4d863982 = () => interopDefault(import('../pages/steps/index.vue' /* webpackChunkName: "pages/steps/index" */))
@@ -112,10 +114,18 @@ export const routerOptions = {
         component: _0eb9cb66,
         name: "profile-orders"
       }, {
+        path: "invoices",
+        component: _5f35d802,
+        name: "profile-orders-invoices"
+      }, {
         path: "reservations",
         component: _0f99fe7a,
         name: "profile-orders-reservations"
       }]
+    }, {
+      path: "settings",
+      component: _6b1483e1,
+      name: "profile-settings"
     }]
   }, {
     path: "/registration",

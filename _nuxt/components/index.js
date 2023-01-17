@@ -12,6 +12,7 @@ export { default as PartnerForm } from '../../components/PartnerForm.vue'
 export { default as ProfileDropdown } from '../../components/ProfileDropdown.vue'
 export { default as RegistrationForm } from '../../components/RegistrationForm.vue'
 export { default as SearchModal } from '../../components/SearchModal.vue'
+export { default as BlogPost } from '../../components/blog/Post.vue'
 export { default as FormBirth } from '../../components/form/Birth.vue'
 export { default as FormInput } from '../../components/form/Input.vue'
 export { default as FormSelect } from '../../components/form/Select.vue'
@@ -27,7 +28,6 @@ export { default as CategoryDonorCard } from '../../components/category/DonorCar
 export { default as CategoryDonorGallery } from '../../components/category/DonorGallery.vue'
 export { default as CategoryDonorImages } from '../../components/category/DonorImages.vue'
 export { default as CategoryOrderModal } from '../../components/category/OrderModal.vue'
-export { default as BlogPost } from '../../components/blog/Post.vue'
 
 // nuxt/nuxt.js#8607
 function wrapFunctional(options) {

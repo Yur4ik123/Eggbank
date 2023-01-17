@@ -117,6 +117,13 @@
             "_name": "_0eb9cb66"
           },
           {
+            "name": "profile-orders-invoices",
+            "path": "invoices",
+            "component": "/var/www/eggbank.loc/pages/profile/orders/invoices.vue",
+            "chunkName": "pages/profile/orders/invoices",
+            "_name": "_5f35d802"
+          },
+          {
             "name": "profile-orders-reservations",
             "path": "reservations",
             "component": "/var/www/eggbank.loc/pages/profile/orders/reservations.vue",
@@ -125,6 +132,13 @@
           }
         ],
         "_name": "_73ef6b23"
+      },
+      {
+        "name": "profile-settings",
+        "path": "settings",
+        "component": "/var/www/eggbank.loc/pages/profile/settings.vue",
+        "chunkName": "pages/profile/settings",
+        "_name": "_6b1483e1"
       }
     ],
     "_name": "_baa1787e"
