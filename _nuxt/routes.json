@@ -92,16 +92,17 @@
     "_name": "_77989dc3"
   },
   {
+    "name": "profile",
     "path": "/profile",
     "component": "/var/www/eggbank.loc/pages/profile.vue",
     "chunkName": "pages/profile",
     "children": [
       {
-        "name": "profile",
-        "path": "",
-        "component": "/var/www/eggbank.loc/pages/profile/index.vue",
-        "chunkName": "pages/profile/index",
-        "_name": "_4b5f94f8"
+        "name": "profile-account",
+        "path": "account",
+        "component": "/var/www/eggbank.loc/pages/profile/account.vue",
+        "chunkName": "pages/profile/account",
+        "_name": "_accbda42"
       },
       {
         "path": "orders",
@@ -114,6 +115,13 @@
             "component": "/var/www/eggbank.loc/pages/profile/orders/index.vue",
             "chunkName": "pages/profile/orders/index",
             "_name": "_0eb9cb66"
+          },
+          {
+            "name": "profile-orders-reservations",
+            "path": "reservations",
+            "component": "/var/www/eggbank.loc/pages/profile/orders/reservations.vue",
+            "chunkName": "pages/profile/orders/reservations",
+            "_name": "_0f99fe7a"
           }
         ],
         "_name": "_73ef6b23"

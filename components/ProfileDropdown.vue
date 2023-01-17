@@ -2,7 +2,7 @@
   <div uk-dropdown="mode: click; pos: bottom-right; offset: 28" class="profile__dropdown">
     <ul class="drop__list">
       <li>
-        <NuxtLink to="/profile" class="drop__link">
+        <NuxtLink to="/profile/account" class="drop__link">
           My Account
         </NuxtLink>
       </li>

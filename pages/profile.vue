@@ -8,7 +8,7 @@
       <div class="profile__wrapper">
         <div class="profile__sidebar">
           <div class="sidebar">
-            <NuxtLink to="/profile" class="sidebar__link">
+            <NuxtLink to="/profile/account" class="sidebar__link">
                 <span class="icon">
                   <img src="/img/prof1.svg" width="24" height="24" alt="">
                 </span>
@@ -113,7 +113,7 @@ export default {
           background-color: white;
         }
 
-        &.nuxt-link-exact-active {
+        &.nuxt-link-active {
           background-color: $green;
 
           &:before {

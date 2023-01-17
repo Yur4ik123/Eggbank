@@ -18,9 +18,10 @@ const _4ec3a550 = () => interopDefault(import('../pages/knowledge-base.vue' /* w
 const _63e08c2c = () => interopDefault(import('../pages/licenses.vue' /* webpackChunkName: "pages/licenses" */))
 const _77989dc3 = () => interopDefault(import('../pages/partners.vue' /* webpackChunkName: "pages/partners" */))
 const _baa1787e = () => interopDefault(import('../pages/profile.vue' /* webpackChunkName: "pages/profile" */))
-const _4b5f94f8 = () => interopDefault(import('../pages/profile/index.vue' /* webpackChunkName: "pages/profile/index" */))
+const _accbda42 = () => interopDefault(import('../pages/profile/account.vue' /* webpackChunkName: "pages/profile/account" */))
 const _73ef6b23 = () => interopDefault(import('../pages/profile/orders.vue' /* webpackChunkName: "pages/profile/orders" */))
 const _0eb9cb66 = () => interopDefault(import('../pages/profile/orders/index.vue' /* webpackChunkName: "pages/profile/orders/index" */))
+const _0f99fe7a = () => interopDefault(import('../pages/profile/orders/reservations.vue' /* webpackChunkName: "pages/profile/orders/reservations" */))
 const _1b21da5e = () => interopDefault(import('../pages/registration.vue' /* webpackChunkName: "pages/registration" */))
 const _27bf9e3f = () => interopDefault(import('../pages/steps.vue' /* webpackChunkName: "pages/steps" */))
 const _4d863982 = () => interopDefault(import('../pages/steps/index.vue' /* webpackChunkName: "pages/steps/index" */))
@@ -98,10 +99,11 @@ export const routerOptions = {
   }, {
     path: "/profile",
     component: _baa1787e,
+    name: "profile",
     children: [{
-      path: "",
-      component: _4b5f94f8,
-      name: "profile"
+      path: "account",
+      component: _accbda42,
+      name: "profile-account"
     }, {
       path: "orders",
       component: _73ef6b23,
@@ -109,6 +111,10 @@ export const routerOptions = {
         path: "",
         component: _0eb9cb66,
         name: "profile-orders"
+      }, {
+        path: "reservations",
+        component: _0f99fe7a,
+        name: "profile-orders-reservations"
       }]
     }]
   }, {

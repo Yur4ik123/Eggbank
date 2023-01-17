@@ -39,7 +39,7 @@ export default {
     display: flex;
     align-items: center;
 
-    &.nuxt-link-active {
+    &.nuxt-link-exact-active  {
       .title {
         &:before {
           content: '';

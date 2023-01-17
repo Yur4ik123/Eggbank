@@ -41,20 +41,17 @@
   "SearchModal": {
     "description": "Auto imported from components/SearchModal.vue"
   },
-  "BlogPost": {
-    "description": "Auto imported from components/blog/Post.vue"
+  "FormBirth": {
+    "description": "Auto imported from components/form/Birth.vue"
   },
-  "CategoryDonorCard": {
-    "description": "Auto imported from components/category/DonorCard.vue"
+  "FormInput": {
+    "description": "Auto imported from components/form/Input.vue"
   },
-  "CategoryDonorGallery": {
-    "description": "Auto imported from components/category/DonorGallery.vue"
+  "FormSelect": {
+    "description": "Auto imported from components/form/Select.vue"
   },
-  "CategoryDonorImages": {
-    "description": "Auto imported from components/category/DonorImages.vue"
-  },
-  "CategoryOrderModal": {
-    "description": "Auto imported from components/category/OrderModal.vue"
+  "FormTextarea": {
+    "description": "Auto imported from components/form/Textarea.vue"
   },
   "PartialsAddToWishlist": {
     "description": "Auto imported from components/partials/AddToWishlist.vue"
@@ -77,16 +74,19 @@
   "PartialsRanges": {
     "description": "Auto imported from components/partials/Ranges.vue"
   },
-  "FormBirth": {
-    "description": "Auto imported from components/form/Birth.vue"
+  "CategoryDonorCard": {
+    "description": "Auto imported from components/category/DonorCard.vue"
   },
-  "FormInput": {
-    "description": "Auto imported from components/form/Input.vue"
+  "CategoryDonorGallery": {
+    "description": "Auto imported from components/category/DonorGallery.vue"
   },
-  "FormSelect": {
-    "description": "Auto imported from components/form/Select.vue"
+  "CategoryDonorImages": {
+    "description": "Auto imported from components/category/DonorImages.vue"
   },
-  "FormTextarea": {
-    "description": "Auto imported from components/form/Textarea.vue"
+  "CategoryOrderModal": {
+    "description": "Auto imported from components/category/OrderModal.vue"
+  },
+  "BlogPost": {
+    "description": "Auto imported from components/blog/Post.vue"
   }
 }
