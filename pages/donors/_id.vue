@@ -251,7 +251,6 @@
                     class="uk-checkbox"
                     type="checkbox">
                 </label>
-
               </div>
               <PartialsAvailability status="request"/>
               <a href="" class="reservation__btn" @click.prevent="reservation">

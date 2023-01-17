@@ -92,6 +92,36 @@
     "_name": "_77989dc3"
   },
   {
+    "path": "/profile",
+    "component": "/var/www/eggbank.loc/pages/profile.vue",
+    "chunkName": "pages/profile",
+    "children": [
+      {
+        "name": "profile",
+        "path": "",
+        "component": "/var/www/eggbank.loc/pages/profile/index.vue",
+        "chunkName": "pages/profile/index",
+        "_name": "_4b5f94f8"
+      },
+      {
+        "path": "orders",
+        "component": "/var/www/eggbank.loc/pages/profile/orders.vue",
+        "chunkName": "pages/profile/orders",
+        "children": [
+          {
+            "name": "profile-orders",
+            "path": "",
+            "component": "/var/www/eggbank.loc/pages/profile/orders/index.vue",
+            "chunkName": "pages/profile/orders/index",
+            "_name": "_0eb9cb66"
+          }
+        ],
+        "_name": "_73ef6b23"
+      }
+    ],
+    "_name": "_baa1787e"
+  },
+  {
     "name": "registration",
     "path": "/registration",
     "component": "/var/www/eggbank.loc/pages/registration.vue",

@@ -29,13 +29,13 @@
         </div>
         <div class="profile ">
           <!--        TODO check login  -->
-          <a href="#login" class="circle__btn" v-if="true" uk-toggle>
+          <a href="#login" class="circle__btn" v-if="false" uk-toggle>
             <img src="~/assets/img/profile.svg" width="18" height="18" alt="">
           </a>
-          <a href="" class="circle__btn" v-if="false">
+          <a href="" class="circle__btn" v-if="true">
             <img src="~/assets/img/profile.svg" width="18" height="18" alt="">
           </a>
-          <ProfileDropdown v-if="false"/>
+          <ProfileDropdown v-if="true"/>
         </div>
         <a href="#mobile-menu" class="menu__btn" style="display: none;" uk-toggle>
           <svg width="22" height="12" viewBox="0 0 22 12" fill="none" xmlns="http://www.w3.org/2000/svg" class="show">

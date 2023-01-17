@@ -17,6 +17,10 @@ const _5b3df120 = () => interopDefault(import('../pages/guarantee.vue' /* webpac
 const _4ec3a550 = () => interopDefault(import('../pages/knowledge-base.vue' /* webpackChunkName: "pages/knowledge-base" */))
 const _63e08c2c = () => interopDefault(import('../pages/licenses.vue' /* webpackChunkName: "pages/licenses" */))
 const _77989dc3 = () => interopDefault(import('../pages/partners.vue' /* webpackChunkName: "pages/partners" */))
+const _baa1787e = () => interopDefault(import('../pages/profile.vue' /* webpackChunkName: "pages/profile" */))
+const _4b5f94f8 = () => interopDefault(import('../pages/profile/index.vue' /* webpackChunkName: "pages/profile/index" */))
+const _73ef6b23 = () => interopDefault(import('../pages/profile/orders.vue' /* webpackChunkName: "pages/profile/orders" */))
+const _0eb9cb66 = () => interopDefault(import('../pages/profile/orders/index.vue' /* webpackChunkName: "pages/profile/orders/index" */))
 const _1b21da5e = () => interopDefault(import('../pages/registration.vue' /* webpackChunkName: "pages/registration" */))
 const _27bf9e3f = () => interopDefault(import('../pages/steps.vue' /* webpackChunkName: "pages/steps" */))
 const _4d863982 = () => interopDefault(import('../pages/steps/index.vue' /* webpackChunkName: "pages/steps/index" */))
@@ -91,6 +95,22 @@ export const routerOptions = {
     path: "/partners",
     component: _77989dc3,
     name: "partners"
+  }, {
+    path: "/profile",
+    component: _baa1787e,
+    children: [{
+      path: "",
+      component: _4b5f94f8,
+      name: "profile"
+    }, {
+      path: "orders",
+      component: _73ef6b23,
+      children: [{
+        path: "",
+        component: _0eb9cb66,
+        name: "profile-orders"
+      }]
+    }]
   }, {
     path: "/registration",
     component: _1b21da5e,

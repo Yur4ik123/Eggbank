@@ -2,32 +2,32 @@
   <div uk-dropdown="mode: click; pos: bottom-right; offset: 28" class="profile__dropdown">
     <ul class="drop__list">
       <li>
-        <NuxtLink to="" class="drop__link">
+        <NuxtLink to="/profile" class="drop__link">
           My Account
         </NuxtLink>
       </li>
       <li>
-        <NuxtLink to="" class="drop__link">
+        <NuxtLink to="/profile/orders" class="drop__link">
           My Order
         </NuxtLink>
       </li>
       <li>
-        <NuxtLink to="" class="drop__link">
+        <NuxtLink to="/profile/wishlist" class="drop__link">
           My Favorite Donors <span class="count">1</span>
         </NuxtLink>
       </li>
       <li>
-        <NuxtLink to="" class="drop__link">
+        <NuxtLink to="/profile/invoices" class="drop__link">
           Invoices
         </NuxtLink>
       </li>
       <li>
-        <NuxtLink to="" class="drop__link">
+        <NuxtLink to="/profile/settings" class="drop__link">
           Settings
         </NuxtLink>
       </li>
       <li>
-        <NuxtLink to="" class="drop__link">
+        <NuxtLink to="/faq" class="drop__link">
           FAQ
         </NuxtLink>
       </li>

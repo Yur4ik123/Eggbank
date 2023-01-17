@@ -13,10 +13,6 @@ export { default as ProfileDropdown } from '../../components/ProfileDropdown.vue
 export { default as RegistrationForm } from '../../components/RegistrationForm.vue'
 export { default as SearchModal } from '../../components/SearchModal.vue'
 export { default as BlogPost } from '../../components/blog/Post.vue'
-export { default as FormBirth } from '../../components/form/Birth.vue'
-export { default as FormInput } from '../../components/form/Input.vue'
-export { default as FormSelect } from '../../components/form/Select.vue'
-export { default as FormTextarea } from '../../components/form/Textarea.vue'
 export { default as CategoryDonorCard } from '../../components/category/DonorCard.vue'
 export { default as CategoryDonorGallery } from '../../components/category/DonorGallery.vue'
 export { default as CategoryDonorImages } from '../../components/category/DonorImages.vue'
@@ -28,6 +24,10 @@ export { default as PartialsBreadcrumbs } from '../../components/partials/Breadc
 export { default as PartialsDiagram } from '../../components/partials/Diagram.vue'
 export { default as PartialsGreenBtn } from '../../components/partials/GreenBtn.vue'
 export { default as PartialsRanges } from '../../components/partials/Ranges.vue'
+export { default as FormBirth } from '../../components/form/Birth.vue'
+export { default as FormInput } from '../../components/form/Input.vue'
+export { default as FormSelect } from '../../components/form/Select.vue'
+export { default as FormTextarea } from '../../components/form/Textarea.vue'
 
 // nuxt/nuxt.js#8607
 function wrapFunctional(options) {

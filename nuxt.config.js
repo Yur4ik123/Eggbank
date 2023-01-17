@@ -46,7 +46,8 @@ export default {
     '@nuxt/postcss8',
     'nuxt-uikit',
     "@nuxtjs/svg",
-    '@nuxt/image'
+    '@nuxt/image',
+   // '@nuxtjs/router'
   ],
 
   // Global CSS: https://go.nuxtjs.dev/config-css

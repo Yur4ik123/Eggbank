@@ -44,18 +44,6 @@
   "BlogPost": {
     "description": "Auto imported from components/blog/Post.vue"
   },
-  "FormBirth": {
-    "description": "Auto imported from components/form/Birth.vue"
-  },
-  "FormInput": {
-    "description": "Auto imported from components/form/Input.vue"
-  },
-  "FormSelect": {
-    "description": "Auto imported from components/form/Select.vue"
-  },
-  "FormTextarea": {
-    "description": "Auto imported from components/form/Textarea.vue"
-  },
   "CategoryDonorCard": {
     "description": "Auto imported from components/category/DonorCard.vue"
   },
@@ -88,5 +76,17 @@
   },
   "PartialsRanges": {
     "description": "Auto imported from components/partials/Ranges.vue"
+  },
+  "FormBirth": {
+    "description": "Auto imported from components/form/Birth.vue"
+  },
+  "FormInput": {
+    "description": "Auto imported from components/form/Input.vue"
+  },
+  "FormSelect": {
+    "description": "Auto imported from components/form/Select.vue"
+  },
+  "FormTextarea": {
+    "description": "Auto imported from components/form/Textarea.vue"
   }
 }
