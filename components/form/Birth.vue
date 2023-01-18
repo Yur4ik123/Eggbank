@@ -1,6 +1,6 @@
 <template>
   <div class="birth">
-    <label class="label" v-text="label"></label>
+    <label class="label" v-html="label"></label>
   <div class="birth__wrapper">
     <FormSelect :options="month_list" v-model="month" placeholder="Month"  />
     <FormSelect :options="day_list" v-model="day" placeholder="Day" />
@@ -45,6 +45,11 @@ export default {
   font-size: 18px;
   line-height: 30px;
   margin-bottom: 5px;
+
+    span{
+      color: #979797;
+    }
+
 }
 @media screen and (max-width: 768px){
   .label {

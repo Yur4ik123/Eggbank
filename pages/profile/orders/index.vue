@@ -286,7 +286,7 @@
       </div>
     </div>
     <div class="btn__wrapper">
-      <a href="" class="finish__reserv">
+      <NuxtLink to="/profile/reservation" class="finish__reserv">
         <span class="title">
           Finish The Reservation
         </span>
@@ -294,7 +294,7 @@
           Selected (1)
         </span>
 
-      </a>
+      </NuxtLink>
 
     </div>
 

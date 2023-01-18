@@ -141,6 +141,13 @@
         "_name": "_73ef6b23"
       },
       {
+        "name": "profile-reservation",
+        "path": "reservation",
+        "component": "/var/www/eggbank.loc/pages/profile/reservation.vue",
+        "chunkName": "pages/profile/reservation",
+        "_name": "_3dd807fe"
+      },
+      {
         "name": "profile-settings",
         "path": "settings",
         "component": "/var/www/eggbank.loc/pages/profile/settings.vue",
