@@ -67,6 +67,10 @@ export default {
 <style lang="scss" scoped>
 .profile__page {
   margin-bottom: 70px;
+  position: relative;
+  .container{
+    position: relative;
+  }
 }
 
 .profile__header {

@@ -9,6 +9,7 @@ const _30a15d10 = () => interopDefault(import('../pages/become-donor.vue' /* web
 const _f6d4858c = () => interopDefault(import('../pages/blog.vue' /* webpackChunkName: "pages/blog" */))
 const _0a89f03d = () => interopDefault(import('../pages/blog/index.vue' /* webpackChunkName: "pages/blog/index" */))
 const _2f60dde5 = () => interopDefault(import('../pages/blog/_id.vue' /* webpackChunkName: "pages/blog/_id" */))
+const _7f83f8fd = () => interopDefault(import('../pages/compare.vue' /* webpackChunkName: "pages/compare" */))
 const _caf06a90 = () => interopDefault(import('../pages/contact.vue' /* webpackChunkName: "pages/contact" */))
 const _da97a036 = () => interopDefault(import('../pages/cost.vue' /* webpackChunkName: "pages/cost" */))
 const _713485a8 = () => interopDefault(import('../pages/donors/index.vue' /* webpackChunkName: "pages/donors/index" */))
@@ -24,6 +25,7 @@ const _0eb9cb66 = () => interopDefault(import('../pages/profile/orders/index.vue
 const _5f35d802 = () => interopDefault(import('../pages/profile/orders/invoices.vue' /* webpackChunkName: "pages/profile/orders/invoices" */))
 const _0f99fe7a = () => interopDefault(import('../pages/profile/orders/reservations.vue' /* webpackChunkName: "pages/profile/orders/reservations" */))
 const _6b1483e1 = () => interopDefault(import('../pages/profile/settings.vue' /* webpackChunkName: "pages/profile/settings" */))
+const _399bdc83 = () => interopDefault(import('../pages/profile/wishlist.vue' /* webpackChunkName: "pages/profile/wishlist" */))
 const _1b21da5e = () => interopDefault(import('../pages/registration.vue' /* webpackChunkName: "pages/registration" */))
 const _27bf9e3f = () => interopDefault(import('../pages/steps.vue' /* webpackChunkName: "pages/steps" */))
 const _4d863982 = () => interopDefault(import('../pages/steps/index.vue' /* webpackChunkName: "pages/steps/index" */))
@@ -66,6 +68,10 @@ export const routerOptions = {
       component: _2f60dde5,
       name: "blog-id"
     }]
+  }, {
+    path: "/compare",
+    component: _7f83f8fd,
+    name: "compare"
   }, {
     path: "/contact",
     component: _caf06a90,
@@ -126,6 +132,10 @@ export const routerOptions = {
       path: "settings",
       component: _6b1483e1,
       name: "profile-settings"
+    }, {
+      path: "wishlist",
+      component: _399bdc83,
+      name: "profile-wishlist"
     }]
   }, {
     path: "/registration",

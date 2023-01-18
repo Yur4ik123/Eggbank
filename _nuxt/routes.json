@@ -36,6 +36,13 @@
     "_name": "_f6d4858c"
   },
   {
+    "name": "compare",
+    "path": "/compare",
+    "component": "/var/www/eggbank.loc/pages/compare.vue",
+    "chunkName": "pages/compare",
+    "_name": "_7f83f8fd"
+  },
+  {
     "name": "contact",
     "path": "/contact",
     "component": "/var/www/eggbank.loc/pages/contact.vue",
@@ -139,6 +146,13 @@
         "component": "/var/www/eggbank.loc/pages/profile/settings.vue",
         "chunkName": "pages/profile/settings",
         "_name": "_6b1483e1"
+      },
+      {
+        "name": "profile-wishlist",
+        "path": "wishlist",
+        "component": "/var/www/eggbank.loc/pages/profile/wishlist.vue",
+        "chunkName": "pages/profile/wishlist",
+        "_name": "_399bdc83"
       }
     ],
     "_name": "_baa1787e"

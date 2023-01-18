@@ -1,5 +1,6 @@
 <template>
   <div class="settings">
+    <PartialsWriteSupport/>
     <div class="section__block">
       <div class="section__divider">
         Personal info
@@ -112,6 +113,16 @@ Facebook.com/Horns&Hooves.us
       </form>
 
     </div>
+    <div class="section__block" v-if="editing_data || editing__pass">
+      <div class="section__divider">
+      </div>
+      <a href="" class="delete__account">
+        <span class="icon">
+          <img src="/img/del__acc.svg" width="26" height="26">
+        </span>
+        <span class="title">Delete My accoun</span>
+      </a>
+    </div>
   </div>
 </template>
 
@@ -130,6 +141,35 @@ export default {
 
 <style lang="scss">
 .settings {
+  .write__support {
+    position: absolute;
+    top: 0;
+    right: 15px;
+  }
+
+  .delete__account {
+    display: inline-flex;
+    align-items: center;
+
+    .icon {
+      width: 50px;
+      height: 50px;
+      border-radius: 100%;
+      background-color: #FF3535;
+      margin-right: 15px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .title {
+      font-size: 18px;
+      line-height: 30px;
+      color: $green;
+      text-decoration: underline;
+    }
+  }
+
   .section__block {
     margin-bottom: 50px;
 
@@ -271,6 +311,91 @@ export default {
 
     &:hover {
       background-color: $green-hover;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .settings {
+    .write__support {
+      position: relative;
+      right: initial;
+      top: initial;
+      margin-bottom: 34px;
+      padding: 10px 15px;
+      font-size: 14px;
+      line-height: 24px;
+    }
+
+    .delete__account {
+      .title {
+        font-size: 14px;
+        line-height: 24px;
+      }
+    }
+
+    .section__divider {
+      padding-bottom: 16px;
+      font-size: 14px;
+      line-height: 24px;
+      margin-bottom: 15px;
+    }
+
+    .change__btn, .submit__btn {
+      padding: 10px 20px;
+      font-size: 14px;
+      line-height: 24px;
+    }
+
+    .user__data {
+      .data__row {
+        grid-template-columns: 115px 1fr;
+        grid-gap: 5px;
+
+        .label, .data {
+          font-size: 14px;
+          line-height: 38px;
+        }
+      }
+    }
+
+    .change__password-form {
+      .row__wrapper {
+        grid-template-columns: 63px 1fr;
+
+        &.editing {
+          grid-template-columns: 110px 1fr;
+          grid-gap: 7px;
+
+          .label {
+            font-size: 18px;
+            line-height: 18px;
+          }
+        }
+
+        .label {
+          font-size: 14px;
+          line-height: 24px;
+
+        }
+
+        .input {
+          height: 44px;
+          padding: 0 10px;
+        }
+      }
+    }
+
+    .edit__data-form {
+
+      .input__wrapper, .birth {
+        grid-template-columns: initial;
+        grid-gap: initial;
+      }
+
+      .btns__wrapper {
+        margin-top: 25px;
+      }
     }
   }
 }
