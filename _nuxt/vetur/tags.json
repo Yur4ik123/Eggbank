@@ -41,9 +41,6 @@
   "SearchModal": {
     "description": "Auto imported from components/SearchModal.vue"
   },
-  "BlogPost": {
-    "description": "Auto imported from components/blog/Post.vue"
-  },
   "FormBirth": {
     "description": "Auto imported from components/form/Birth.vue"
   },
@@ -82,6 +79,9 @@
   },
   "PartialsWriteSupport": {
     "description": "Auto imported from components/partials/WriteSupport.vue"
+  },
+  "BlogPost": {
+    "description": "Auto imported from components/blog/Post.vue"
   },
   "CategoryDonorCard": {
     "description": "Auto imported from components/category/DonorCard.vue"

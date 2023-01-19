@@ -3,13 +3,15 @@
     "name": "about",
     "path": "/about",
     "component": "/var/www/eggbank.loc/pages/about.vue",
-    "chunkName": "pages/about"
+    "chunkName": "pages/about",
+    "_name": "_f2a168b6"
   },
   {
     "name": "become-donor",
     "path": "/become-donor",
     "component": "/var/www/eggbank.loc/pages/become-donor.vue",
-    "chunkName": "pages/become-donor"
+    "chunkName": "pages/become-donor",
+    "_name": "_30a15d10"
   },
   {
     "path": "/blog",
@@ -20,69 +22,81 @@
         "name": "blog",
         "path": "",
         "component": "/var/www/eggbank.loc/pages/blog/index.vue",
-        "chunkName": "pages/blog/index"
+        "chunkName": "pages/blog/index",
+        "_name": "_0a89f03d"
       },
       {
         "name": "blog-id",
         "path": ":id",
         "component": "/var/www/eggbank.loc/pages/blog/_id.vue",
-        "chunkName": "pages/blog/_id"
+        "chunkName": "pages/blog/_id",
+        "_name": "_2f60dde5"
       }
-    ]
+    ],
+    "_name": "_f6d4858c"
   },
   {
     "name": "compare",
     "path": "/compare",
     "component": "/var/www/eggbank.loc/pages/compare.vue",
-    "chunkName": "pages/compare"
+    "chunkName": "pages/compare",
+    "_name": "_7f83f8fd"
   },
   {
     "name": "contact",
     "path": "/contact",
     "component": "/var/www/eggbank.loc/pages/contact.vue",
-    "chunkName": "pages/contact"
+    "chunkName": "pages/contact",
+    "_name": "_caf06a90"
   },
   {
     "name": "cost",
     "path": "/cost",
     "component": "/var/www/eggbank.loc/pages/cost.vue",
-    "chunkName": "pages/cost"
+    "chunkName": "pages/cost",
+    "_name": "_da97a036"
   },
   {
     "name": "donors",
     "path": "/donors",
     "component": "/var/www/eggbank.loc/pages/donors/index.vue",
-    "chunkName": "pages/donors/index"
+    "chunkName": "pages/donors/index",
+    "_name": "_713485a8"
   },
   {
     "name": "faq",
     "path": "/faq",
     "component": "/var/www/eggbank.loc/pages/faq.vue",
-    "chunkName": "pages/faq"
+    "chunkName": "pages/faq",
+    "_name": "_864872a4"
   },
   {
     "name": "guarantee",
     "path": "/guarantee",
     "component": "/var/www/eggbank.loc/pages/guarantee.vue",
-    "chunkName": "pages/guarantee"
+    "chunkName": "pages/guarantee",
+    "_name": "_5b3df120"
   },
   {
     "name": "knowledge-base",
     "path": "/knowledge-base",
     "component": "/var/www/eggbank.loc/pages/knowledge-base.vue",
-    "chunkName": "pages/knowledge-base"
+    "chunkName": "pages/knowledge-base",
+    "_name": "_4ec3a550"
   },
   {
     "name": "licenses",
     "path": "/licenses",
     "component": "/var/www/eggbank.loc/pages/licenses.vue",
-    "chunkName": "pages/licenses"
+    "chunkName": "pages/licenses",
+    "_name": "_63e08c2c"
   },
   {
     "name": "partners",
     "path": "/partners",
     "component": "/var/www/eggbank.loc/pages/partners.vue",
-    "chunkName": "pages/partners"
+    "chunkName": "pages/partners",
+    "_name": "_77989dc3"
   },
   {
     "name": "profile",
@@ -94,7 +108,8 @@
         "name": "profile-account",
         "path": "account",
         "component": "/var/www/eggbank.loc/pages/profile/account.vue",
-        "chunkName": "pages/profile/account"
+        "chunkName": "pages/profile/account",
+        "_name": "_accbda42"
       },
       {
         "path": "orders",
@@ -105,47 +120,56 @@
             "name": "profile-orders",
             "path": "",
             "component": "/var/www/eggbank.loc/pages/profile/orders/index.vue",
-            "chunkName": "pages/profile/orders/index"
+            "chunkName": "pages/profile/orders/index",
+            "_name": "_0eb9cb66"
           },
           {
             "name": "profile-orders-invoices",
             "path": "invoices",
             "component": "/var/www/eggbank.loc/pages/profile/orders/invoices.vue",
-            "chunkName": "pages/profile/orders/invoices"
+            "chunkName": "pages/profile/orders/invoices",
+            "_name": "_5f35d802"
           },
           {
             "name": "profile-orders-reservations",
             "path": "reservations",
             "component": "/var/www/eggbank.loc/pages/profile/orders/reservations.vue",
-            "chunkName": "pages/profile/orders/reservations"
+            "chunkName": "pages/profile/orders/reservations",
+            "_name": "_0f99fe7a"
           }
-        ]
+        ],
+        "_name": "_73ef6b23"
       },
       {
         "name": "profile-reservation",
         "path": "reservation",
         "component": "/var/www/eggbank.loc/pages/profile/reservation.vue",
-        "chunkName": "pages/profile/reservation"
+        "chunkName": "pages/profile/reservation",
+        "_name": "_3dd807fe"
       },
       {
         "name": "profile-settings",
         "path": "settings",
         "component": "/var/www/eggbank.loc/pages/profile/settings.vue",
-        "chunkName": "pages/profile/settings"
+        "chunkName": "pages/profile/settings",
+        "_name": "_6b1483e1"
       },
       {
         "name": "profile-wishlist",
         "path": "wishlist",
         "component": "/var/www/eggbank.loc/pages/profile/wishlist.vue",
-        "chunkName": "pages/profile/wishlist"
+        "chunkName": "pages/profile/wishlist",
+        "_name": "_399bdc83"
       }
-    ]
+    ],
+    "_name": "_baa1787e"
   },
   {
     "name": "registration",
     "path": "/registration",
     "component": "/var/www/eggbank.loc/pages/registration.vue",
-    "chunkName": "pages/registration"
+    "chunkName": "pages/registration",
+    "_name": "_1b21da5e"
   },
   {
     "path": "/share",
@@ -156,9 +180,18 @@
         "name": "share",
         "path": "",
         "component": "/var/www/eggbank.loc/pages/share/index.vue",
-        "chunkName": "pages/share/index"
+        "chunkName": "pages/share/index",
+        "_name": "_30139f8c"
+      },
+      {
+        "name": "share-my-selections",
+        "path": "my-selections",
+        "component": "/var/www/eggbank.loc/pages/share/my-selections.vue",
+        "chunkName": "pages/share/my-selections",
+        "_name": "_14753790"
       }
-    ]
+    ],
+    "_name": "_783cfef7"
   },
   {
     "path": "/steps",
@@ -169,50 +202,59 @@
         "name": "steps",
         "path": "",
         "component": "/var/www/eggbank.loc/pages/steps/index.vue",
-        "chunkName": "pages/steps/index"
+        "chunkName": "pages/steps/index",
+        "_name": "_4d863982"
       },
       {
         "name": "steps-payment",
         "path": "payment",
         "component": "/var/www/eggbank.loc/pages/steps/payment.vue",
-        "chunkName": "pages/steps/payment"
+        "chunkName": "pages/steps/payment",
+        "_name": "_d023ba94"
       },
       {
         "name": "steps-preparation",
         "path": "preparation",
         "component": "/var/www/eggbank.loc/pages/steps/preparation.vue",
-        "chunkName": "pages/steps/preparation"
+        "chunkName": "pages/steps/preparation",
+        "_name": "_795d1ac7"
       },
       {
         "name": "steps-shipment",
         "path": "shipment",
         "component": "/var/www/eggbank.loc/pages/steps/shipment.vue",
-        "chunkName": "pages/steps/shipment"
+        "chunkName": "pages/steps/shipment",
+        "_name": "_63d0391a"
       }
-    ]
+    ],
+    "_name": "_27bf9e3f"
   },
   {
     "name": "terms",
     "path": "/terms",
     "component": "/var/www/eggbank.loc/pages/terms.vue",
-    "chunkName": "pages/terms"
+    "chunkName": "pages/terms",
+    "_name": "_5064e49f"
   },
   {
     "name": "donors-id",
     "path": "/donors/:id",
     "component": "/var/www/eggbank.loc/pages/donors/_id.vue",
-    "chunkName": "pages/donors/_id"
+    "chunkName": "pages/donors/_id",
+    "_name": "_5ff7d210"
   },
   {
     "name": "post-id",
     "path": "/post/:id?",
     "component": "/var/www/eggbank.loc/pages/post/_id.vue",
-    "chunkName": "pages/post/_id"
+    "chunkName": "pages/post/_id",
+    "_name": "_9b352e3a"
   },
   {
     "name": "index",
     "path": "/",
     "component": "/var/www/eggbank.loc/pages/index.vue",
-    "chunkName": "pages/index"
+    "chunkName": "pages/index",
+    "_name": "_b331b32c"
   }
 ]
