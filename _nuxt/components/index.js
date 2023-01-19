@@ -16,12 +16,6 @@ export { default as CategoryDonorCard } from '../../components/category/DonorCar
 export { default as CategoryDonorGallery } from '../../components/category/DonorGallery.vue'
 export { default as CategoryDonorImages } from '../../components/category/DonorImages.vue'
 export { default as CategoryOrderModal } from '../../components/category/OrderModal.vue'
-export { default as BlogPost } from '../../components/blog/Post.vue'
-export { default as FormBirth } from '../../components/form/Birth.vue'
-export { default as FormCountrySelect } from '../../components/form/CountrySelect.vue'
-export { default as FormInput } from '../../components/form/Input.vue'
-export { default as FormSelect } from '../../components/form/Select.vue'
-export { default as FormTextarea } from '../../components/form/Textarea.vue'
 export { default as PartialsAddToWishlist } from '../../components/partials/AddToWishlist.vue'
 export { default as PartialsAvailability } from '../../components/partials/Availability.vue'
 export { default as PartialsBlogSearch } from '../../components/partials/BlogSearch.vue'
@@ -30,6 +24,12 @@ export { default as PartialsDiagram } from '../../components/partials/Diagram.vu
 export { default as PartialsGreenBtn } from '../../components/partials/GreenBtn.vue'
 export { default as PartialsRanges } from '../../components/partials/Ranges.vue'
 export { default as PartialsWriteSupport } from '../../components/partials/WriteSupport.vue'
+export { default as FormBirth } from '../../components/form/Birth.vue'
+export { default as FormCountrySelect } from '../../components/form/CountrySelect.vue'
+export { default as FormInput } from '../../components/form/Input.vue'
+export { default as FormSelect } from '../../components/form/Select.vue'
+export { default as FormTextarea } from '../../components/form/Textarea.vue'
+export { default as BlogPost } from '../../components/blog/Post.vue'
 
 // nuxt/nuxt.js#8607
 function wrapFunctional(options) {

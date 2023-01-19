@@ -17,7 +17,7 @@
         </NuxtLink>
       </li>
       <li>
-        <NuxtLink to="/profile/invoices" class="drop__link">
+        <NuxtLink to="/profile/orders/invoices" class="drop__link">
           Invoices
         </NuxtLink>
       </li>

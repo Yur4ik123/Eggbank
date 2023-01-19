@@ -29,7 +29,7 @@
               <span class="title  ">My Favorite Donors</span>
             </NuxtLink>
 
-            <NuxtLink to="/profile/invoices" class="sidebar__link">
+            <NuxtLink to="/profile/orders/invoices" class="sidebar__link">
                 <span class="icon">
                   <img src="/img/prof4.svg" width="22" height="22" alt="">
                 </span>
@@ -45,7 +45,18 @@
 
 
           </div>
+          <div class="share__link-wrapper" v-if="$route.name=='profile-wishlist'">
+            <div class="head">
+              Share Link
+            </div>
+            <div class="title">
+              Share donor profiles one at a time, or let intended parents see your entire donor pool
 
+            </div>
+            <NuxtLink to="" class="share__link">
+              Shere Link
+            </NuxtLink>
+          </div>
         </div>
         <div class="profile__content">
           <NuxtChild></NuxtChild>
@@ -60,6 +71,9 @@
 
 export default {
   name: "index",
+  mounted() {
+    console.log(this.$route)
+  }
 
 }
 </script>
@@ -68,7 +82,8 @@ export default {
 .profile__page {
   margin-bottom: 70px;
   position: relative;
-  .container{
+
+  .container {
     position: relative;
   }
 }
@@ -85,6 +100,40 @@ export default {
   grid-gap: 20px;
 
   .profile__sidebar {
+    .share__link-wrapper {
+      margin-top: 30px;
+
+      .head {
+        font-size: 18px;
+        line-height: 30px;
+        color: $green;
+        margin-bottom: 5px;
+      }
+
+      .title {
+        font-size: 16px;
+        line-height: 24px;
+        margin-bottom: 15px;
+      }
+
+      .share__link {
+        font-size: 18px;
+        line-height: 24px;
+        color: white!important;
+        background-color: $green;
+        transition: 0.3s;
+        border-radius: 80px;
+        padding: 15px 33px;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+
+        &:hover {
+          background-color: $green-hover;
+        }
+      }
+    }
+
     .sidebar {
       background: #CDE4F0;
       border-radius: 12px;
@@ -117,7 +166,7 @@ export default {
           background-color: white;
         }
 
-        &.nuxt-link-active {
+        &.nuxt-link-exact-active {
           background-color: $green;
 
           &:before {

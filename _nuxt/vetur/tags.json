@@ -53,24 +53,6 @@
   "CategoryOrderModal": {
     "description": "Auto imported from components/category/OrderModal.vue"
   },
-  "BlogPost": {
-    "description": "Auto imported from components/blog/Post.vue"
-  },
-  "FormBirth": {
-    "description": "Auto imported from components/form/Birth.vue"
-  },
-  "FormCountrySelect": {
-    "description": "Auto imported from components/form/CountrySelect.vue"
-  },
-  "FormInput": {
-    "description": "Auto imported from components/form/Input.vue"
-  },
-  "FormSelect": {
-    "description": "Auto imported from components/form/Select.vue"
-  },
-  "FormTextarea": {
-    "description": "Auto imported from components/form/Textarea.vue"
-  },
   "PartialsAddToWishlist": {
     "description": "Auto imported from components/partials/AddToWishlist.vue"
   },
@@ -94,5 +76,23 @@
   },
   "PartialsWriteSupport": {
     "description": "Auto imported from components/partials/WriteSupport.vue"
+  },
+  "FormBirth": {
+    "description": "Auto imported from components/form/Birth.vue"
+  },
+  "FormCountrySelect": {
+    "description": "Auto imported from components/form/CountrySelect.vue"
+  },
+  "FormInput": {
+    "description": "Auto imported from components/form/Input.vue"
+  },
+  "FormSelect": {
+    "description": "Auto imported from components/form/Select.vue"
+  },
+  "FormTextarea": {
+    "description": "Auto imported from components/form/Textarea.vue"
+  },
+  "BlogPost": {
+    "description": "Auto imported from components/blog/Post.vue"
   }
 }

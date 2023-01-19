@@ -56,7 +56,7 @@
         </div>
       </div>
       <div class="link__wrapper">
-        <NuxtLink to="/profile/invoices" class="link">View All</NuxtLink>
+        <NuxtLink to="/profile/orders/invoices" class="link">View All</NuxtLink>
       </div>
     </div>
   </div>
