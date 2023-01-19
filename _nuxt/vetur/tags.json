@@ -41,17 +41,23 @@
   "SearchModal": {
     "description": "Auto imported from components/SearchModal.vue"
   },
-  "CategoryDonorCard": {
-    "description": "Auto imported from components/category/DonorCard.vue"
+  "BlogPost": {
+    "description": "Auto imported from components/blog/Post.vue"
   },
-  "CategoryDonorGallery": {
-    "description": "Auto imported from components/category/DonorGallery.vue"
+  "FormBirth": {
+    "description": "Auto imported from components/form/Birth.vue"
   },
-  "CategoryDonorImages": {
-    "description": "Auto imported from components/category/DonorImages.vue"
+  "FormCountrySelect": {
+    "description": "Auto imported from components/form/CountrySelect.vue"
   },
-  "CategoryOrderModal": {
-    "description": "Auto imported from components/category/OrderModal.vue"
+  "FormInput": {
+    "description": "Auto imported from components/form/Input.vue"
+  },
+  "FormSelect": {
+    "description": "Auto imported from components/form/Select.vue"
+  },
+  "FormTextarea": {
+    "description": "Auto imported from components/form/Textarea.vue"
   },
   "PartialsAddToWishlist": {
     "description": "Auto imported from components/partials/AddToWishlist.vue"
@@ -77,22 +83,16 @@
   "PartialsWriteSupport": {
     "description": "Auto imported from components/partials/WriteSupport.vue"
   },
-  "FormBirth": {
-    "description": "Auto imported from components/form/Birth.vue"
+  "CategoryDonorCard": {
+    "description": "Auto imported from components/category/DonorCard.vue"
   },
-  "FormCountrySelect": {
-    "description": "Auto imported from components/form/CountrySelect.vue"
+  "CategoryDonorGallery": {
+    "description": "Auto imported from components/category/DonorGallery.vue"
   },
-  "FormInput": {
-    "description": "Auto imported from components/form/Input.vue"
+  "CategoryDonorImages": {
+    "description": "Auto imported from components/category/DonorImages.vue"
   },
-  "FormSelect": {
-    "description": "Auto imported from components/form/Select.vue"
-  },
-  "FormTextarea": {
-    "description": "Auto imported from components/form/Textarea.vue"
-  },
-  "BlogPost": {
-    "description": "Auto imported from components/blog/Post.vue"
+  "CategoryOrderModal": {
+    "description": "Auto imported from components/category/OrderModal.vue"
   }
 }

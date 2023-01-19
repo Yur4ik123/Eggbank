@@ -28,6 +28,8 @@ const _3dd807fe = () => interopDefault(import('../pages/profile/reservation.vue'
 const _6b1483e1 = () => interopDefault(import('../pages/profile/settings.vue' /* webpackChunkName: "pages/profile/settings" */))
 const _399bdc83 = () => interopDefault(import('../pages/profile/wishlist.vue' /* webpackChunkName: "pages/profile/wishlist" */))
 const _1b21da5e = () => interopDefault(import('../pages/registration.vue' /* webpackChunkName: "pages/registration" */))
+const _783cfef7 = () => interopDefault(import('../pages/share.vue' /* webpackChunkName: "pages/share" */))
+const _30139f8c = () => interopDefault(import('../pages/share/index.vue' /* webpackChunkName: "pages/share/index" */))
 const _27bf9e3f = () => interopDefault(import('../pages/steps.vue' /* webpackChunkName: "pages/steps" */))
 const _4d863982 = () => interopDefault(import('../pages/steps/index.vue' /* webpackChunkName: "pages/steps/index" */))
 const _d023ba94 = () => interopDefault(import('../pages/steps/payment.vue' /* webpackChunkName: "pages/steps/payment" */))
@@ -146,6 +148,14 @@ export const routerOptions = {
     path: "/registration",
     component: _1b21da5e,
     name: "registration"
+  }, {
+    path: "/share",
+    component: _783cfef7,
+    children: [{
+      path: "",
+      component: _30139f8c,
+      name: "share"
+    }]
   }, {
     path: "/steps",
     component: _27bf9e3f,

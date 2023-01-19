@@ -53,8 +53,8 @@
               Share donor profiles one at a time, or let intended parents see your entire donor pool
 
             </div>
-            <NuxtLink to="" class="share__link">
-              Shere Link
+            <NuxtLink to="/share" class="share__link">
+              Share Link
             </NuxtLink>
           </div>
         </div>

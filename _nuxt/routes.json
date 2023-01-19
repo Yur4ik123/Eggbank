@@ -3,15 +3,13 @@
     "name": "about",
     "path": "/about",
     "component": "/var/www/eggbank.loc/pages/about.vue",
-    "chunkName": "pages/about",
-    "_name": "_f2a168b6"
+    "chunkName": "pages/about"
   },
   {
     "name": "become-donor",
     "path": "/become-donor",
     "component": "/var/www/eggbank.loc/pages/become-donor.vue",
-    "chunkName": "pages/become-donor",
-    "_name": "_30a15d10"
+    "chunkName": "pages/become-donor"
   },
   {
     "path": "/blog",
@@ -22,81 +20,69 @@
         "name": "blog",
         "path": "",
         "component": "/var/www/eggbank.loc/pages/blog/index.vue",
-        "chunkName": "pages/blog/index",
-        "_name": "_0a89f03d"
+        "chunkName": "pages/blog/index"
       },
       {
         "name": "blog-id",
         "path": ":id",
         "component": "/var/www/eggbank.loc/pages/blog/_id.vue",
-        "chunkName": "pages/blog/_id",
-        "_name": "_2f60dde5"
+        "chunkName": "pages/blog/_id"
       }
-    ],
-    "_name": "_f6d4858c"
+    ]
   },
   {
     "name": "compare",
     "path": "/compare",
     "component": "/var/www/eggbank.loc/pages/compare.vue",
-    "chunkName": "pages/compare",
-    "_name": "_7f83f8fd"
+    "chunkName": "pages/compare"
   },
   {
     "name": "contact",
     "path": "/contact",
     "component": "/var/www/eggbank.loc/pages/contact.vue",
-    "chunkName": "pages/contact",
-    "_name": "_caf06a90"
+    "chunkName": "pages/contact"
   },
   {
     "name": "cost",
     "path": "/cost",
     "component": "/var/www/eggbank.loc/pages/cost.vue",
-    "chunkName": "pages/cost",
-    "_name": "_da97a036"
+    "chunkName": "pages/cost"
   },
   {
     "name": "donors",
     "path": "/donors",
     "component": "/var/www/eggbank.loc/pages/donors/index.vue",
-    "chunkName": "pages/donors/index",
-    "_name": "_713485a8"
+    "chunkName": "pages/donors/index"
   },
   {
     "name": "faq",
     "path": "/faq",
     "component": "/var/www/eggbank.loc/pages/faq.vue",
-    "chunkName": "pages/faq",
-    "_name": "_864872a4"
+    "chunkName": "pages/faq"
   },
   {
     "name": "guarantee",
     "path": "/guarantee",
     "component": "/var/www/eggbank.loc/pages/guarantee.vue",
-    "chunkName": "pages/guarantee",
-    "_name": "_5b3df120"
+    "chunkName": "pages/guarantee"
   },
   {
     "name": "knowledge-base",
     "path": "/knowledge-base",
     "component": "/var/www/eggbank.loc/pages/knowledge-base.vue",
-    "chunkName": "pages/knowledge-base",
-    "_name": "_4ec3a550"
+    "chunkName": "pages/knowledge-base"
   },
   {
     "name": "licenses",
     "path": "/licenses",
     "component": "/var/www/eggbank.loc/pages/licenses.vue",
-    "chunkName": "pages/licenses",
-    "_name": "_63e08c2c"
+    "chunkName": "pages/licenses"
   },
   {
     "name": "partners",
     "path": "/partners",
     "component": "/var/www/eggbank.loc/pages/partners.vue",
-    "chunkName": "pages/partners",
-    "_name": "_77989dc3"
+    "chunkName": "pages/partners"
   },
   {
     "name": "profile",
@@ -108,8 +94,7 @@
         "name": "profile-account",
         "path": "account",
         "component": "/var/www/eggbank.loc/pages/profile/account.vue",
-        "chunkName": "pages/profile/account",
-        "_name": "_accbda42"
+        "chunkName": "pages/profile/account"
       },
       {
         "path": "orders",
@@ -120,56 +105,60 @@
             "name": "profile-orders",
             "path": "",
             "component": "/var/www/eggbank.loc/pages/profile/orders/index.vue",
-            "chunkName": "pages/profile/orders/index",
-            "_name": "_0eb9cb66"
+            "chunkName": "pages/profile/orders/index"
           },
           {
             "name": "profile-orders-invoices",
             "path": "invoices",
             "component": "/var/www/eggbank.loc/pages/profile/orders/invoices.vue",
-            "chunkName": "pages/profile/orders/invoices",
-            "_name": "_5f35d802"
+            "chunkName": "pages/profile/orders/invoices"
           },
           {
             "name": "profile-orders-reservations",
             "path": "reservations",
             "component": "/var/www/eggbank.loc/pages/profile/orders/reservations.vue",
-            "chunkName": "pages/profile/orders/reservations",
-            "_name": "_0f99fe7a"
+            "chunkName": "pages/profile/orders/reservations"
           }
-        ],
-        "_name": "_73ef6b23"
+        ]
       },
       {
         "name": "profile-reservation",
         "path": "reservation",
         "component": "/var/www/eggbank.loc/pages/profile/reservation.vue",
-        "chunkName": "pages/profile/reservation",
-        "_name": "_3dd807fe"
+        "chunkName": "pages/profile/reservation"
       },
       {
         "name": "profile-settings",
         "path": "settings",
         "component": "/var/www/eggbank.loc/pages/profile/settings.vue",
-        "chunkName": "pages/profile/settings",
-        "_name": "_6b1483e1"
+        "chunkName": "pages/profile/settings"
       },
       {
         "name": "profile-wishlist",
         "path": "wishlist",
         "component": "/var/www/eggbank.loc/pages/profile/wishlist.vue",
-        "chunkName": "pages/profile/wishlist",
-        "_name": "_399bdc83"
+        "chunkName": "pages/profile/wishlist"
       }
-    ],
-    "_name": "_baa1787e"
+    ]
   },
   {
     "name": "registration",
     "path": "/registration",
     "component": "/var/www/eggbank.loc/pages/registration.vue",
-    "chunkName": "pages/registration",
-    "_name": "_1b21da5e"
+    "chunkName": "pages/registration"
+  },
+  {
+    "path": "/share",
+    "component": "/var/www/eggbank.loc/pages/share.vue",
+    "chunkName": "pages/share",
+    "children": [
+      {
+        "name": "share",
+        "path": "",
+        "component": "/var/www/eggbank.loc/pages/share/index.vue",
+        "chunkName": "pages/share/index"
+      }
+    ]
   },
   {
     "path": "/steps",
@@ -180,59 +169,50 @@
         "name": "steps",
         "path": "",
         "component": "/var/www/eggbank.loc/pages/steps/index.vue",
-        "chunkName": "pages/steps/index",
-        "_name": "_4d863982"
+        "chunkName": "pages/steps/index"
       },
       {
         "name": "steps-payment",
         "path": "payment",
         "component": "/var/www/eggbank.loc/pages/steps/payment.vue",
-        "chunkName": "pages/steps/payment",
-        "_name": "_d023ba94"
+        "chunkName": "pages/steps/payment"
       },
       {
         "name": "steps-preparation",
         "path": "preparation",
         "component": "/var/www/eggbank.loc/pages/steps/preparation.vue",
-        "chunkName": "pages/steps/preparation",
-        "_name": "_795d1ac7"
+        "chunkName": "pages/steps/preparation"
       },
       {
         "name": "steps-shipment",
         "path": "shipment",
         "component": "/var/www/eggbank.loc/pages/steps/shipment.vue",
-        "chunkName": "pages/steps/shipment",
-        "_name": "_63d0391a"
+        "chunkName": "pages/steps/shipment"
       }
-    ],
-    "_name": "_27bf9e3f"
+    ]
   },
   {
     "name": "terms",
     "path": "/terms",
     "component": "/var/www/eggbank.loc/pages/terms.vue",
-    "chunkName": "pages/terms",
-    "_name": "_5064e49f"
+    "chunkName": "pages/terms"
   },
   {
     "name": "donors-id",
     "path": "/donors/:id",
     "component": "/var/www/eggbank.loc/pages/donors/_id.vue",
-    "chunkName": "pages/donors/_id",
-    "_name": "_5ff7d210"
+    "chunkName": "pages/donors/_id"
   },
   {
     "name": "post-id",
     "path": "/post/:id?",
     "component": "/var/www/eggbank.loc/pages/post/_id.vue",
-    "chunkName": "pages/post/_id",
-    "_name": "_9b352e3a"
+    "chunkName": "pages/post/_id"
   },
   {
     "name": "index",
     "path": "/",
     "component": "/var/www/eggbank.loc/pages/index.vue",
-    "chunkName": "pages/index",
-    "_name": "_b331b32c"
+    "chunkName": "pages/index"
   }
 ]
