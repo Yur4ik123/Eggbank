@@ -31,6 +31,7 @@ const _1b21da5e = () => interopDefault(import('../pages/registration.vue' /* web
 const _783cfef7 = () => interopDefault(import('../pages/share.vue' /* webpackChunkName: "pages/share" */))
 const _30139f8c = () => interopDefault(import('../pages/share/index.vue' /* webpackChunkName: "pages/share/index" */))
 const _14753790 = () => interopDefault(import('../pages/share/my-selections.vue' /* webpackChunkName: "pages/share/my-selections" */))
+const _285ae298 = () => interopDefault(import('../pages/share-page/index.vue' /* webpackChunkName: "pages/share-page/index" */))
 const _27bf9e3f = () => interopDefault(import('../pages/steps.vue' /* webpackChunkName: "pages/steps" */))
 const _4d863982 = () => interopDefault(import('../pages/steps/index.vue' /* webpackChunkName: "pages/steps/index" */))
 const _d023ba94 = () => interopDefault(import('../pages/steps/payment.vue' /* webpackChunkName: "pages/steps/payment" */))
@@ -39,6 +40,7 @@ const _63d0391a = () => interopDefault(import('../pages/steps/shipment.vue' /* w
 const _5064e49f = () => interopDefault(import('../pages/terms.vue' /* webpackChunkName: "pages/terms" */))
 const _5ff7d210 = () => interopDefault(import('../pages/donors/_id.vue' /* webpackChunkName: "pages/donors/_id" */))
 const _9b352e3a = () => interopDefault(import('../pages/post/_id.vue' /* webpackChunkName: "pages/post/_id" */))
+const _9c1eaa00 = () => interopDefault(import('../pages/share-page/_id.vue' /* webpackChunkName: "pages/share-page/_id" */))
 const _b331b32c = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
 
 const emptyFn = () => {}
@@ -162,6 +164,10 @@ export const routerOptions = {
       name: "share-my-selections"
     }]
   }, {
+    path: "/share-page",
+    component: _285ae298,
+    name: "share-page"
+  }, {
     path: "/steps",
     component: _27bf9e3f,
     children: [{
@@ -193,6 +199,10 @@ export const routerOptions = {
     path: "/post/:id?",
     component: _9b352e3a,
     name: "post-id"
+  }, {
+    path: "/share-page/:id?",
+    component: _9c1eaa00,
+    name: "share-page-id"
   }, {
     path: "/",
     component: _b331b32c,

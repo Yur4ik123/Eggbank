@@ -13,8 +13,9 @@ import '../assets/styles/main.scss'
 import '../node_modules/uikit/dist/css/uikit.css'
 
 import _6f6c098b from '../layouts/default.vue'
+import _7805cda9 from '../layouts/share.vue'
 
-const layouts = { "_default": sanitizeComponent(_6f6c098b) }
+const layouts = { "_default": sanitizeComponent(_6f6c098b),"_share": sanitizeComponent(_7805cda9) }
 
 export default {
   render (h, props) {

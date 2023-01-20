@@ -194,6 +194,13 @@
     "_name": "_783cfef7"
   },
   {
+    "name": "share-page",
+    "path": "/share-page",
+    "component": "/var/www/eggbank.loc/pages/share-page/index.vue",
+    "chunkName": "pages/share-page/index",
+    "_name": "_285ae298"
+  },
+  {
     "path": "/steps",
     "component": "/var/www/eggbank.loc/pages/steps.vue",
     "chunkName": "pages/steps",
@@ -249,6 +256,13 @@
     "component": "/var/www/eggbank.loc/pages/post/_id.vue",
     "chunkName": "pages/post/_id",
     "_name": "_9b352e3a"
+  },
+  {
+    "name": "share-page-id",
+    "path": "/share-page/:id?",
+    "component": "/var/www/eggbank.loc/pages/share-page/_id.vue",
+    "chunkName": "pages/share-page/_id",
+    "_name": "_9c1eaa00"
   },
   {
     "name": "index",
