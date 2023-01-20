@@ -92,7 +92,7 @@ export default {
   border-bottom: 1px solid #CDE4F0;
   position: sticky;
   top: 0;
-  z-index: 10;
+  z-index: 35;
   background-color: white;
 
   .container {
